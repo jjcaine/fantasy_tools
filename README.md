@@ -1,8 +1,20 @@
 # Fantasy Tools — A-10 Basketball
 
+## What This Is
+
+An experiment in using AI-assisted data analysis (Claude Code) to compete in fantasy sports — specifically, to see if walking into the playoffs with a last-place team and a systematic analytical approach can produce real results.
+
+The league is an A-10 conference college basketball league on FanTrax, part of a two-league system with promotion/relegation. The regular season wasn't a priority this year (work got in the way), so we're heading into the playoffs as the 8th seed with a 37-85-4 record. The only lever left is the daily waiver wire.
+
+The goal: build tools and workflows that surface edges a busy manager would miss — schedule exploitation, category targeting, swap impact modeling — and see if they translate into actual playoff wins. Everything here was built during the playoff push, not before it.
+
+Daily analysis logs live in `analysis/` to track what the models projected vs. what actually happened.
+
+## League Format
+
 8-team H2H categories league on FanTrax. 9 cats: AdjFG%, 3PTM, FT%, PTS, REB, AST, ST, BLK, TO. Win 5 of 9 each week.
 
-Team: **Sick-Os Revenge** (8th seed). Playoffs: Periods 15-17 (Feb 16 - Mar 8). Lever: daily waiver wire, $100 budget across 3 rounds.
+Team: **Sick-Os Revenge** (8th seed). Playoffs: Periods 15-17 (Feb 16 - Mar 8). Top 2 seeds auto-promoted, seeds 3-4 get R1 byes, seeds 5-8 play in. Daily waiver wire, $100 budget across 3 rounds.
 
 ## Setup
 

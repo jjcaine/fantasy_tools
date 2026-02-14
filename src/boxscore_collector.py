@@ -96,8 +96,12 @@ def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dic
         team_name = _normalize_team_name(team_name)
 
         for ps in team_box.get("playerStats", []):
-            mins = ps.get("minutesPlayed", "0")
-            if mins == "0" or mins == "":
+            mins_raw = ps.get("minutesPlayed", "0")
+            try:
+                mins = round(float(mins_raw))
+            except (ValueError, TypeError):
+                mins = 0
+            if mins == 0:
                 continue
 
             rows.append({
@@ -107,7 +111,7 @@ def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dic
                 "first_name": ps.get("firstName", ""),
                 "last_name": ps.get("lastName", ""),
                 "position": ps.get("position", ""),
-                "minutes": int(mins) if mins.isdigit() else 0,
+                "minutes": mins,
                 "fgm": int(ps.get("fieldGoalsMade", 0) or 0),
                 "fga": int(ps.get("fieldGoalsAttempted", 0) or 0),
                 "ftm": int(ps.get("freeThrowsMade", 0) or 0),

@@ -177,8 +177,8 @@ def aggregate_player_stats(player_game_rows: list[dict]) -> pd.DataFrame:
     agg = agg.sort_values("ppg", ascending=False).reset_index(drop=True)
 
     # Save
-    agg.to_csv(DATA_DIR / "a10_players_complete.csv", index=False)
-    agg.to_json(DATA_DIR / "a10_players_complete.json", orient="records", indent=2)
+    agg.to_csv(DATA_DIR / "a10_players.csv", index=False)
+    agg.to_json(DATA_DIR / "a10_players.json", orient="records", indent=2)
     print(f"  Saved {len(agg)} players with complete stats")
 
     return agg

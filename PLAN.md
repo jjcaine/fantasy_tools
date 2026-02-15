@@ -46,9 +46,12 @@ A-10 teams don't all play the same number of games each week. Teams with **more 
 | `src/fantrax_client.py` | FanTrax API client - authenticated (Selenium cookies) + public API (fxea) | Done |
 | `src/collect_data.py` | Data collection orchestrator | Done |
 | `src/schedule_scanner.py` | A-10 game schedule scanner using scoreboard API | Done |
+| `src/boxscore_collector.py` | Boxscore data collection from NCAA API | Done |
+| `src/fantasy_math.py` | Core analytics engine — z-scores, projections, swap simulations | Done |
 | `tests/test_ncaa_client.py` | 14 tests for NCAA client | 14/14 passing |
 | `tests/test_fantrax_client.py` | 17 tests for FanTrax client | 17/17 passing |
 | `tests/test_schedule_scanner.py` | 6 tests for schedule scanner | 6/6 passing |
+| `tests/test_fantasy_math.py` | Tests for fantasy math engine | Done |
 
 ### Infrastructure:
 - NCAA API running locally via Docker on port 3000 (unlimited requests)
@@ -60,13 +63,13 @@ A-10 teams don't all play the same number of games each week. Teams with **more 
 | File | Contents |
 |------|----------|
 | `a10_standings.json` | A-10 conference standings (14 teams) |
-| `a10_players.csv/json` | 68 A-10 players with merged stats (PTS, REB, AST, STL, BLK, 3PM, FGM, FGA, FT, FTA, FG%, FT%, eFG%) |
+| `a10_players.csv/json` | A-10 players with merged stats (PTS, REB, AST, STL, BLK, 3PM, FGM, FGA, FT, FTA, FG%, FT%, eFG%) |
 | `a10_team_stats.json` | 14 team stat categories for all A-10 teams |
 | `a10_schedule.json` | Game schedules for Periods 14-17 with games-per-team counts |
-| `fantrax_standings.json` | League standings (8 teams with W/L/T) |
+| `a10_all_games.json` | Full A-10 game listing |
+| `a10_boxscores_raw.json` | Raw boxscore data for all A-10 games |
 | `fantrax_rosters.json` | All 8 team rosters with player details |
 | `fantrax_all_matchups.json` | Category-level matchup results for all 14 periods |
-| `fantrax_matchups.json` | Recent matchup data (periods 13-14) |
 
 ### Key discoveries:
 - **Waiver wire solved**: FanTrax public API (`fxea/general/getLeagueInfo` + `getPlayerIds`) gives us full free agent list with player names, teams, positions, and FA/WW status. No auth needed. **156 free agents available.**
@@ -83,70 +86,90 @@ A-10 teams don't all play the same number of games each week. Teams with **more 
 
 ---
 
-## Phase 2: Analysis - TODO
+## Phase 2: Analysis Tools - COMPLETE
 
-#### 2a. Build fantasy value model
-- Map real NCAA stats to the 9 fantasy categories
-- Calculate per-game production for every A-10 player across all categories
-- Factor in schedule (games per week) to project weekly totals
-- Rank all A-10 players by category contributions
+All analysis tools were built as interactive Marimo notebooks (not standalone scripts). The core math lives in `src/fantasy_math.py`.
 
-#### 2b. Roster analysis - our team
-- Profile our roster's category strengths and weaknesses
-- Identify which categories we're competitive in and which we're losing
-- Calculate our team's projected weekly totals in each category
+| Notebook | Purpose | Status |
+|----------|---------|--------|
+| `notebooks/roster_analyzer.py` | Team strengths/weaknesses, category z-score profile | Done |
+| `notebooks/matchup_analyzer.py` | H2H category projections vs all opponents, win path analysis | Done |
+| `notebooks/waiver_optimizer.py` | Swap simulations, category-focused FA search, bid recommendations | Done |
+| `notebooks/lineup_optimizer.py` | Daily start/sit decisions, GP tracking, streaming slot detection | Done |
+| `notebooks/player_rankings.py` | Schedule-adjusted composite rankings, per-category top 10 | Done |
 
-#### 2c. Opponent analysis
-- Profile every other playoff team's roster the same way
-- Identify opponent weaknesses we can exploit
-- For our Round 1 opponent specifically: which 5 categories can we realistically win?
-
-#### 2d. Waiver wire analysis
-- Rank all 156 free agents by fantasy value
-- Cross-reference with schedule (prioritize players on teams with more games)
-- Identify category-specific pickups (e.g., "best available rebounder on the wire")
-
-#### 2e. Free agent vs. roster comparison
-- For each roster spot, compare our current player vs. best available replacement
-- Identify clear upgrades on the wire
-- Model the impact of each swap on our category projections
-
-### Phase 3: Strategy & Recommendations - TODO
-
-#### 3a. Category targeting strategy
-- Based on our roster + available pickups, recommend which 5 categories to target
-- Identify 1-2 categories to punt
-- This may shift per opponent in each playoff round
-
-#### 3b. Waiver wire action plan
-- Prioritized list of claims with recommended bid amounts
-- Which of our players to drop for each claim
-- Timing considerations (daily processing at 11am EST)
-
-#### 3c. Lineup optimization
-- Optimal active lineup for each day of the playoff period
-- Factor in GP limits - don't burn all games early in the week
-- Streaming plan: which players to rotate in/out day-by-day
-
-#### 3d. Multi-round planning
-- Round 1 strategy (must-win)
-- Contingency plans for Rounds 2-3 based on likely opponents
-- Budget allocation across rounds (don't blow entire $100 in Round 1)
+Covers all originally planned analysis work:
+- **2a. Fantasy value model** → `fantasy_math.py` z-score engine + `player_rankings.py` notebook
+- **2b. Roster analysis** → `roster_analyzer.py` notebook
+- **2c. Opponent analysis** → `matchup_analyzer.py` notebook
+- **2d. Waiver wire analysis** → `waiver_optimizer.py` + `player_rankings.py` notebooks
+- **2e. Free agent vs. roster comparison** → `waiver_optimizer.py` swap simulator
 
 ---
 
-## Tools We'll Build
+## Phase 3: Strategy & Recommendations - IN PROGRESS
 
-| Script | Purpose | Status |
-|--------|---------|--------|
-| `src/fantrax_client.py` | Authenticated FanTrax API client + public API free agent search | Done |
-| `src/ncaa_client.py` | NCAA API client (hitting local Docker instance) | Done |
-| `src/collect_data.py` | Pull and cache all data from both APIs | Done |
-| `src/schedule_scanner.py` | A-10 game schedule for playoff periods | Done |
-| `src/player_rankings.py` | Fantasy value model - rank all A-10 players | TODO |
-| `src/roster_analyzer.py` | Analyze team rosters, strengths, weaknesses | TODO |
-| `src/waiver_optimizer.py` | Recommend waiver claims and drops | TODO |
-| `src/lineup_optimizer.py` | Optimal daily lineups considering GP limits | TODO |
-| `src/matchup_analyzer.py` | Head-to-head category projections vs. opponents | TODO |
+Daily analysis logs live in `analysis/` to track projections vs. actual results.
+
+#### 3a. Category targeting strategy - COMPLETE (for R1)
+- **Target cats**: PTS, REB, AST, ST, 3PTM, FT%, BLK (win 7)
+- **Punt cats**: AdjFG%, TO
+- Will re-evaluate per opponent in R2/R3
+
+#### 3b. Waiver wire action plan - COMPLETE (for R1)
+- **Move 1**: Drop Tyrell Ward (-4.03) → Pick up Braeden Speed (+5.02, Loyola 4G) — **Bid $50**
+- **Move 2**: Drop Jerome Brewer Jr. (DTD) → Pick up Jordan Stiemke (+2.41, Loyola 4G) — **Bid $25-30**
+- Projected result vs Fordham: **7-2 win** (up from 4-5 baseline)
+- Budget remaining after R1: ~$20-25 for R2/R3
+
+#### 3c. Lineup optimization - TODO
+- Set daily lineups once R1 starts (Feb 16)
+- GP management: 20 potential GP with Loyola pickups, only 15 allowed — need sit strategy
+- Prioritize full games from Speed, Stiemke, Mitchell, Hinton, Bowen, Henry
+
+#### 3d. Multi-round planning - TODO
+- R2/R3 opponent scouting (likely Nishy Baby or Back to Big East if we advance)
+- Budget re-allocation based on R1 spend
+- Re-run matchup analyzer against next opponent after R1
+
+---
+
+## Phase 4: Recency-Weighted Evaluation - TODO
+
+### Rationale
+
+All current analysis uses full-season averages. But A-10 rosters are full of portal transfers who need time to gel, and non-conference play (Nov-Dec) is weaker competition. Ad-hoc analysis showed meaningful early vs late splits:
+
+- **Speed**: +4.9 PPG, +1.3 RPG, +1.1 3PM recently — our #1 target looks even better
+- **Stiemke**: -3.3 PPG, -1.0 3PM, FT% .900→.833 — his case for flipping FT% weakens
+- **Hinton** (our guy): -5.8 PPG, FT% .855→.556 — concerning regression
+- **Dixon** (FA): +3.1 PPG, +1.6 RPG, BPG 0.9→1.9 — potential BLK category flipper
+- **Mitchell** (our best player): -3.6 PPG, -3.7 RPG — still good but regressing
+
+This could change the optimal waiver strategy. Stiemke's declining FT% is the swing — it's the category that flips our R1 matchup from 4-5 to 7-2 by a margin of +.003. If his recent FT% is more predictive, that margin may not hold.
+
+### 4a. Add `aggregate_boxscores()` to `src/fantasy_math.py`
+
+New function that re-aggregates raw boxscore rows (already collected in `data/a10_boxscores_raw.json`) with a configurable `last_n_games` filter. Returns player dicts in the same schema as `load_a10_players()` so all existing z-score, projection, and matchup code works unchanged.
+
+### 4b. New notebook: `notebooks/recency_analysis.py`
+
+Interactive Marimo notebook with:
+- **Controls**: Slider for last N games (5-25, default 10), period selector
+- **Player split comparison**: Full-season vs last-N side-by-side for our roster + top waiver targets, with deltas highlighted
+- **Z-score comparison**: Rankings from both pools, surface players whose recent form diverges most from season average
+- **Matchup re-simulation**: R1 vs Fordham using recency stats for both teams — does the 4-5 baseline still hold? Do the swap scenarios change?
+- **Waiver target re-ranking**: Free agents ranked by recency-adjusted composite — do Speed and Stiemke still come out on top?
+
+---
+
+## Workflow (README)
+
+```
+uv run python src/collect_data.py    # refresh data daily
+marimo edit notebooks/<notebook>.py   # run any analysis notebook
+```
+
+**Critical path**: Roster analyzer → Matchup analyzer → Waiver optimizer
 
 All data cached locally (CSV/JSON) so we don't have to re-pull constantly.

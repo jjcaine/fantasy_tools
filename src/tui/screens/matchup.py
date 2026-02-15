@@ -122,6 +122,7 @@ class MatchupScreen(Screen):
                 id="matchup-error",
             )
         )
+        self.notify(f"Matchup data error: {error}", severity="error")
 
     def _on_data_loaded(self, players, rosters, schedule) -> None:
         self._players = players
@@ -159,7 +160,10 @@ class MatchupScreen(Screen):
 
     def on_select_changed(self, event: Select.Changed) -> None:
         if not self._loading:
-            self._refresh_projection()
+            try:
+                self._refresh_projection()
+            except Exception as e:
+                self.notify(f"Error refreshing matchup: {e}", severity="error")
 
     def _refresh_projection(self) -> None:
         """Recompute projections based on current selector values."""

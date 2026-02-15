@@ -123,6 +123,7 @@ class WaiverScreen(Screen):
                 id="waiver-error",
             )
         )
+        self.notify(f"Waiver data error: {error}", severity="error")
 
     def _on_data_loaded(self, players, rosters, schedule, free_agents) -> None:
         self._players = players
@@ -175,10 +176,13 @@ class WaiverScreen(Screen):
     def on_select_changed(self, event: Select.Changed) -> None:
         if self._loading:
             return
-        if event.select.id in ("drop-select", "add-select"):
-            self._refresh_swap()
-        else:
-            self._refresh_waiver()
+        try:
+            if event.select.id in ("drop-select", "add-select"):
+                self._refresh_swap()
+            else:
+                self._refresh_waiver()
+        except Exception as e:
+            self.notify(f"Error refreshing waivers: {e}", severity="error")
 
     def _refresh_waiver(self) -> None:
         try:

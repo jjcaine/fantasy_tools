@@ -9,7 +9,6 @@ from pathlib import Path
 from textual.app import ComposeResult
 from textual.screen import Screen
 from textual.widgets import Button, Header, RichLog, Static
-from textual.worker import Worker, WorkerState
 from textual import work
 
 from src.tui.screens.help import HelpScreen
@@ -34,6 +33,12 @@ Runs the full data collection pipeline:
   3. A-10 schedule scan
   4. FanTrax league data (rosters, matchups, FAs)
   5. Data validation checks
+
+After collection, data quality checks run automatically:
+  - Player data quality (games, stats completeness)
+  - Roster matching quality (FanTrax → NCAA)
+  - Matchup data quality (period coverage)
+  - Schedule data quality (A-10 teams scheduled)
 
 Keybindings:
   Enter  Start collection
@@ -108,13 +113,73 @@ class DataRefreshScreen(Screen):
                 log_fn(f"[red]  ✗ {name} failed: {e}[/red]")
 
         log_fn("\n[bold green]Collection finished.[/bold green]")
+
+        # Run data quality checks
+        log_fn("\n[bold blue]>>> Data Quality Checks[/bold blue]")
+        self._run_quality_checks(log_fn)
+
         self.app.call_from_thread(self._on_collection_done)
+
+    def _run_quality_checks(self, log_fn) -> None:
+        """Run all data quality checks and log results."""
+        try:
+            from src.fantasy_math import (
+                load_a10_players, load_fantrax_rosters, load_schedule,
+                load_matchup_history, build_player_lookup,
+                run_player_data_quality, run_roster_match_quality,
+                run_matchup_data_quality, run_schedule_data_quality,
+            )
+        except ImportError as e:
+            log_fn(f"[red]  Could not import quality checks: {e}[/red]")
+            return
+
+        checks = []
+
+        try:
+            players = load_a10_players()
+            report = run_player_data_quality(players)
+            checks.append(("Player Data", report))
+        except Exception as e:
+            log_fn(f"[red]  Player data quality check failed: {e}[/red]")
+
+        try:
+            players = load_a10_players()
+            rosters = load_fantrax_rosters()
+            lookup = build_player_lookup(players)
+            report = run_roster_match_quality(rosters, players, lookup)
+            checks.append(("Roster Match", report))
+        except Exception as e:
+            log_fn(f"[red]  Roster match quality check failed: {e}[/red]")
+
+        try:
+            matchups = load_matchup_history()
+            report = run_matchup_data_quality(matchups)
+            checks.append(("Matchup Data", report))
+        except Exception as e:
+            log_fn(f"[red]  Matchup data quality check failed: {e}[/red]")
+
+        try:
+            schedule = load_schedule()
+            report = run_schedule_data_quality(schedule)
+            checks.append(("Schedule", report))
+        except Exception as e:
+            log_fn(f"[red]  Schedule data quality check failed: {e}[/red]")
+
+        for name, report in checks:
+            if report.all_passed:
+                log_fn(f"[green]  ✓ {name}: all checks passed[/green]")
+            else:
+                log_fn(f"[yellow]  ⚠ {name}: {report.summary}[/yellow]")
+                for check in report.checks:
+                    status = "[green]✓[/green]" if check["passed"] else "[red]✗[/red]"
+                    log_fn(f"    {status} {check['name']}: {check.get('detail', '')}")
 
     def _on_collection_done(self) -> None:
         btn = self.query_one("#start-collection", Button)
         btn.disabled = False
         freshness = self.query_one("#data-freshness", Static)
         freshness.update(self._freshness_text())
+        self.notify("Data collection complete", severity="information")
 
     def _step_ncaa_standings(self, log_fn):
         from src.collect_data import collect_ncaa_standings

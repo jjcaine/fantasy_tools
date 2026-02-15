@@ -96,6 +96,7 @@ class RosterScreen(Screen):
                 id="roster-error",
             )
         )
+        self.notify(f"Roster data error: {error}", severity="error")
 
     def _on_data_loaded(self, players, rosters, schedule) -> None:
         self._players = players
@@ -133,7 +134,10 @@ class RosterScreen(Screen):
 
     def on_select_changed(self, event: Select.Changed) -> None:
         if not self._loading:
-            self._refresh_roster()
+            try:
+                self._refresh_roster()
+            except Exception as e:
+                self.notify(f"Error refreshing roster: {e}", severity="error")
 
     def _refresh_roster(self) -> None:
         try:

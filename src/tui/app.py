@@ -11,15 +11,6 @@ from src.tui.screens.rankings import RankingsScreen
 from src.tui.screens.roster import RosterScreen
 from src.tui.screens.waiver import WaiverScreen
 
-SCREEN_MAP = {
-    "data_refresh": DataRefreshScreen,
-    "matchup": MatchupScreen,
-    "rankings": RankingsScreen,
-    "roster": RosterScreen,
-    "waiver": WaiverScreen,
-    "lineup": LineupScreen,
-}
-
 
 class FantasyApp(App):
     """A keyboard-driven TUI for fantasy basketball analysis."""
@@ -38,17 +29,15 @@ class FantasyApp(App):
         ("question_mark", "help", "Help"),
     ]
 
-    SCREENS = {
-        "data_refresh": DataRefreshScreen,
-        "matchup": MatchupScreen,
-        "rankings": RankingsScreen,
-        "roster": RosterScreen,
-        "waiver": WaiverScreen,
-        "lineup": LineupScreen,
-    }
-
     def on_mount(self) -> None:
         self.sub_title = get_my_team()
+        # install_screen preserves instances between switches
+        self.install_screen(DataRefreshScreen(), name="data_refresh")
+        self.install_screen(MatchupScreen(), name="matchup")
+        self.install_screen(RankingsScreen(), name="rankings")
+        self.install_screen(RosterScreen(), name="roster")
+        self.install_screen(WaiverScreen(), name="waiver")
+        self.install_screen(LineupScreen(), name="lineup")
 
     def compose(self) -> ComposeResult:
         yield Header()

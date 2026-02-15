@@ -147,10 +147,10 @@ marimo edit notebooks/player_rankings.py
 
 ## During Each Playoff Round
 
-1. Refresh data daily (`uv run python src/collect_data.py`)
-2. Check lineup optimizer for start/sit decisions
-3. If a streaming slot opens, check waiver optimizer for best available
-4. Before R2/R3 waivers, re-run matchup analyzer against the next opponent
+1. Refresh data daily (TUI: `d` then Start Collection, or `uv run python src/collect_data.py`)
+2. Check lineup optimizer (`l`) for start/sit decisions
+3. If a streaming slot opens, check waiver optimizer (`w`) for best available
+4. Before R2/R3 waivers, re-run matchup analyzer (`m`) against the next opponent
 
 ## Critical Path
 

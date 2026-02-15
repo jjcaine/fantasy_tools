@@ -110,6 +110,7 @@ class RankingsScreen(Screen):
                 id="rankings-error",
             )
         )
+        self.notify(f"Rankings data error: {error}", severity="error")
 
     def _on_data_loaded(self, players, schedule) -> None:
         self._players = players
@@ -142,11 +143,17 @@ class RankingsScreen(Screen):
 
     def on_select_changed(self, event: Select.Changed) -> None:
         if not self._loading:
-            self._refresh_rankings()
+            try:
+                self._refresh_rankings()
+            except Exception as e:
+                self.notify(f"Error refreshing rankings: {e}", severity="error")
 
     def on_input_changed(self, event: Input.Changed) -> None:
         if not self._loading:
-            self._refresh_rankings()
+            try:
+                self._refresh_rankings()
+            except Exception as e:
+                self.notify(f"Error refreshing rankings: {e}", severity="error")
 
     def _refresh_rankings(self) -> None:
         try:

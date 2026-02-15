@@ -122,6 +122,7 @@ class LineupScreen(Screen):
                 id="lineup-error",
             )
         )
+        self.notify(f"Lineup data error: {error}", severity="error")
 
     def _on_data_loaded(self, players, rosters, schedule) -> None:
         self._players = players
@@ -158,15 +159,20 @@ class LineupScreen(Screen):
 
     def on_select_changed(self, event: Select.Changed) -> None:
         if not self._loading:
-            # Update GP max default when period changes
-            if event.select.id == "period-select" and event.value is not Select.BLANK:
-                gp_input = self.query_one("#gp-max-input", Input)
-                gp_input.value = str(get_gp_max(int(event.value)))
-            self._refresh_lineup()
+            try:
+                if event.select.id == "period-select" and event.value is not Select.BLANK:
+                    gp_input = self.query_one("#gp-max-input", Input)
+                    gp_input.value = str(get_gp_max(int(event.value)))
+                self._refresh_lineup()
+            except Exception as e:
+                self.notify(f"Error refreshing lineup: {e}", severity="error")
 
     def on_input_changed(self, event: Input.Changed) -> None:
         if not self._loading:
-            self._refresh_lineup()
+            try:
+                self._refresh_lineup()
+            except Exception as e:
+                self.notify(f"Error refreshing lineup: {e}", severity="error")
 
     def _refresh_lineup(self) -> None:
         try:

@@ -7,6 +7,7 @@ from src.fantasy_math import (
     INVERSE_CATS,
     FANTRAX_TO_NCAA_TEAM,
     FANTRAX_SHORT_TO_NCAA,
+    aggregate_boxscores,
     calc_adj_fg_pct,
     composite_z_score,
     schedule_adjusted_composite,
@@ -528,6 +529,92 @@ class TestDataQuality:
         report = run_player_data_quality(bad)
         check = next(c for c in report.checks if "FGM <= FGA" in c["name"])
         assert not check["passed"]
+
+
+# ── Aggregate boxscores ───────────────────────────────────────────────
+
+def _make_boxscore_row(
+    first_name="Test", last_name="Player", team="Dayton", date="2025-01-15",
+    position="G", minutes=30, fgm=5, fga=10, ftm=2, fta=3, tpm=1, tpa=3,
+    oreb=1, reb=5, ast=3, stl=1, blk=0, to=2, pf=2, pts=13, game_id="1",
+):
+    return {
+        "game_id": game_id, "date": date, "team": team,
+        "first_name": first_name, "last_name": last_name,
+        "position": position, "minutes": minutes,
+        "fgm": fgm, "fga": fga, "ftm": ftm, "fta": fta,
+        "tpm": tpm, "tpa": tpa, "oreb": oreb, "reb": reb,
+        "ast": ast, "to": to, "stl": stl, "blk": blk, "pf": pf, "pts": pts,
+    }
+
+
+@pytest.fixture
+def sample_boxscore_rows():
+    """Synthetic boxscore rows for 2 players across 4 games each."""
+    return [
+        # Player A - 4 games
+        _make_boxscore_row("Alice", "Alpha", "Dayton", "2025-01-10", fgm=6, fga=12, ftm=3, fta=4, tpm=2, tpa=5, reb=8, ast=4, stl=2, blk=1, to=3, pts=17, game_id="g1"),
+        _make_boxscore_row("Alice", "Alpha", "Dayton", "2025-01-12", fgm=4, fga=10, ftm=2, fta=2, tpm=1, tpa=3, reb=6, ast=3, stl=1, blk=0, to=2, pts=11, game_id="g2"),
+        _make_boxscore_row("Alice", "Alpha", "Dayton", "2025-01-14", fgm=8, fga=15, ftm=4, fta=5, tpm=3, tpa=6, reb=10, ast=5, stl=3, blk=2, to=1, pts=23, game_id="g3"),
+        _make_boxscore_row("Alice", "Alpha", "Dayton", "2025-01-16", fgm=5, fga=11, ftm=1, fta=2, tpm=2, tpa=4, reb=7, ast=2, stl=0, blk=1, to=4, pts=13, game_id="g4"),
+        # Player B - 4 games
+        _make_boxscore_row("Bob", "Beta", "VCU", "2025-01-10", fgm=3, fga=8, ftm=1, fta=2, tpm=0, tpa=1, reb=12, ast=1, stl=0, blk=3, to=1, pts=7, game_id="g1"),
+        _make_boxscore_row("Bob", "Beta", "VCU", "2025-01-12", fgm=4, fga=9, ftm=2, fta=3, tpm=1, tpa=2, reb=10, ast=2, stl=1, blk=2, to=2, pts=11, game_id="g2"),
+        _make_boxscore_row("Bob", "Beta", "VCU", "2025-01-14", fgm=2, fga=7, ftm=0, fta=0, tpm=0, tpa=1, reb=14, ast=0, stl=0, blk=4, to=0, pts=4, game_id="g3"),
+        _make_boxscore_row("Bob", "Beta", "VCU", "2025-01-16", fgm=5, fga=10, ftm=3, fta=4, tpm=2, tpa=3, reb=8, ast=3, stl=2, blk=1, to=3, pts=15, game_id="g4"),
+    ]
+
+
+class TestAggregateBoxscores:
+    def test_all_games(self, sample_boxscore_rows):
+        result = aggregate_boxscores(sample_boxscore_rows)
+        assert len(result) == 2
+        alice = next(p for p in result if p["name"] == "Alice Alpha")
+        assert alice["games"] == 4
+        assert alice["team"] == "Dayton"
+        assert alice["fgm"] == 6 + 4 + 8 + 5  # 23
+        assert alice["pts"] == 17 + 11 + 23 + 13  # 64
+        assert alice["ppg"] == round(64 / 4, 1)
+
+    def test_last_n(self, sample_boxscore_rows):
+        result = aggregate_boxscores(sample_boxscore_rows, last_n_games=2)
+        assert len(result) == 2
+        alice = next(p for p in result if p["name"] == "Alice Alpha")
+        # Last 2 games by date desc: Jan 16 and Jan 14
+        assert alice["games"] == 2
+        assert alice["fgm"] == 8 + 5  # g3 + g4
+        assert alice["pts"] == 23 + 13  # g3 + g4
+
+    def test_schema(self, sample_boxscore_rows):
+        result = aggregate_boxscores(sample_boxscore_rows)
+        required_keys = {
+            "name", "team", "position", "games", "total_minutes",
+            "fgm", "fga", "ftm", "fta", "tpm", "tpa",
+            "reb", "ast", "stl", "blk", "to", "pts", "pf",
+            "ppg", "rpg", "apg", "spg", "bpg", "topg", "tpm_pg", "mpg",
+            "fg_pct", "ft_pct", "tp_pct", "efg_pct",
+        }
+        for p in result:
+            missing = required_keys - set(p.keys())
+            assert not missing, f"Missing keys for {p['name']}: {missing}"
+
+    def test_plugs_into_cat_line(self, sample_boxscore_rows):
+        """Verify output works with player_to_cat_line and compute_z_scores."""
+        result = aggregate_boxscores(sample_boxscore_rows)
+        for p in result:
+            cl = player_to_cat_line(p)
+            assert cl.name == p["name"]
+            assert cl.games == p["games"]
+
+    def test_empty_input(self):
+        result = aggregate_boxscores([])
+        assert result == []
+
+    def test_last_n_greater_than_games(self, sample_boxscore_rows):
+        """last_n_games > actual games should return all games."""
+        result = aggregate_boxscores(sample_boxscore_rows, last_n_games=100)
+        alice = next(p for p in result if p["name"] == "Alice Alpha")
+        assert alice["games"] == 4
 
 
 # ── Integration: load real data if available ───────────────────────────

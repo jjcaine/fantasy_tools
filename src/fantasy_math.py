@@ -117,6 +117,99 @@ def load_boxscores_raw() -> list[dict]:
     return []
 
 
+def aggregate_boxscores(
+    rows: list[dict] | None = None,
+    last_n_games: int | None = None,
+) -> list[dict]:
+    """Aggregate raw boxscore rows into per-player season stats.
+
+    Mirrors boxscore_collector.aggregate_player_stats() but uses plain dicts
+    (no pandas). Optionally filters to each player's N most recent games.
+
+    Returns list[dict] in the same schema as load_a10_players(), so results
+    plug directly into player_to_cat_line(), compute_z_scores(), etc.
+    """
+    if rows is None:
+        rows = load_boxscores_raw()
+
+    # Group rows by player key
+    grouped: dict[tuple[str, str], list[dict]] = {}
+    for row in rows:
+        name = f"{row['first_name']} {row['last_name']}"
+        key = (name, row["team"])
+        grouped.setdefault(key, []).append(row)
+
+    results = []
+    for (name, team), games in grouped.items():
+        # Sort by date descending, take last N if specified
+        games.sort(key=lambda g: g["date"], reverse=True)
+        if last_n_games is not None:
+            games = games[:last_n_games]
+
+        n_games = len(games)
+        if n_games == 0:
+            continue
+
+        # Sum counting stats
+        total_minutes = sum(g.get("minutes", 0) for g in games)
+        fgm = sum(g.get("fgm", 0) for g in games)
+        fga = sum(g.get("fga", 0) for g in games)
+        ftm = sum(g.get("ftm", 0) for g in games)
+        fta = sum(g.get("fta", 0) for g in games)
+        tpm = sum(g.get("tpm", 0) for g in games)
+        tpa = sum(g.get("tpa", 0) for g in games)
+        reb = sum(g.get("reb", 0) for g in games)
+        ast = sum(g.get("ast", 0) for g in games)
+        stl = sum(g.get("stl", 0) for g in games)
+        blk = sum(g.get("blk", 0) for g in games)
+        to = sum(g.get("to", 0) for g in games)
+        pts = sum(g.get("pts", 0) for g in games)
+        pf = sum(g.get("pf", 0) for g in games)
+
+        # Use the most common position across selected games
+        position = max(set(g.get("position", "") for g in games),
+                       key=lambda pos: sum(1 for g in games if g.get("position", "") == pos))
+
+        results.append({
+            "name": name,
+            "team": team,
+            "position": position,
+            "games": n_games,
+            "total_minutes": total_minutes,
+            "fgm": fgm,
+            "fga": fga,
+            "ftm": ftm,
+            "fta": fta,
+            "tpm": tpm,
+            "tpa": tpa,
+            "reb": reb,
+            "ast": ast,
+            "stl": stl,
+            "blk": blk,
+            "to": to,
+            "pts": pts,
+            "pf": pf,
+            # Per-game averages
+            "ppg": round(pts / n_games, 1),
+            "rpg": round(reb / n_games, 1),
+            "apg": round(ast / n_games, 1),
+            "spg": round(stl / n_games, 1),
+            "bpg": round(blk / n_games, 1),
+            "topg": round(to / n_games, 1),
+            "tpm_pg": round(tpm / n_games, 1),
+            "mpg": round(total_minutes / n_games, 1),
+            # Percentages
+            "fg_pct": round(fgm / fga, 4) if fga > 0 else None,
+            "ft_pct": round(ftm / fta, 4) if fta > 0 else None,
+            "tp_pct": round(tpm / tpa, 4) if tpa > 0 else None,
+            "efg_pct": round((fgm + 0.5 * tpm) / fga, 4) if fga > 0 else None,
+        })
+
+    # Sort by PPG descending
+    results.sort(key=lambda p: p["ppg"], reverse=True)
+    return results
+
+
 # ── Player name matching ───────────────────────────────────────────────
 
 def _normalize_name(name: str) -> str:

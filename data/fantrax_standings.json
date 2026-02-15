@@ -1,0 +1,98 @@
+{
+  "1": {
+    "rank": 1,
+    "team_name": "Frank's Quality",
+    "team_id": "obmj5hnwmgohg3yt",
+    "wins": 73,
+    "losses": 38,
+    "ties": 6,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "2": {
+    "rank": 2,
+    "team_name": "We Don't Talk About Linda Bruno",
+    "team_id": "z8cxue9nmgohg3yt",
+    "wins": 72,
+    "losses": 41,
+    "ties": 4,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "3": {
+    "rank": 3,
+    "team_name": "Back to the Big East",
+    "team_id": "gde1vo8zmgohg3yt",
+    "wins": 66,
+    "losses": 47,
+    "ties": 4,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "4": {
+    "rank": 4,
+    "team_name": "Nishy Baby",
+    "team_id": "9p1a47g1mgohg3yt",
+    "wins": 63,
+    "losses": 47,
+    "ties": 7,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "5": {
+    "rank": 5,
+    "team_name": "Boardwalk Hall is on Fire",
+    "team_id": "jpc2gpbmmgohg3yt",
+    "wins": 50,
+    "losses": 61,
+    "ties": 6,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "6": {
+    "rank": 6,
+    "team_name": "Fordham University Christian Knights",
+    "team_id": "lqh0vvbkmgohg3yt",
+    "wins": 51,
+    "losses": 62,
+    "ties": 4,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "7": {
+    "rank": 7,
+    "team_name": "Brian",
+    "team_id": "h01glvbpmgohg3yt",
+    "wins": 38,
+    "losses": 74,
+    "ties": 5,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  },
+  "8": {
+    "rank": 8,
+    "team_name": "Sick-Os Revenge",
+    "team_id": "0hj8uid0mgohg3yt",
+    "wins": 35,
+    "losses": 78,
+    "ties": 4,
+    "points_for": 0.0,
+    "points_against": 0.0,
+    "waiver_order": 0,
+    "streak": ""
+  }
+}

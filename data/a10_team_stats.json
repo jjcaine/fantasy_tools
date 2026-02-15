@@ -1,0 +1,1434 @@
+{
+  "Scoring Offense": [
+    {
+      "Rank": "5",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "PTS": "2183",
+      "PPG": "91.0"
+    },
+    {
+      "Rank": "39",
+      "Team": "VCU",
+      "GM": "25",
+      "PTS": "2093",
+      "PPG": "83.7"
+    },
+    {
+      "Rank": "42",
+      "Team": "George Washington",
+      "GM": "25",
+      "PTS": "2091",
+      "PPG": "83.6"
+    },
+    {
+      "Rank": "56",
+      "Team": "Duquesne",
+      "GM": "24",
+      "PTS": "1982",
+      "PPG": "82.6"
+    },
+    {
+      "Rank": "133",
+      "Team": "Richmond",
+      "GM": "25",
+      "PTS": "1956",
+      "PPG": "78.2"
+    },
+    {
+      "Rank": "181",
+      "Team": "Dayton",
+      "GM": "24",
+      "PTS": "1826",
+      "PPG": "76.1"
+    },
+    {
+      "Rank": "201",
+      "Team": "George Mason",
+      "GM": "25",
+      "PTS": "1885",
+      "PPG": "75.4"
+    },
+    {
+      "Rank": "230",
+      "Team": "Davidson",
+      "GM": "24",
+      "PTS": "1789",
+      "PPG": "74.5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "PTS": "1839",
+      "PPG": "73.6"
+    },
+    {
+      "Rank": "266",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "PTS": "1738",
+      "PPG": "72.4"
+    },
+    {
+      "Rank": "298",
+      "Team": "Fordham",
+      "GM": "25",
+      "PTS": "1770",
+      "PPG": "70.8"
+    },
+    {
+      "Rank": "335",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "PTS": "1689",
+      "PPG": "67.6"
+    },
+    {
+      "Rank": "346",
+      "Team": "La Salle",
+      "GM": "25",
+      "PTS": "1644",
+      "PPG": "65.8"
+    }
+  ],
+  "Scoring Defense": [
+    {
+      "Rank": "16",
+      "Team": "Fordham",
+      "GM": "25",
+      "OPP PTS": "1627",
+      "OPP PPG": "65.1"
+    },
+    {
+      "Rank": "27",
+      "Team": "George Mason",
+      "GM": "25",
+      "OPP PTS": "1677",
+      "OPP PPG": "67.1"
+    },
+    {
+      "Rank": "35",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "OPP PTS": "1624",
+      "OPP PPG": "67.7"
+    },
+    {
+      "Rank": "51",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "OPP PTS": "1642",
+      "OPP PPG": "68.4"
+    },
+    {
+      "Rank": "-",
+      "Team": "Davidson",
+      "GM": "24",
+      "OPP PTS": "1647",
+      "OPP PPG": "68.6"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "OPP PTS": "1784",
+      "OPP PPG": "71.4"
+    },
+    {
+      "Rank": "122",
+      "Team": "Dayton",
+      "GM": "24",
+      "OPP PTS": "1726",
+      "OPP PPG": "71.9"
+    },
+    {
+      "Rank": "143",
+      "Team": "La Salle",
+      "GM": "25",
+      "OPP PTS": "1816",
+      "OPP PPG": "72.6"
+    },
+    {
+      "Rank": "-",
+      "Team": "VCU",
+      "GM": "25",
+      "OPP PTS": "1818",
+      "OPP PPG": "72.7"
+    },
+    {
+      "Rank": "-",
+      "Team": "Richmond",
+      "GM": "25",
+      "OPP PTS": "1841",
+      "OPP PPG": "73.6"
+    },
+    {
+      "Rank": "182",
+      "Team": "George Washington",
+      "GM": "25",
+      "OPP PTS": "1846",
+      "OPP PPG": "73.8"
+    },
+    {
+      "Rank": "254",
+      "Team": "Duquesne",
+      "GM": "24",
+      "OPP PTS": "1838",
+      "OPP PPG": "76.6"
+    },
+    {
+      "Rank": "277",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "OPP PTS": "1939",
+      "OPP PPG": "77.6"
+    }
+  ],
+  "Scoring Margin": [
+    {
+      "Rank": "1",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "PTS": "2183",
+      "PPG": "91.0",
+      "OPP PTS": "1624",
+      "OPP PPG": "67.7",
+      "SCR MAR": "23"
+    },
+    {
+      "Rank": "-",
+      "Team": "VCU",
+      "GM": "25",
+      "PTS": "2093",
+      "PPG": "83.7",
+      "OPP PTS": "1818",
+      "OPP PPG": "72.7",
+      "SCR MAR": "11"
+    },
+    {
+      "Rank": "59",
+      "Team": "George Washington",
+      "GM": "25",
+      "PTS": "2091",
+      "PPG": "83.6",
+      "OPP PTS": "1846",
+      "OPP PPG": "73.8",
+      "SCR MAR": "9"
+    },
+    {
+      "Rank": "72",
+      "Team": "George Mason",
+      "GM": "25",
+      "PTS": "1885",
+      "PPG": "75.4",
+      "OPP PTS": "1677",
+      "OPP PPG": "67.1",
+      "SCR MAR": "8"
+    },
+    {
+      "Rank": "105",
+      "Team": "Duquesne",
+      "GM": "24",
+      "PTS": "1982",
+      "PPG": "82.6",
+      "OPP PTS": "1838",
+      "OPP PPG": "76.6",
+      "SCR MAR": "6"
+    },
+    {
+      "Rank": "109",
+      "Team": "Davidson",
+      "GM": "24",
+      "PTS": "1789",
+      "PPG": "74.5",
+      "OPP PTS": "1647",
+      "OPP PPG": "68.6",
+      "SCR MAR": "5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Fordham",
+      "GM": "25",
+      "PTS": "1770",
+      "PPG": "70.8",
+      "OPP PTS": "1627",
+      "OPP PPG": "65.1",
+      "SCR MAR": "5"
+    },
+    {
+      "Rank": "136",
+      "Team": "Richmond",
+      "GM": "25",
+      "PTS": "1956",
+      "PPG": "78.2",
+      "OPP PTS": "1841",
+      "OPP PPG": "73.6",
+      "SCR MAR": "4"
+    },
+    {
+      "Rank": "149",
+      "Team": "Dayton",
+      "GM": "24",
+      "PTS": "1826",
+      "PPG": "76.1",
+      "OPP PTS": "1726",
+      "OPP PPG": "71.9",
+      "SCR MAR": "4"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "PTS": "1738",
+      "PPG": "72.4",
+      "OPP PTS": "1642",
+      "OPP PPG": "68.4",
+      "SCR MAR": "4"
+    },
+    {
+      "Rank": "189",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "PTS": "1839",
+      "PPG": "73.6",
+      "OPP PTS": "1784",
+      "OPP PPG": "71.4",
+      "SCR MAR": "2"
+    },
+    {
+      "Rank": "333",
+      "Team": "La Salle",
+      "GM": "25",
+      "PTS": "1644",
+      "PPG": "65.8",
+      "OPP PTS": "1816",
+      "OPP PPG": "72.6",
+      "SCR MAR": "-6"
+    },
+    {
+      "Rank": "348",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "PTS": "1689",
+      "PPG": "67.6",
+      "OPP PTS": "1939",
+      "OPP PPG": "77.6",
+      "SCR MAR": "-10"
+    }
+  ],
+  "Field Goal Percentage": [
+    {
+      "Rank": "3",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "FGM": "767",
+      "FGA": "1474",
+      "FG%": "52.04"
+    },
+    {
+      "Rank": "46",
+      "Team": "George Mason",
+      "GM": "25",
+      "FGM": "638",
+      "FGA": "1326",
+      "FG%": "48.11"
+    },
+    {
+      "Rank": "58",
+      "Team": "Duquesne",
+      "GM": "24",
+      "FGM": "680",
+      "FGA": "1431",
+      "FG%": "47.52"
+    },
+    {
+      "Rank": "85",
+      "Team": "George Washington",
+      "GM": "25",
+      "FGM": "720",
+      "FGA": "1535",
+      "FG%": "46.91"
+    },
+    {
+      "Rank": "92",
+      "Team": "Davidson",
+      "GM": "24",
+      "FGM": "634",
+      "FGA": "1355",
+      "FG%": "46.79"
+    },
+    {
+      "Rank": "97",
+      "Team": "VCU",
+      "GM": "25",
+      "FGM": "684",
+      "FGA": "1465",
+      "FG%": "46.69"
+    },
+    {
+      "Rank": "171",
+      "Team": "Richmond",
+      "GM": "25",
+      "FGM": "661",
+      "FGA": "1458",
+      "FG%": "45.34"
+    },
+    {
+      "Rank": "182",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "FGM": "591",
+      "FGA": "1308",
+      "FG%": "45.18"
+    },
+    {
+      "Rank": "213",
+      "Team": "Dayton",
+      "GM": "24",
+      "FGM": "589",
+      "FGA": "1320",
+      "FG%": "44.62"
+    },
+    {
+      "Rank": "232",
+      "Team": "Fordham",
+      "GM": "25",
+      "FGM": "679",
+      "FGA": "1529",
+      "FG%": "44.41"
+    },
+    {
+      "Rank": "305",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "FGM": "641",
+      "FGA": "1505",
+      "FG%": "42.59"
+    },
+    {
+      "Rank": "314",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "FGM": "583",
+      "FGA": "1382",
+      "FG%": "42.19"
+    },
+    {
+      "Rank": "335",
+      "Team": "La Salle",
+      "GM": "25",
+      "FGM": "581",
+      "FGA": "1406",
+      "FG%": "41.32"
+    }
+  ],
+  "Field Goal Percentage Defense": [
+    {
+      "Rank": "1",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "OPP FG": "537",
+      "OPP FGA": "1476",
+      "OPP FG%": "36.382"
+    },
+    {
+      "Rank": "52",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "OPP FG": "651",
+      "OPP FGA": "1573",
+      "OPP FG%": "41.386"
+    },
+    {
+      "Rank": "60",
+      "Team": "George Mason",
+      "GM": "25",
+      "OPP FG": "595",
+      "OPP FGA": "1427",
+      "OPP FG%": "41.696"
+    },
+    {
+      "Rank": "68",
+      "Team": "Fordham",
+      "GM": "25",
+      "OPP FG": "583",
+      "OPP FGA": "1394",
+      "OPP FG%": "41.822"
+    },
+    {
+      "Rank": "146",
+      "Team": "Richmond",
+      "GM": "25",
+      "OPP FG": "636",
+      "OPP FGA": "1462",
+      "OPP FG%": "43.502"
+    },
+    {
+      "Rank": "147",
+      "Team": "VCU",
+      "GM": "25",
+      "OPP FG": "643",
+      "OPP FGA": "1478",
+      "OPP FG%": "43.505"
+    },
+    {
+      "Rank": "170",
+      "Team": "Duquesne",
+      "GM": "24",
+      "OPP FG": "622",
+      "OPP FGA": "1417",
+      "OPP FG%": "43.896"
+    },
+    {
+      "Rank": "178",
+      "Team": "Dayton",
+      "GM": "24",
+      "OPP FG": "594",
+      "OPP FGA": "1351",
+      "OPP FG%": "43.967"
+    },
+    {
+      "Rank": "182",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "OPP FG": "543",
+      "OPP FGA": "1234",
+      "OPP FG%": "44.003"
+    },
+    {
+      "Rank": "194",
+      "Team": "George Washington",
+      "GM": "25",
+      "OPP FG": "651",
+      "OPP FGA": "1470",
+      "OPP FG%": "44.286"
+    },
+    {
+      "Rank": "211",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "OPP FG": "652",
+      "OPP FGA": "1464",
+      "OPP FG%": "44.536"
+    },
+    {
+      "Rank": "225",
+      "Team": "Davidson",
+      "GM": "24",
+      "OPP FG": "590",
+      "OPP FGA": "1319",
+      "OPP FG%": "44.731"
+    },
+    {
+      "Rank": "269",
+      "Team": "La Salle",
+      "GM": "25",
+      "OPP FG": "652",
+      "OPP FGA": "1428",
+      "OPP FG%": "45.658"
+    }
+  ],
+  "Free Throw Percentage": [
+    {
+      "Rank": "59",
+      "Team": "Richmond",
+      "GM": "25",
+      "FT": "407",
+      "FTA": "537",
+      "FT%": "75.79"
+    },
+    {
+      "Rank": "74",
+      "Team": "Dayton",
+      "GM": "24",
+      "FT": "470",
+      "FTA": "625",
+      "FT%": "75.20"
+    },
+    {
+      "Rank": "86",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "FT": "351",
+      "FTA": "469",
+      "FT%": "74.84"
+    },
+    {
+      "Rank": "120",
+      "Team": "VCU",
+      "GM": "25",
+      "FT": "489",
+      "FTA": "661",
+      "FT%": "73.98"
+    },
+    {
+      "Rank": "140",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "FT": "375",
+      "FTA": "510",
+      "FT%": "73.53"
+    },
+    {
+      "Rank": "-",
+      "Team": "George Washington",
+      "GM": "25",
+      "FT": "396",
+      "FTA": "540",
+      "FT%": "73.33"
+    },
+    {
+      "Rank": "170",
+      "Team": "George Mason",
+      "GM": "25",
+      "FT": "458",
+      "FTA": "631",
+      "FT%": "72.58"
+    },
+    {
+      "Rank": "184",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "FT": "382",
+      "FTA": "528",
+      "FT%": "72.35"
+    },
+    {
+      "Rank": "208",
+      "Team": "Duquesne",
+      "GM": "24",
+      "FT": "398",
+      "FTA": "556",
+      "FT%": "71.58"
+    },
+    {
+      "Rank": "213",
+      "Team": "La Salle",
+      "GM": "25",
+      "FT": "357",
+      "FTA": "500",
+      "FT%": "71.40"
+    },
+    {
+      "Rank": "245",
+      "Team": "Fordham",
+      "GM": "25",
+      "FT": "244",
+      "FTA": "347",
+      "FT%": "70.32"
+    },
+    {
+      "Rank": "317",
+      "Team": "Davidson",
+      "GM": "24",
+      "FT": "296",
+      "FTA": "435",
+      "FT%": "68.05"
+    },
+    {
+      "Rank": "332",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "FT": "322",
+      "FTA": "477",
+      "FT%": "67.51"
+    }
+  ],
+  "Rebound Margin": [
+    {
+      "Rank": "11",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "REB": "1008",
+      "RPG": "42.0",
+      "OPP REB": "771",
+      "OPP RPG": "32.1",
+      "REB MAR": "9"
+    },
+    {
+      "Rank": "18",
+      "Team": "Fordham",
+      "GM": "25",
+      "REB": "982",
+      "RPG": "39.3",
+      "OPP REB": "782",
+      "OPP RPG": "31.3",
+      "REB MAR": "8"
+    },
+    {
+      "Rank": "39",
+      "Team": "George Washington",
+      "GM": "25",
+      "REB": "955",
+      "RPG": "38.2",
+      "OPP REB": "807",
+      "OPP RPG": "32.3",
+      "REB MAR": "5"
+    },
+    {
+      "Rank": "66",
+      "Team": "George Mason",
+      "GM": "25",
+      "REB": "888",
+      "RPG": "35.5",
+      "OPP REB": "770",
+      "OPP RPG": "30.8",
+      "REB MAR": "4"
+    },
+    {
+      "Rank": "104",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "REB": "974",
+      "RPG": "39.0",
+      "OPP REB": "896",
+      "OPP RPG": "35.8",
+      "REB MAR": "3"
+    },
+    {
+      "Rank": "107",
+      "Team": "VCU",
+      "GM": "25",
+      "REB": "924",
+      "RPG": "37.0",
+      "OPP REB": "847",
+      "OPP RPG": "33.9",
+      "REB MAR": "3"
+    },
+    {
+      "Rank": "-",
+      "Team": "Duquesne",
+      "GM": "24",
+      "REB": "868",
+      "RPG": "36.2",
+      "OPP REB": "817",
+      "OPP RPG": "34.0",
+      "REB MAR": "2"
+    },
+    {
+      "Rank": "-",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "REB": "860",
+      "RPG": "34.4",
+      "OPP REB": "835",
+      "OPP RPG": "33.4",
+      "REB MAR": "1"
+    },
+    {
+      "Rank": "199",
+      "Team": "La Salle",
+      "GM": "25",
+      "REB": "877",
+      "RPG": "35.1",
+      "OPP REB": "856",
+      "OPP RPG": "34.2",
+      "REB MAR": "0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "REB": "784",
+      "RPG": "32.7",
+      "OPP REB": "769",
+      "OPP RPG": "32.0",
+      "REB MAR": "0"
+    },
+    {
+      "Rank": "222",
+      "Team": "Davidson",
+      "GM": "24",
+      "REB": "796",
+      "RPG": "33.2",
+      "OPP REB": "792",
+      "OPP RPG": "33.0",
+      "REB MAR": "0"
+    },
+    {
+      "Rank": "265",
+      "Team": "Richmond",
+      "GM": "25",
+      "REB": "867",
+      "RPG": "34.7",
+      "OPP REB": "901",
+      "OPP RPG": "36.0",
+      "REB MAR": "-1"
+    },
+    {
+      "Rank": "298",
+      "Team": "Dayton",
+      "GM": "24",
+      "REB": "785",
+      "RPG": "32.7",
+      "OPP REB": "847",
+      "OPP RPG": "35.3",
+      "REB MAR": "-2"
+    }
+  ],
+  "Three Point Percentage": [
+    {
+      "Rank": "2",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "3FG": "274",
+      "3FGA": "672",
+      "3FG%": "40.77"
+    },
+    {
+      "Rank": "23",
+      "Team": "Davidson",
+      "GM": "24",
+      "3FG": "225",
+      "3FGA": "593",
+      "3FG%": "37.94"
+    },
+    {
+      "Rank": "33",
+      "Team": "Richmond",
+      "GM": "25",
+      "3FG": "227",
+      "3FGA": "610",
+      "3FG%": "37.21"
+    },
+    {
+      "Rank": "50",
+      "Team": "VCU",
+      "GM": "25",
+      "3FG": "236",
+      "3FGA": "645",
+      "3FG%": "36.59"
+    },
+    {
+      "Rank": "78",
+      "Team": "George Washington",
+      "GM": "25",
+      "3FG": "255",
+      "3FGA": "714",
+      "3FG%": "35.71"
+    },
+    {
+      "Rank": "91",
+      "Team": "Duquesne",
+      "GM": "24",
+      "3FG": "224",
+      "3FGA": "631",
+      "3FG%": "35.50"
+    },
+    {
+      "Rank": "-",
+      "Team": "George Mason",
+      "GM": "25",
+      "3FG": "151",
+      "3FGA": "444",
+      "3FG%": "34.01"
+    },
+    {
+      "Rank": "246",
+      "Team": "Dayton",
+      "GM": "24",
+      "3FG": "178",
+      "3FGA": "543",
+      "3FG%": "32.78"
+    },
+    {
+      "Rank": "312",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "3FG": "174",
+      "3FGA": "559",
+      "3FG%": "31.13"
+    },
+    {
+      "Rank": "314",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "3FG": "201",
+      "3FGA": "646",
+      "3FG%": "31.11"
+    },
+    {
+      "Rank": "335",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "3FG": "206",
+      "3FGA": "677",
+      "3FG%": "30.43"
+    },
+    {
+      "Rank": "352",
+      "Team": "La Salle",
+      "GM": "25",
+      "3FG": "125",
+      "3FGA": "430",
+      "3FG%": "29.07"
+    },
+    {
+      "Rank": "355",
+      "Team": "Fordham",
+      "GM": "25",
+      "3FG": "168",
+      "3FGA": "580",
+      "3FG%": "28.97"
+    }
+  ],
+  "Three Pointers Per Game": [
+    {
+      "Rank": "8",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "3FG": "274",
+      "3PG": "11.4"
+    },
+    {
+      "Rank": "32",
+      "Team": "George Washington",
+      "GM": "25",
+      "3FG": "255",
+      "3PG": "10.2"
+    },
+    {
+      "Rank": "61",
+      "Team": "VCU",
+      "GM": "25",
+      "3FG": "236",
+      "3PG": "9.4"
+    },
+    {
+      "Rank": "67",
+      "Team": "Davidson",
+      "GM": "24",
+      "3FG": "225",
+      "3PG": "9.4"
+    },
+    {
+      "Rank": "70",
+      "Team": "Duquesne",
+      "GM": "24",
+      "3FG": "224",
+      "3PG": "9.3"
+    },
+    {
+      "Rank": "87",
+      "Team": "Richmond",
+      "GM": "25",
+      "3FG": "227",
+      "3PG": "9.1"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "3FG": "206",
+      "3PG": "8.2"
+    },
+    {
+      "Rank": "164",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "3FG": "201",
+      "3PG": "8.0"
+    },
+    {
+      "Rank": "224",
+      "Team": "Dayton",
+      "GM": "24",
+      "3FG": "178",
+      "3PG": "7.4"
+    },
+    {
+      "Rank": "246",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "3FG": "174",
+      "3PG": "7.2"
+    },
+    {
+      "Rank": "283",
+      "Team": "Fordham",
+      "GM": "25",
+      "3FG": "168",
+      "3PG": "6.7"
+    },
+    {
+      "Rank": "-",
+      "Team": "George Mason",
+      "GM": "25",
+      "3FG": "151",
+      "3PG": "6.0"
+    },
+    {
+      "Rank": "354",
+      "Team": "La Salle",
+      "GM": "25",
+      "3FG": "125",
+      "3PG": "5.0"
+    }
+  ],
+  "Winning Percentage": [
+    {
+      "Rank": "-",
+      "Team": "Saint Louis",
+      "W": "23",
+      "L": "1",
+      "Pct": "95.8"
+    },
+    {
+      "Rank": "18",
+      "Team": "George Mason",
+      "W": "21",
+      "L": "4",
+      "Pct": "84.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "VCU",
+      "W": "19",
+      "L": "6",
+      "Pct": "76.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Davidson",
+      "W": "15",
+      "L": "9",
+      "Pct": "62.5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Dayton",
+      "W": "15",
+      "L": "9",
+      "Pct": "62.5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Joseph's",
+      "W": "15",
+      "L": "10",
+      "Pct": "60.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Duquesne",
+      "W": "14",
+      "L": "10",
+      "Pct": "58.3"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "W": "14",
+      "L": "10",
+      "Pct": "58.3"
+    },
+    {
+      "Rank": "-",
+      "Team": "George Washington",
+      "W": "14",
+      "L": "11",
+      "Pct": "56.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Richmond",
+      "W": "14",
+      "L": "11",
+      "Pct": "56.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Fordham",
+      "W": "13",
+      "L": "12",
+      "Pct": "52.0"
+    },
+    {
+      "Rank": "333",
+      "Team": "La Salle",
+      "W": "7",
+      "L": "18",
+      "Pct": "28.0"
+    },
+    {
+      "Rank": "341",
+      "Team": "Loyola Chicago",
+      "W": "6",
+      "L": "19",
+      "Pct": "24.0"
+    }
+  ],
+  "Blocks Per Game": [
+    {
+      "Rank": "21",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "BLKS": "124",
+      "BKPG": "5.0"
+    },
+    {
+      "Rank": "33",
+      "Team": "VCU",
+      "GM": "25",
+      "BLKS": "117",
+      "BKPG": "4.7"
+    },
+    {
+      "Rank": "-",
+      "Team": "Dayton",
+      "GM": "24",
+      "BLKS": "101",
+      "BKPG": "4.2"
+    },
+    {
+      "Rank": "79",
+      "Team": "Davidson",
+      "GM": "24",
+      "BLKS": "98",
+      "BKPG": "4.1"
+    },
+    {
+      "Rank": "104",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "BLKS": "96",
+      "BKPG": "3.8"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "BLKS": "89",
+      "BKPG": "3.7"
+    },
+    {
+      "Rank": "162",
+      "Team": "George Washington",
+      "GM": "25",
+      "BLKS": "87",
+      "BKPG": "3.5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "BLKS": "77",
+      "BKPG": "3.2"
+    },
+    {
+      "Rank": "228",
+      "Team": "George Mason",
+      "GM": "25",
+      "BLKS": "76",
+      "BKPG": "3.0"
+    },
+    {
+      "Rank": "276",
+      "Team": "Duquesne",
+      "GM": "24",
+      "BLKS": "66",
+      "BKPG": "2.8"
+    },
+    {
+      "Rank": "316",
+      "Team": "La Salle",
+      "GM": "25",
+      "BLKS": "61",
+      "BKPG": "2.4"
+    },
+    {
+      "Rank": "318",
+      "Team": "Richmond",
+      "GM": "25",
+      "BLKS": "60",
+      "BKPG": "2.4"
+    },
+    {
+      "Rank": "321",
+      "Team": "Fordham",
+      "GM": "25",
+      "BLKS": "59",
+      "BKPG": "2.4"
+    }
+  ],
+  "Steals Per Game": [
+    {
+      "Rank": "21",
+      "Team": "Dayton",
+      "GM": "24",
+      "ST": "220",
+      "STPG": "9.2"
+    },
+    {
+      "Rank": "29",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "ST": "215",
+      "STPG": "9.0"
+    },
+    {
+      "Rank": "82",
+      "Team": "Duquesne",
+      "GM": "24",
+      "ST": "189",
+      "STPG": "7.9"
+    },
+    {
+      "Rank": "108",
+      "Team": "George Washington",
+      "GM": "25",
+      "ST": "189",
+      "STPG": "7.6"
+    },
+    {
+      "Rank": "-",
+      "Team": "VCU",
+      "GM": "25",
+      "ST": "189",
+      "STPG": "7.6"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "ST": "178",
+      "STPG": "7.4"
+    },
+    {
+      "Rank": "124",
+      "Team": "Richmond",
+      "GM": "25",
+      "ST": "185",
+      "STPG": "7.4"
+    },
+    {
+      "Rank": "146",
+      "Team": "Fordham",
+      "GM": "25",
+      "ST": "178",
+      "STPG": "7.1"
+    },
+    {
+      "Rank": "148",
+      "Team": "Davidson",
+      "GM": "24",
+      "ST": "170",
+      "STPG": "7.1"
+    },
+    {
+      "Rank": "-",
+      "Team": "La Salle",
+      "GM": "25",
+      "ST": "169",
+      "STPG": "6.8"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "ST": "144",
+      "STPG": "5.8"
+    },
+    {
+      "Rank": "321",
+      "Team": "George Mason",
+      "GM": "25",
+      "ST": "133",
+      "STPG": "5.3"
+    },
+    {
+      "Rank": "360",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "ST": "94",
+      "STPG": "3.8"
+    }
+  ],
+  "Assists Per Game": [
+    {
+      "Rank": "7",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "AST": "463",
+      "APG": "19.3"
+    },
+    {
+      "Rank": "53",
+      "Team": "Duquesne",
+      "GM": "24",
+      "AST": "394",
+      "APG": "16.4"
+    },
+    {
+      "Rank": "76",
+      "Team": "George Washington",
+      "GM": "25",
+      "AST": "396",
+      "APG": "15.8"
+    },
+    {
+      "Rank": "91",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "AST": "389",
+      "APG": "15.6"
+    },
+    {
+      "Rank": "-",
+      "Team": "Fordham",
+      "GM": "25",
+      "AST": "370",
+      "APG": "14.8"
+    },
+    {
+      "Rank": "140",
+      "Team": "Richmond",
+      "GM": "25",
+      "AST": "366",
+      "APG": "14.6"
+    },
+    {
+      "Rank": "152",
+      "Team": "VCU",
+      "GM": "25",
+      "AST": "362",
+      "APG": "14.5"
+    },
+    {
+      "Rank": "-",
+      "Team": "Davidson",
+      "GM": "24",
+      "AST": "336",
+      "APG": "14.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Dayton",
+      "GM": "24",
+      "AST": "336",
+      "APG": "14.0"
+    },
+    {
+      "Rank": "202",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "AST": "343",
+      "APG": "13.7"
+    },
+    {
+      "Rank": "-",
+      "Team": "La Salle",
+      "GM": "25",
+      "AST": "337",
+      "APG": "13.5"
+    },
+    {
+      "Rank": "262",
+      "Team": "George Mason",
+      "GM": "25",
+      "AST": "324",
+      "APG": "13.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "AST": "271",
+      "APG": "11.3"
+    }
+  ],
+  "Turnovers Per Game": [
+    {
+      "Rank": "-",
+      "Team": "Richmond",
+      "GM": "25",
+      "TO": "258",
+      "TOPG": "10.3"
+    },
+    {
+      "Rank": "70",
+      "Team": "Davidson",
+      "GM": "24",
+      "TO": "253",
+      "TOPG": "10.5"
+    },
+    {
+      "Rank": "96",
+      "Team": "George Mason",
+      "GM": "25",
+      "TO": "271",
+      "TOPG": "10.8"
+    },
+    {
+      "Rank": "-",
+      "Team": "VCU",
+      "GM": "25",
+      "TO": "277",
+      "TOPG": "11.1"
+    },
+    {
+      "Rank": "-",
+      "Team": "Fordham",
+      "GM": "25",
+      "TO": "285",
+      "TOPG": "11.4"
+    },
+    {
+      "Rank": "219",
+      "Team": "Dayton",
+      "GM": "24",
+      "TO": "291",
+      "TOPG": "12.1"
+    },
+    {
+      "Rank": "-",
+      "Team": "Saint Louis",
+      "GM": "24",
+      "TO": "291",
+      "TOPG": "12.1"
+    },
+    {
+      "Rank": "233",
+      "Team": "La Salle",
+      "GM": "25",
+      "TO": "306",
+      "TOPG": "12.2"
+    },
+    {
+      "Rank": "251",
+      "Team": "Saint Joseph's",
+      "GM": "25",
+      "TO": "311",
+      "TOPG": "12.4"
+    },
+    {
+      "Rank": "-",
+      "Team": "Rhode Island",
+      "GM": "24",
+      "TO": "303",
+      "TOPG": "12.6"
+    },
+    {
+      "Rank": "285",
+      "Team": "George Washington",
+      "GM": "25",
+      "TO": "320",
+      "TOPG": "12.8"
+    },
+    {
+      "Rank": "300",
+      "Team": "Duquesne",
+      "GM": "24",
+      "TO": "313",
+      "TOPG": "13.0"
+    },
+    {
+      "Rank": "-",
+      "Team": "Loyola Chicago",
+      "GM": "25",
+      "TO": "328",
+      "TOPG": "13.1"
+    }
+  ]
+}

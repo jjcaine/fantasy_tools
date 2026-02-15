@@ -61,6 +61,7 @@ FANTRAX_SHORT_TO_NCAA: dict[str, str] = {
 MANUAL_OVERRIDES: dict[str, str] = {
     "dejour reaves": "DeJour Reaves",
     "deuce jones ii": "Deuce Jones II",
+    "jaiden glover": "Jaiden Glover-Toscano",
 }
 
 

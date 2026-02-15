@@ -1,0 +1,1109 @@
+{
+  "Brian": {
+    "team_id": "h01glvbpmgohg3yt",
+    "players": [
+      {
+        "name": "Dola Adebayo",
+        "player_id": "05xjc",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jean Aranguren",
+        "player_id": "06hdf",
+        "team": "George Washington Revolutionaries",
+        "team_short": "GrgWas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jonathan Beagle",
+        "player_id": "0654l",
+        "team": "Richmond Spiders",
+        "team_short": "Rich",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Keonte Jones",
+        "player_id": "06gw7",
+        "team": "Dayton Flyers",
+        "team_short": "Dayt",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Deywilk Tavarez",
+        "player_id": "06hpa",
+        "team": "Loyola (IL) Ramblers",
+        "team_short": "LoyIL",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Mike Walz",
+        "player_id": "0652c",
+        "team": "Richmond Spiders",
+        "team_short": "Rich",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Ishan Sharma",
+        "player_id": "06n9h",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jimmie Williams",
+        "player_id": "06mun",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Daniel Egbuniwe",
+        "player_id": "065dq",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Paul Otieno",
+        "player_id": "065qw",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "Sick-Os Revenge": {
+    "team_id": "0hj8uid0mgohg3yt",
+    "players": [
+      {
+        "name": "Dasonte Bowen",
+        "player_id": "064dv",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "John Hugley",
+        "player_id": "05qpv",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Frank Mitchell",
+        "player_id": "065qf",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Tyrell Ward",
+        "player_id": "064lg",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jerome Brewer",
+        "player_id": "066hz",
+        "team": "La Salle Explorers",
+        "team_short": "LaSal",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      },
+      {
+        "name": "Christian Henry",
+        "player_id": "06n9c",
+        "team": "Fordham Rams",
+        "team_short": "Ford",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jonah Hinton",
+        "player_id": "06n7h",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Alex Williams",
+        "player_id": "05a4w",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 4,
+    "active_max": 6,
+    "reserve": 4,
+    "reserve_max": 8
+  },
+  "Back to the Big East": {
+    "team_id": "gde1vo8zmgohg3yt",
+    "players": [
+      {
+        "name": "Trey Autry",
+        "player_id": "06g3p",
+        "team": "George Washington Revolutionaries",
+        "team_short": "GrgWas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Cayden Charles",
+        "player_id": "07188",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Dasear Haskins",
+        "player_id": "06g6f",
+        "team": "Saint Joseph's Hawks",
+        "team_short": "StJos",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Brandon Jennings",
+        "player_id": "06n72",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Will Johnston",
+        "player_id": "065p3",
+        "team": "Richmond Spiders",
+        "team_short": "Rich",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Derek Simpson",
+        "player_id": "064g0",
+        "team": "Saint Joseph's Hawks",
+        "team_short": "StJos",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Rafael Castro",
+        "player_id": "05wp3",
+        "team": "George Washington Revolutionaries",
+        "team_short": "GrgWas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      },
+      {
+        "name": "Masai Troutman",
+        "player_id": "065t1",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "Frank's Quality": {
+    "team_id": "obmj5hnwmgohg3yt",
+    "players": [
+      {
+        "name": "Javon Bennett",
+        "player_id": "065ev",
+        "team": "Dayton Flyers",
+        "team_short": "Dayt",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jaiden Glover",
+        "player_id": "06myr",
+        "team": "Saint Joseph's Hawks",
+        "team_short": "StJos",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Terrence Hill",
+        "player_id": "06n74",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "AJ Lopez",
+        "player_id": "05wgz",
+        "team": "Richmond Spiders",
+        "team_short": "Rich",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jakub Necas",
+        "player_id": "06g2p",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jahmere Tripp",
+        "player_id": "06g2w",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      },
+      {
+        "name": "Quentin Jones",
+        "player_id": "06gue",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Miles Rubin",
+        "player_id": "06g4v",
+        "team": "Loyola (IL) Ramblers",
+        "team_short": "LoyIL",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Zarique Nutter",
+        "player_id": "05q2y",
+        "team": "Fordham Rams",
+        "team_short": "Ford",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      },
+      {
+        "name": "Joshua Ola-Joseph",
+        "player_id": "064fb",
+        "team": "Loyola (IL) Ramblers",
+        "team_short": "LoyIL",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "We Don't Talk About Linda Bruno": {
+    "team_id": "z8cxue9nmgohg3yt",
+    "players": [
+      {
+        "name": "Justice Ajogbor",
+        "player_id": "05psr",
+        "team": "Saint Joseph's Hawks",
+        "team_short": "StJos",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Riley Allenspach",
+        "player_id": "06gph",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Roberts Blums",
+        "player_id": "06n5i",
+        "team": "Davidson Wildcats",
+        "team_short": "David",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Tyler Cochran",
+        "player_id": "059m2",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Rob Dockery",
+        "player_id": "06hkw",
+        "team": "La Salle Explorers",
+        "team_short": "LaSal",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Keeyan Itejere",
+        "player_id": "05wp0",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jahari Long",
+        "player_id": "05ptx",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Darryl Simmons",
+        "player_id": "06gos",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Brayden O'Connor",
+        "player_id": "0656u",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "Fordham University Christian Knights": {
+    "team_id": "lqh0vvbkmgohg3yt",
+    "players": [
+      {
+        "name": "Myles Corey",
+        "player_id": "06ntc",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Cam Crawford",
+        "player_id": "05wue",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Trey Green",
+        "player_id": "06glk",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jermahri Hill",
+        "player_id": "06n8i",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Kory Mincy",
+        "player_id": "06gsv",
+        "team": "George Mason Patriots",
+        "team_short": "GMas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Justin Moore",
+        "player_id": "065nb",
+        "team": "Loyola (IL) Ramblers",
+        "team_short": "LoyIL",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Garrett Johnson",
+        "player_id": "06g48",
+        "team": "George Washington Revolutionaries",
+        "team_short": "GrgWas",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Amael L'Etang",
+        "player_id": "06pqp",
+        "team": "Dayton Flyers",
+        "team_short": "Dayt",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "Nishy Baby": {
+    "team_id": "9p1a47g1mgohg3yt",
+    "players": [
+      {
+        "name": "Lazar Djokovic",
+        "player_id": "06glg",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Barry Evans",
+        "player_id": "0652l",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Deshayne Montgomery",
+        "player_id": "06h5v",
+        "team": "Dayton Flyers",
+        "team_short": "Dayt",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": true,
+        "day_to_day": true,
+        "out": false
+      },
+      {
+        "name": "Dejour Reaves",
+        "player_id": "06g73",
+        "team": "Fordham Rams",
+        "team_short": "Ford",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Josh Scovens",
+        "player_id": "06h0c",
+        "team": "Davidson Wildcats",
+        "team_short": "David",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Kellen Thames",
+        "player_id": "0652o",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "RJ Johnson",
+        "player_id": "065kr",
+        "team": "Rhode Island Rams",
+        "team_short": "URI",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Amari McCottry",
+        "player_id": "06n70",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  },
+  "Boardwalk Hall is on Fire": {
+    "team_id": "jpc2gpbmmgohg3yt",
+    "players": [
+      {
+        "name": "Aiden Argabright",
+        "player_id": "0717n",
+        "team": "Richmond Spiders",
+        "team_short": "Rich",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Parker Friedrichsen",
+        "player_id": "06dv1",
+        "team": "Davidson Wildcats",
+        "team_short": "David",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Tarence Guinyard",
+        "player_id": "06nn1",
+        "team": "Duquesne Dukes",
+        "team_short": "Duques",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Nyk Lewis",
+        "player_id": "07184",
+        "team": "VCU Rams",
+        "team_short": "VCU",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Rikus Schulte",
+        "player_id": "06g26",
+        "team": "Fordham Rams",
+        "team_short": "Ford",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Ashton Walker",
+        "player_id": "07171",
+        "team": "La Salle Explorers",
+        "team_short": "LaSal",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Robbie Avila",
+        "player_id": "064ht",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Jaeden Marshall",
+        "player_id": "064ye",
+        "team": "La Salle Explorers",
+        "team_short": "LaSal",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      }
+    ],
+    "active": 6,
+    "active_max": 6,
+    "reserve": 2,
+    "reserve_max": 8
+  }
+}

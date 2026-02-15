@@ -2,6 +2,9 @@
 
 Supports incremental updates - only scans new dates and pulls new box scores
 since the last run. Re-aggregates all stats after collecting new data.
+
+Uses conference-based filtering from schedule_scanner and a team ID allowlist
+for boxscore parsing instead of fragile name substring matching.
 """
 
 import json
@@ -12,20 +15,41 @@ from pathlib import Path
 import pandas as pd
 
 from src import ncaa_client
-from src.schedule_scanner import _is_a10_team, _normalize_team_name, scan_date
+from src.schedule_scanner import _normalize_team_name, scan_date
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
 SEASON_START = date(2025, 11, 3)
 SEASON_END = date(2026, 3, 8)  # End of Period 17
 
+TEAM_IDS_PATH = DATA_DIR / "a10_team_ids.json"
+
 
 def _today() -> date:
     return date.today()
 
 
+def _load_team_ids() -> dict[str, str]:
+    """Load the A-10 team ID allowlist from disk."""
+    if TEAM_IDS_PATH.exists():
+        with open(TEAM_IDS_PATH) as f:
+            return json.load(f)
+    return {}
+
+
+def _save_team_ids(team_ids: dict[str, str]) -> None:
+    """Save the A-10 team ID allowlist to disk."""
+    DATA_DIR.mkdir(exist_ok=True)
+    with open(TEAM_IDS_PATH, "w") as f:
+        json.dump(team_ids, f, indent=2, sort_keys=True)
+
+
 def collect_all_a10_game_ids() -> list[dict]:
-    """Scan season dates for A-10 games. Incrementally scans only new dates."""
+    """Scan season dates for A-10 games. Incrementally scans only new dates.
+
+    Also builds and saves an A-10 team ID allowlist from confirmed A-10 games
+    (teams identified by conferenceSeo in the scoreboard API).
+    """
     cache_path = DATA_DIR / "a10_all_games.json"
     meta_path = DATA_DIR / "a10_all_games_meta.json"
 
@@ -44,6 +68,9 @@ def collect_all_a10_game_ids() -> list[dict]:
             meta = json.load(f)
         last_scanned = date.fromisoformat(meta["last_scanned_date"])
 
+    # Load existing team IDs (accumulate across runs)
+    all_team_ids = _load_team_ids()
+
     # Determine scan range
     scan_start = (last_scanned + timedelta(days=1)) if last_scanned else SEASON_START
     scan_end = min(_today(), SEASON_END)
@@ -56,7 +83,8 @@ def collect_all_a10_game_ids() -> list[dict]:
     new_games = []
     d = scan_start
     while d <= scan_end:
-        games = scan_date(d)
+        games, day_team_ids = scan_date(d)
+        all_team_ids.update(day_team_ids)
         for g in games:
             gid = g.get("game_id")
             if gid and gid not in seen_ids:
@@ -68,18 +96,42 @@ def collect_all_a10_game_ids() -> list[dict]:
     all_games = existing_games + new_games
     print(f"  Found {len(new_games)} new games ({len(all_games)} total)")
 
-    # Save updated cache
+    # Save updated cache and team IDs
     DATA_DIR.mkdir(exist_ok=True)
     with open(cache_path, "w") as f:
         json.dump(all_games, f, indent=2)
     with open(meta_path, "w") as f:
         json.dump({"last_scanned_date": scan_end.isoformat()}, f)
 
+    _save_team_ids(all_team_ids)
+    print(f"  Saved {len(all_team_ids)} A-10 team IDs to a10_team_ids.json")
+
     return all_games
 
 
-def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dict]:
-    """Extract A-10 player stat rows from a single box score response."""
+def _is_a10_team_by_id(team_id: str, team_name: str, team_ids: dict[str, str]) -> bool:
+    """Check if a team is A-10 using the team ID allowlist.
+
+    Checks team_id (numeric) first, then falls back to checking if the
+    team name matches any known A-10 canonical name in the allowlist values.
+    """
+    if str(team_id) in team_ids:
+        return True
+    # Check by canonical team name (values in the allowlist)
+    canonical = _normalize_team_name(team_name)
+    return canonical in team_ids.values()
+
+
+def _parse_boxscore_players(
+    box: dict,
+    game_id: str,
+    game_date: str,
+    team_ids: dict[str, str],
+) -> list[dict]:
+    """Extract A-10 player stat rows from a single box score response.
+
+    Uses the team ID allowlist for filtering instead of name substring matching.
+    """
     rows = []
     teams_info = {t["teamId"]: t for t in box.get("teams", [])}
 
@@ -90,7 +142,7 @@ def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dic
         ))
         team_name = team_info.get("nameShort", "")
 
-        if not _is_a10_team(team_name):
+        if not _is_a10_team_by_id(team_id, team_name, team_ids):
             continue
 
         team_name = _normalize_team_name(team_name)
@@ -108,6 +160,7 @@ def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dic
                 "game_id": game_id,
                 "date": game_date,
                 "team": team_name,
+                "team_id": team_id,
                 "first_name": ps.get("firstName", ""),
                 "last_name": ps.get("lastName", ""),
                 "position": ps.get("position", ""),
@@ -132,7 +185,10 @@ def _parse_boxscore_players(box: dict, game_id: str, game_date: str) -> list[dic
 
 
 def collect_boxscores(game_list: list[dict]) -> list[dict]:
-    """Pull box scores for games. Incrementally fetches only new game IDs."""
+    """Pull box scores for games. Incrementally fetches only new game IDs.
+
+    Uses the team ID allowlist for A-10 filtering in boxscore parsing.
+    """
     cache_path = DATA_DIR / "a10_boxscores_raw.json"
 
     # Load existing box score data
@@ -151,6 +207,11 @@ def collect_boxscores(game_list: list[dict]) -> list[dict]:
         print(f"  Box scores already up to date ({len(existing_rows)} player rows)")
         return existing_rows
 
+    # Load team ID allowlist
+    team_ids = _load_team_ids()
+    if not team_ids:
+        print("  WARNING: No team ID allowlist found. Run game collection first.")
+
     print(f"  Fetching box scores for {len(new_games)} new games...")
     new_rows = []
     errors = []
@@ -161,7 +222,7 @@ def collect_boxscores(game_list: list[dict]) -> list[dict]:
 
         try:
             box = ncaa_client.get_game_boxscore(game_id)
-            new_rows.extend(_parse_boxscore_players(box, game_id, game_date))
+            new_rows.extend(_parse_boxscore_players(box, game_id, game_date, team_ids))
         except Exception as e:
             errors.append({"game_id": game_id, "error": str(e)})
 

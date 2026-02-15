@@ -1,0 +1,1250 @@
+[
+  {
+    "player_id": "06qbg",
+    "name": "Abass Bodija",
+    "name_raw": "Bodija, Abass",
+    "team": "Ford",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06qbf",
+    "name": "Jack Whitbourn",
+    "name_raw": "Whitbourn, Jack",
+    "team": "Ford",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "024ex",
+    "name": "Brandon Hall",
+    "name_raw": "Hall, Brandon",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05psi",
+    "name": "Noah Collier",
+    "name_raw": "Collier, Noah",
+    "team": "LaSal",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05wpw",
+    "name": "Drissa Traore",
+    "name_raw": "Traore, Drissa",
+    "team": "URI",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06nm8",
+    "name": "Josue Grullon",
+    "name_raw": "Grullon, Josue",
+    "team": "LaSal",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05pbh",
+    "name": "Jadrian Tracey",
+    "name_raw": "Tracey, Jadrian",
+    "team": "VCU",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "065kb",
+    "name": "Justin Archer",
+    "name_raw": "Archer, Justin",
+    "team": "LaSal",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05p0j",
+    "name": "Jace Howard",
+    "name_raw": "Howard, Jace",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gb6",
+    "name": "Michael Belle",
+    "name_raw": "Belle, Michael",
+    "team": "VCU",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gb3",
+    "name": "Stef van Bussel",
+    "name_raw": "van Bussel, Stef",
+    "team": "Duques",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "071cj",
+    "name": "Nic Anderson",
+    "name_raw": "Anderson, Nic",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q2u",
+    "name": "Moek Icke",
+    "name_raw": "Icke, Moek",
+    "team": "URI",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q2s",
+    "name": "Ben Woodward",
+    "name_raw": "Woodward, Ben",
+    "team": "GMas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q45",
+    "name": "Bryce Heard",
+    "name_raw": "Heard, Bryce",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q2r",
+    "name": "T.J. Prosise",
+    "name_raw": "Prosise, T.J.",
+    "team": "GMas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q2o",
+    "name": "Kingston Price",
+    "name_raw": "Price, Kingston",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q2p",
+    "name": "Mohamed Binzagr",
+    "name_raw": "Binzagr, Mohamed",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "071bx",
+    "name": "Devin Booker",
+    "name_raw": "Booker, Devin",
+    "team": "GMas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gpc",
+    "name": "David Thomas",
+    "name_raw": "Thomas, David",
+    "team": "Rich",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05wmy",
+    "name": "Alex Crawford",
+    "name_raw": "Crawford, Alex",
+    "team": "URI",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n7g",
+    "name": "Xander Wedlow",
+    "name_raw": "Wedlow, Xander",
+    "team": "StBon",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "064fl",
+    "name": "Luke Hunger",
+    "name_raw": "Hunger, Luke",
+    "team": "GrgWas",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6x",
+    "name": "Khaafiq Myers",
+    "name_raw": "Myers, Khaafiq",
+    "team": "StJos",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064x2",
+    "name": "Kymany Houinsou",
+    "name_raw": "Houinsou, Kymany",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6v",
+    "name": "Kevin Kearney",
+    "name_raw": "Kearney, Kevin",
+    "team": "StJos",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6w",
+    "name": "Steven Solano",
+    "name_raw": "Solano, Steven",
+    "team": "StJos",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gl1",
+    "name": "Brady Dunlap",
+    "name_raw": "Dunlap, Brady",
+    "team": "StLou",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6u",
+    "name": "Mekai Johnson",
+    "name_raw": "Johnson, Mekai",
+    "team": "StJos",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6s",
+    "name": "Kirby Mooney",
+    "name_raw": "Mooney, Kirby",
+    "team": "Rich",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6p",
+    "name": "Bryson McGlothin",
+    "name_raw": "McGlothin, Bryson",
+    "team": "Rich",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6q",
+    "name": "Jaylen Robinson",
+    "name_raw": "Robinson, Jaylen",
+    "team": "Rich",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6l",
+    "name": "Brayden Young",
+    "name_raw": "Young, Brayden",
+    "team": "LoyIL",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6m",
+    "name": "Zachary Royster",
+    "name_raw": "Royster, Zachary",
+    "team": "LoyIL",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n6k",
+    "name": "Daniil Glazkov",
+    "name_raw": "Glazkov, Daniil",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064va",
+    "name": "Jacob Conner",
+    "name_raw": "Conner, Jacob",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0667v",
+    "name": "Apostolos Roumoglou",
+    "name_raw": "Roumoglou, Apostolos",
+    "team": "Rich",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "0667o",
+    "name": "Brock Matheny",
+    "name_raw": "Matheny, Brock",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5s",
+    "name": "Ty Bevins",
+    "name_raw": "Bevins, Ty",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5t",
+    "name": "Deuce Jones",
+    "name_raw": "Jones, Deuce",
+    "team": "StJos",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "065wi",
+    "name": "Kalu Anya",
+    "name_raw": "Anya, Kalu",
+    "team": "StLou",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06pkc",
+    "name": "Damon Strand",
+    "name_raw": "Strand, Damon",
+    "team": "LaSal",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5p",
+    "name": "Max Miller",
+    "name_raw": "Miller, Max",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06myh",
+    "name": "Malcolm Thomas",
+    "name_raw": "Thomas, Malcolm",
+    "team": "Dayt",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "064ho",
+    "name": "Jaden Schertz",
+    "name_raw": "Schertz, Jaden",
+    "team": "StLou",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06myf",
+    "name": "Ahmad Nowell",
+    "name_raw": "Nowell, Ahmad",
+    "team": "VCU",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064hp",
+    "name": "Isaac Holmes",
+    "name_raw": "Holmes, Isaac",
+    "team": "StLou",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05xqj",
+    "name": "Amare Marshall",
+    "name_raw": "Marshall, Amare",
+    "team": "StBon",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n8v",
+    "name": "Brayden Jackson",
+    "name_raw": "Jackson, Brayden",
+    "team": "StBon",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064i7",
+    "name": "Joe Hurlburt",
+    "name_raw": "Hurlburt, Joe",
+    "team": "David",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "066ks",
+    "name": "Broek Ostrom",
+    "name_raw": "Ostrom, Broek",
+    "team": "StBon",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n7w",
+    "name": "Dylan Warlick",
+    "name_raw": "Warlick, Dylan",
+    "team": "StLou",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05ozm",
+    "name": "Dominick Harris",
+    "name_raw": "Harris, Dominick",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06ggc",
+    "name": "Al Amadou",
+    "name_raw": "Amadou, Al",
+    "team": "StJos",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "0652t",
+    "name": "Christian Fermin",
+    "name_raw": "Fermin, Christian",
+    "team": "VCU",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "0652s",
+    "name": "Obinnaya Okafor",
+    "name_raw": "Okafor, Obinnaya",
+    "team": "VCU",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "0718a",
+    "name": "Ilia Ermakov",
+    "name_raw": "Ermakov, Ilia",
+    "team": "StBon",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "05wif",
+    "name": "Trey Moss",
+    "name_raw": "Moss, Trey",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717y",
+    "name": "Badara Diakite",
+    "name_raw": "Diakite, Badara",
+    "team": "StLou",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717z",
+    "name": "Cam Hutson",
+    "name_raw": "Hutson, Cam",
+    "team": "StLou",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717w",
+    "name": "Austin Williford",
+    "name_raw": "Williford, Austin",
+    "team": "StJos",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717x",
+    "name": "Owen Verna",
+    "name_raw": "Verna, Owen",
+    "team": "StJos",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717s",
+    "name": "Jalen Harper",
+    "name_raw": "Harper, Jalen",
+    "team": "URI",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717q",
+    "name": "Donovan Richardson",
+    "name_raw": "Richardson, Donovan",
+    "team": "Rich",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717o",
+    "name": "Will Harper",
+    "name_raw": "Harper, Will",
+    "team": "Rich",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717p",
+    "name": "Dylan Homenick",
+    "name_raw": "Homenick, Dylan",
+    "team": "Rich",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717e",
+    "name": "Barrett Loer",
+    "name_raw": "Loer, Barrett",
+    "team": "URI",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06hxo",
+    "name": "Bubu Benjamin",
+    "name_raw": "Benjamin, Bubu",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0717f",
+    "name": "Javon Perry",
+    "name_raw": "Perry, Javon",
+    "team": "URI",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gew",
+    "name": "Sam Brown",
+    "name_raw": "Brown, Sam",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "072jp",
+    "name": "Miftah Ibiyemi",
+    "name_raw": "Ibiyemi, Miftah",
+    "team": "URI",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716z",
+    "name": "Max Lipacis",
+    "name_raw": "Lipacis, Max",
+    "team": "LaSal",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0651q",
+    "name": "Caleb Reese",
+    "name_raw": "Reese, Caleb",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716x",
+    "name": "Arlan Masharaliyev",
+    "name_raw": "Masharaliyev, Arlan",
+    "team": "LaSal",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716y",
+    "name": "Nas Hart",
+    "name_raw": "Hart, Nas",
+    "team": "LaSal",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716v",
+    "name": "Vinny Chaudhri",
+    "name_raw": "Chaudhri, Vinny",
+    "team": "GrgWas",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06ncf",
+    "name": "Kayde Dotson",
+    "name_raw": "Dotson, Kayde",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716w",
+    "name": "Jalen Rougier-Roane",
+    "name_raw": "Rougier-Roane, Jalen",
+    "team": "GrgWas",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "07189",
+    "name": "John Ikpotokin",
+    "name_raw": "Ikpotokin, John",
+    "team": "StBon",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716t",
+    "name": "Isaiah Skinn",
+    "name_raw": "Skinn, Isaiah",
+    "team": "GMas",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "07186",
+    "name": "Joe Grahovac",
+    "name_raw": "Grahovac, Joe",
+    "team": "StBon",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716u",
+    "name": "Emmanuel Kanga",
+    "name_raw": "Kanga, Emmanuel",
+    "team": "GMas",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "07187",
+    "name": "Andrew Osasuyi",
+    "name_raw": "Osasuyi, Andrew",
+    "team": "StBon",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gek",
+    "name": "Eric Acker",
+    "name_raw": "Acker, Eric",
+    "team": "LaSal",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716s",
+    "name": "Ryan-Preston Mendy",
+    "name_raw": "Mendy, Ryan-Preston",
+    "team": "GMas",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "07185",
+    "name": "Achille Lonati",
+    "name_raw": "Lonati, Achille",
+    "team": "StBon",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "07183",
+    "name": "Jordan Tillery",
+    "name_raw": "Tillery, Jordan",
+    "team": "VCU",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06nsm",
+    "name": "Jaden Johnson",
+    "name_raw": "Johnson, Jaden",
+    "team": "LaSal",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716n",
+    "name": "Roor Akhuar",
+    "name_raw": "Akhuar, Roor",
+    "team": "Ford",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "07180",
+    "name": "Luke Laczkowski",
+    "name_raw": "Laczkowski, Luke",
+    "team": "StLou",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "07181",
+    "name": "Jax Kerr",
+    "name_raw": "Kerr, Jax",
+    "team": "StLou",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3r",
+    "name": "Christian Jones",
+    "name_raw": "Jones, Christian",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "WW"
+  },
+  {
+    "player_id": "0716l",
+    "name": "Lazar Milosevic",
+    "name_raw": "Milosevic, Lazar",
+    "team": "Duques",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3s",
+    "name": "Amir Arrington",
+    "name_raw": "Arrington, Amir",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "065bu",
+    "name": "Dion Brown",
+    "name_raw": "Brown, Dion",
+    "team": "StLou",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5l",
+    "name": "Nick Coval",
+    "name_raw": "Coval, Nick",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5j",
+    "name": "Phillip Kavu",
+    "name_raw": "Kavu, Phillip",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0655d",
+    "name": "Xavier Amos",
+    "name_raw": "Amos, Xavier",
+    "team": "LoyIL",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5c",
+    "name": "Jaden Smith",
+    "name_raw": "Smith, Jaden",
+    "team": "StJos",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5d",
+    "name": "Aidan Crotty",
+    "name_raw": "Crotty, Aidan",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n5a",
+    "name": "Ryan Pettis",
+    "name_raw": "Pettis, Ryan",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g7b",
+    "name": "Bo Beatty",
+    "name_raw": "Beatty, Bo",
+    "team": "LaSal",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n4s",
+    "name": "Manie Joses",
+    "name_raw": "Joses, Manie",
+    "team": "David",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n62",
+    "name": "Stas Sivka",
+    "name_raw": "Sivka, Stas",
+    "team": "GMas",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "065eu",
+    "name": "Jordan Derkack",
+    "name_raw": "Derkack, Jordan",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "065eo",
+    "name": "Nick Ellington",
+    "name_raw": "Ellington, Nick",
+    "team": "GMas",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05wl5",
+    "name": "Maximus Edwards",
+    "name_raw": "Edwards, Maximus",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g6h",
+    "name": "Anthony Finkley",
+    "name_raw": "Finkley, Anthony",
+    "team": "StJos",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g6e",
+    "name": "Will Lange",
+    "name_raw": "Lange, Will",
+    "team": "StJos",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064st",
+    "name": "David Dixon",
+    "name_raw": "Dixon, David",
+    "team": "Duques",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n58",
+    "name": "Lucas Prolla",
+    "name_raw": "Prolla, Lucas",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064si",
+    "name": "Sean Logan",
+    "name_raw": "Logan, Sean",
+    "team": "David",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "029j8",
+    "name": "Tyrone Marshall",
+    "name_raw": "Marshall, Tyrone",
+    "team": "GrgWas",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g5x",
+    "name": "Mikkel Tyne",
+    "name_raw": "Tyne, Mikkel",
+    "team": "Rich",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g5u",
+    "name": "Collin Tanner",
+    "name_raw": "Tanner, Collin",
+    "team": "Rich",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g25",
+    "name": "Ethan Anish",
+    "name_raw": "Anish, Ethan",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gt1",
+    "name": "Josiah Harris",
+    "name_raw": "Harris, Josiah",
+    "team": "LaSal",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g0l",
+    "name": "Keyshawn Mitchell",
+    "name_raw": "Mitchell, Keyshawn",
+    "team": "VCU",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05x4u",
+    "name": "Louis Lesmond",
+    "name_raw": "Lesmond, Louis",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05wtt",
+    "name": "Marcus Greene",
+    "name_raw": "Greene, Marcus",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q3u",
+    "name": "Billy Rayer",
+    "name_raw": "Rayer, Billy",
+    "team": "StJos",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q3r",
+    "name": "Damone King",
+    "name_raw": "King, Damone",
+    "team": "URI",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q3q",
+    "name": "Jaymien Aponte",
+    "name_raw": "Aponte, Jaymien",
+    "team": "URI",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716j",
+    "name": "Frederik Jellum",
+    "name_raw": "Jellum, Frederik",
+    "team": "Duques",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716k",
+    "name": "Dom Aekins",
+    "name_raw": "Aekins, Dom",
+    "team": "Duques",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716h",
+    "name": "Damon Friery",
+    "name_raw": "Friery, Damon",
+    "team": "Dayt",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716i",
+    "name": "Arness Lawson",
+    "name_raw": "Lawson, Arness",
+    "team": "Duques",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06hy1",
+    "name": "Jack DeRose",
+    "name_raw": "DeRose, Jack",
+    "team": "StBon",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3m",
+    "name": "Evan Dickey",
+    "name_raw": "Dickey, Evan",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716g",
+    "name": "Jaron McKie",
+    "name_raw": "McKie, Jaron",
+    "team": "Dayt",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3j",
+    "name": "Will Maxwell",
+    "name_raw": "Maxwell, Will",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716b",
+    "name": "John Nowland",
+    "name_raw": "Nowland, John",
+    "team": "David",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3i",
+    "name": "Jaiun Simon",
+    "name_raw": "Simon, Jaiun",
+    "team": "Dayt",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716c",
+    "name": "Ian Platteeuw",
+    "name_raw": "Platteeuw, Ian",
+    "team": "David",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3g",
+    "name": "Makai Grant",
+    "name_raw": "Grant, Makai",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06529",
+    "name": "Jimmy Ball",
+    "name_raw": "Ball, Jimmy",
+    "team": "URI",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "05pzd",
+    "name": "Truth Harris",
+    "name_raw": "Harris, Truth",
+    "team": "LaSal",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "0716a",
+    "name": "Devin Brown",
+    "name_raw": "Brown, Devin",
+    "team": "David",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g3e",
+    "name": "Akira Jacobs",
+    "name_raw": "Jacobs, Akira",
+    "team": "Ford",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "068xs",
+    "name": "Hunter Adam",
+    "name_raw": "Adam, Hunter",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gf3",
+    "name": "Jaden Daughtry",
+    "name_raw": "Daughtry, Jaden",
+    "team": "Rich",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gdl",
+    "name": "JaQualon Roberts",
+    "name_raw": "Roberts, JaQualon",
+    "team": "David",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "07173",
+    "name": "Alexander Richardson",
+    "name_raw": "Richardson, Alexander",
+    "team": "LoyIL",
+    "position": "C",
+    "status": "FA"
+  },
+  {
+    "player_id": "07174",
+    "name": "Chuck Love",
+    "name_raw": "Love, Chuck",
+    "team": "LoyIL",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g2u",
+    "name": "Jameson OToole",
+    "name_raw": "OToole, Jameson",
+    "team": "Ford",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g2t",
+    "name": "Seamus McDermott",
+    "name_raw": "McDermott, Seamus",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "07170",
+    "name": "Edwin Daniel",
+    "name_raw": "Daniel, Edwin",
+    "team": "LaSal",
+    "position": "SF",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g2r",
+    "name": "Jake DiMichele",
+    "name_raw": "DiMichele, Jake",
+    "team": "Duques",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06gda",
+    "name": "Malik Presley",
+    "name_raw": "Presley, Malik",
+    "team": "GMas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06q6h",
+    "name": "Adam Njie",
+    "name_raw": "Njie, Adam",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "072hm",
+    "name": "Sean Pouedet",
+    "name_raw": "Pouedet, Sean",
+    "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "07169",
+    "name": "RJ Greer",
+    "name_raw": "Greer, RJ",
+    "team": "David",
+    "position": "PG",
+    "status": "FA"
+  },
+  {
+    "player_id": "065qh",
+    "name": "Tre Dinkins",
+    "name_raw": "Dinkins, Tre",
+    "team": "GrgWas",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06g1u",
+    "name": "Jordann Dumont",
+    "name_raw": "Dumont, Jordann",
+    "team": "VCU",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "05x6c",
+    "name": "Mouhamed Sow",
+    "name_raw": "Sow, Mouhamed",
+    "team": "URI",
+    "position": "F",
+    "status": "FA"
+  },
+  {
+    "player_id": "06ige",
+    "name": "Sam Yurasek",
+    "name_raw": "Yurasek, Sam",
+    "team": "LoyIL",
+    "position": "G",
+    "status": "FA"
+  }
+]

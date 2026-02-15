@@ -1,0 +1,125 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.11"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "eade163ebe8fbc19f76c6fc7293b5b70",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"roster-analyzer-sick-os-revenge\">Roster Analyzer \u2014 Sick-Os Revenge</h1></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "cf320344ae11338773430938cc6b8699",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"data-quality\">Data Quality</h2>\n<h3 id=\"player-data\">Player Data \u2705</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Check</th>\n<th>Detail</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\u2705</td>\n<td>Player count &gt;= 200</td>\n<td>249 players loaded</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>All 14 A-10 teams present</td>\n<td>All teams present</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>No negative stat values</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>FGM &lt;= FGA for all players</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>FTM &lt;= FTA for all players</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>3PM &lt;= FGM for all players</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>PTS = 2<em>(FGM-3PM) + 3</em>3PM + FTM</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>MPG &lt;= 45 for all players</td>\n<td>Clean</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Davidson: 5+ qualified players</td>\n<td>13 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Dayton: 5+ qualified players</td>\n<td>11 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Duquesne: 5+ qualified players</td>\n<td>13 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Fordham: 5+ qualified players</td>\n<td>14 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>George Mason: 5+ qualified players</td>\n<td>11 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>George Washington: 5+ qualified players</td>\n<td>10 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>La Salle: 5+ qualified players</td>\n<td>13 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Loyola Chicago: 5+ qualified players</td>\n<td>29 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Rhode Island: 5+ qualified players</td>\n<td>11 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Richmond: 5+ qualified players</td>\n<td>12 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Saint Joseph's: 5+ qualified players</td>\n<td>13 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Saint Louis: 5+ qualified players</td>\n<td>13 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>St. Bonaventure: 5+ qualified players</td>\n<td>10 players with 5+ games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>VCU: 5+ qualified players</td>\n<td>12 players with 5+ games</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"roster-matching-1-issues\">Roster Matching \u26a0\ufe0f (1 issues)</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Check</th>\n<th>Detail</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\u2705</td>\n<td>Brian: roster match</td>\n<td>10/10 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Sick-Os Revenge: roster match</td>\n<td>8/8 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Back to the Big East: roster match</td>\n<td>8/8 matched</td>\n</tr>\n<tr>\n<td>\u274c</td>\n<td>Frank's Quality: roster match</td>\n<td>9/10 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>We Don't Talk About Linda Bruno: roster match</td>\n<td>9/9 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Fordham University Christian Knights: roster match</td>\n<td>8/8 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Nishy Baby: roster match</td>\n<td>8/8 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Boardwalk Hall is on Fire: roster match</td>\n<td>8/8 matched</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Overall match rate &gt;= 90%</td>\n<td>68/69 (98.6%)</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"matchup-history\">Matchup History \u2705</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Check</th>\n<th>Detail</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\u2705</td>\n<td>At least 10 periods of history</td>\n<td>14 periods found</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 1: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 2: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 3: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 4: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 5: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 6: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 7: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 8: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 9: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 10: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 11: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 12: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 13: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 14: 8 teams</td>\n<td>8 teams</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>W+L+T = 9 for all teams/periods</td>\n<td>Clean</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"schedule\">Schedule \u2705</h3>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>Check</th>\n<th>Detail</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\u2705</td>\n<td>Period 14 present</td>\n<td>Found</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 14: 14 A-10 teams scheduled</td>\n<td>14 A-10 teams have games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 15 present</td>\n<td>Found</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 15: 14 A-10 teams scheduled</td>\n<td>14 A-10 teams have games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 16 present</td>\n<td>Found</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 16: 14 A-10 teams scheduled</td>\n<td>14 A-10 teams have games</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 17 present</td>\n<td>Found</td>\n</tr>\n<tr>\n<td>\u2705</td>\n<td>Period 17: 14 A-10 teams scheduled</td>\n<td>14 A-10 teams have games</td>\n</tr>\n</tbody>\n</table></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "896f369c313c31f4c7dd447e42082350",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"our-roster-88-matched\">Our Roster \u2014 8/8 matched</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "a3dbb3d2e13e1bb29555bca78edb483d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='bkHC-0' random-id='7ef7de97-698c-029b-edea-2ad13eaf9ab2'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Dasonte Bowen&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Dasonte Bowen&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;St. Bonaventure&#92;&quot;,&#92;&quot;GP&#92;&quot;:24,&#92;&quot;PPG&#92;&quot;:10.0,&#92;&quot;RPG&#92;&quot;:3.0,&#92;&quot;APG&#92;&quot;:4.7,&#92;&quot;SPG&#92;&quot;:1.1,&#92;&quot;BPG&#92;&quot;:0.0,&#92;&quot;3PM/G&#92;&quot;:0.4,&#92;&quot;TOPG&#92;&quot;:1.8,&#92;&quot;MPG&#92;&quot;:32.2},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Christian Henry&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Christian Henry&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Fordham&#92;&quot;,&#92;&quot;GP&#92;&quot;:24,&#92;&quot;PPG&#92;&quot;:11.5,&#92;&quot;RPG&#92;&quot;:3.5,&#92;&quot;APG&#92;&quot;:5.2,&#92;&quot;SPG&#92;&quot;:1.3,&#92;&quot;BPG&#92;&quot;:0.1,&#92;&quot;3PM/G&#92;&quot;:1.1,&#92;&quot;TOPG&#92;&quot;:2.8,&#92;&quot;MPG&#92;&quot;:27.9},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Jonah Hinton&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Jonah Hinton&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Rhode Island&#92;&quot;,&#92;&quot;GP&#92;&quot;:22,&#92;&quot;PPG&#92;&quot;:13.5,&#92;&quot;RPG&#92;&quot;:3.1,&#92;&quot;APG&#92;&quot;:2.2,&#92;&quot;SPG&#92;&quot;:0.6,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;3PM/G&#92;&quot;:2.7,&#92;&quot;TOPG&#92;&quot;:2.1,&#92;&quot;MPG&#92;&quot;:31.5},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;John Hugley&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;John Hugley IV&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Duquesne&#92;&quot;,&#92;&quot;GP&#92;&quot;:19,&#92;&quot;PPG&#92;&quot;:10.3,&#92;&quot;RPG&#92;&quot;:4.4,&#92;&quot;APG&#92;&quot;:1.6,&#92;&quot;SPG&#92;&quot;:0.2,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;3PM/G&#92;&quot;:0.5,&#92;&quot;TOPG&#92;&quot;:1.8,&#92;&quot;MPG&#92;&quot;:18.9},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Frank Mitchell&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Frank Mitchell&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;St. Bonaventure&#92;&quot;,&#92;&quot;GP&#92;&quot;:25,&#92;&quot;PPG&#92;&quot;:15.6,&#92;&quot;RPG&#92;&quot;:9.4,&#92;&quot;APG&#92;&quot;:2.8,&#92;&quot;SPG&#92;&quot;:1.3,&#92;&quot;BPG&#92;&quot;:0.6,&#92;&quot;3PM/G&#92;&quot;:0.0,&#92;&quot;TOPG&#92;&quot;:2.5,&#92;&quot;MPG&#92;&quot;:32.4},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Tyrell Ward&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Tyrell Ward&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;VCU&#92;&quot;,&#92;&quot;GP&#92;&quot;:20,&#92;&quot;PPG&#92;&quot;:5.8,&#92;&quot;RPG&#92;&quot;:2.3,&#92;&quot;APG&#92;&quot;:0.4,&#92;&quot;SPG&#92;&quot;:0.5,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;3PM/G&#92;&quot;:0.6,&#92;&quot;TOPG&#92;&quot;:1.1,&#92;&quot;MPG&#92;&quot;:13.1},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Jerome Brewer&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Jerome Brewer, Jr.&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;La Salle&#92;&quot;,&#92;&quot;GP&#92;&quot;:17,&#92;&quot;PPG&#92;&quot;:11.8,&#92;&quot;RPG&#92;&quot;:4.4,&#92;&quot;APG&#92;&quot;:0.8,&#92;&quot;SPG&#92;&quot;:0.6,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;3PM/G&#92;&quot;:1.0,&#92;&quot;TOPG&#92;&quot;:0.9,&#92;&quot;MPG&#92;&quot;:27.4},{&#92;&quot;FanTrax&#92;&quot;:&#92;&quot;Alex Williams&#92;&quot;,&#92;&quot;NCAA&#92;&quot;:&#92;&quot;Alex Williams&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Duquesne&#92;&quot;,&#92;&quot;GP&#92;&quot;:23,&#92;&quot;PPG&#92;&quot;:7.2,&#92;&quot;RPG&#92;&quot;:2.8,&#92;&quot;APG&#92;&quot;:0.7,&#92;&quot;SPG&#92;&quot;:0.4,&#92;&quot;BPG&#92;&quot;:0.0,&#92;&quot;3PM/G&#92;&quot;:1.0,&#92;&quot;TOPG&#92;&quot;:0.7,&#92;&quot;MPG&#92;&quot;:14.5}]&quot;' data-total-rows='8' data-total-columns='12' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-show-filters='false' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;download&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "a4cb5eb49792d8d2dd838c5bf4afd121",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='lEQa-0' random-id='ecb5ea2e-7bc5-30ec-c9e9-625e53f4c544'><marimo-dropdown data-initial-value='[&quot;Period 15&quot;]' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Period&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Period 14&quot;,&quot;Period 15&quot;,&quot;Period 16&quot;,&quot;Period 17&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false'></marimo-dropdown></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "d084f8ecbca461f638b767ca143d5f17",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='2c6f1b37-0b60-cb70-4a7f-1beda23664dd'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Player&#92;&quot;:&#92;&quot;Dasonte Bowen&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;St. Bonaventure&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:10.0,&#92;&quot;Proj PTS&#92;&quot;:20.0,&#92;&quot;RPG&#92;&quot;:3.0,&#92;&quot;Proj REB&#92;&quot;:6.0,&#92;&quot;APG&#92;&quot;:4.7,&#92;&quot;Proj AST&#92;&quot;:9.4,&#92;&quot;3PM/G&#92;&quot;:0.4,&#92;&quot;Proj 3PM&#92;&quot;:0.8,&#92;&quot;SPG&#92;&quot;:1.1,&#92;&quot;BPG&#92;&quot;:0.0,&#92;&quot;TOPG&#92;&quot;:1.8},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Christian Henry&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Fordham&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:11.5,&#92;&quot;Proj PTS&#92;&quot;:23.0,&#92;&quot;RPG&#92;&quot;:3.5,&#92;&quot;Proj REB&#92;&quot;:7.0,&#92;&quot;APG&#92;&quot;:5.2,&#92;&quot;Proj AST&#92;&quot;:10.4,&#92;&quot;3PM/G&#92;&quot;:1.1,&#92;&quot;Proj 3PM&#92;&quot;:2.2,&#92;&quot;SPG&#92;&quot;:1.3,&#92;&quot;BPG&#92;&quot;:0.1,&#92;&quot;TOPG&#92;&quot;:2.8},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Jonah Hinton&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Rhode Island&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:13.5,&#92;&quot;Proj PTS&#92;&quot;:27.0,&#92;&quot;RPG&#92;&quot;:3.1,&#92;&quot;Proj REB&#92;&quot;:6.2,&#92;&quot;APG&#92;&quot;:2.2,&#92;&quot;Proj AST&#92;&quot;:4.4,&#92;&quot;3PM/G&#92;&quot;:2.7,&#92;&quot;Proj 3PM&#92;&quot;:5.4,&#92;&quot;SPG&#92;&quot;:0.6,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;TOPG&#92;&quot;:2.1},{&#92;&quot;Player&#92;&quot;:&#92;&quot;John Hugley IV&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Duquesne&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:10.3,&#92;&quot;Proj PTS&#92;&quot;:20.6,&#92;&quot;RPG&#92;&quot;:4.4,&#92;&quot;Proj REB&#92;&quot;:8.8,&#92;&quot;APG&#92;&quot;:1.6,&#92;&quot;Proj AST&#92;&quot;:3.2,&#92;&quot;3PM/G&#92;&quot;:0.5,&#92;&quot;Proj 3PM&#92;&quot;:1.0,&#92;&quot;SPG&#92;&quot;:0.2,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;TOPG&#92;&quot;:1.8},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Frank Mitchell&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;St. Bonaventure&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:15.6,&#92;&quot;Proj PTS&#92;&quot;:31.2,&#92;&quot;RPG&#92;&quot;:9.4,&#92;&quot;Proj REB&#92;&quot;:18.8,&#92;&quot;APG&#92;&quot;:2.8,&#92;&quot;Proj AST&#92;&quot;:5.6,&#92;&quot;3PM/G&#92;&quot;:0.0,&#92;&quot;Proj 3PM&#92;&quot;:0.0,&#92;&quot;SPG&#92;&quot;:1.3,&#92;&quot;BPG&#92;&quot;:0.6,&#92;&quot;TOPG&#92;&quot;:2.5},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Tyrell Ward&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;VCU&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:5.8,&#92;&quot;Proj PTS&#92;&quot;:11.6,&#92;&quot;RPG&#92;&quot;:2.3,&#92;&quot;Proj REB&#92;&quot;:4.6,&#92;&quot;APG&#92;&quot;:0.4,&#92;&quot;Proj AST&#92;&quot;:0.8,&#92;&quot;3PM/G&#92;&quot;:0.6,&#92;&quot;Proj 3PM&#92;&quot;:1.2,&#92;&quot;SPG&#92;&quot;:0.5,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;TOPG&#92;&quot;:1.1},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Jerome Brewer, Jr.&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;La Salle&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:11.8,&#92;&quot;Proj PTS&#92;&quot;:23.6,&#92;&quot;RPG&#92;&quot;:4.4,&#92;&quot;Proj REB&#92;&quot;:8.8,&#92;&quot;APG&#92;&quot;:0.8,&#92;&quot;Proj AST&#92;&quot;:1.6,&#92;&quot;3PM/G&#92;&quot;:1.0,&#92;&quot;Proj 3PM&#92;&quot;:2.0,&#92;&quot;SPG&#92;&quot;:0.6,&#92;&quot;BPG&#92;&quot;:0.2,&#92;&quot;TOPG&#92;&quot;:0.9},{&#92;&quot;Player&#92;&quot;:&#92;&quot;Alex Williams&#92;&quot;,&#92;&quot;Team&#92;&quot;:&#92;&quot;Duquesne&#92;&quot;,&#92;&quot;Games (P15)&#92;&quot;:2,&#92;&quot;PPG&#92;&quot;:7.2,&#92;&quot;Proj PTS&#92;&quot;:14.4,&#92;&quot;RPG&#92;&quot;:2.8,&#92;&quot;Proj REB&#92;&quot;:5.6,&#92;&quot;APG&#92;&quot;:0.7,&#92;&quot;Proj AST&#92;&quot;:1.4,&#92;&quot;3PM/G&#92;&quot;:1.0,&#92;&quot;Proj 3PM&#92;&quot;:2.0,&#92;&quot;SPG&#92;&quot;:0.4,&#92;&quot;BPG&#92;&quot;:0.0,&#92;&quot;TOPG&#92;&quot;:0.7}]&quot;' data-total-rows='8' data-total-columns='14' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-show-filters='false' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;_cell_PKri_rows&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "48dd48b6578128ce6701228b2c1997ad",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Xref-0' random-id='9e66a1dc-2142-467b-e30d-cf527167a79b'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;Category&#92;&quot;:&#92;&quot;AdjFG%&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:0.511,&#92;&quot;League Avg&#92;&quot;:0.533,&#92;&quot;Rank (of 8)&#92;&quot;:7,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;3PTM&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:14.6,&#92;&quot;League Avg&#92;&quot;:17.8,&#92;&quot;Rank (of 8)&#92;&quot;:7,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;FT%&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:0.724,&#92;&quot;League Avg&#92;&quot;:0.751,&#92;&quot;Rank (of 8)&#92;&quot;:8,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;PTS&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:171.4,&#92;&quot;League Avg&#92;&quot;:178.9,&#92;&quot;Rank (of 8)&#92;&quot;:5,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;REB&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:65.8,&#92;&quot;League Avg&#92;&quot;:69.4,&#92;&quot;Rank (of 8)&#92;&quot;:5,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;AST&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:36.8,&#92;&quot;League Avg&#92;&quot;:34.6,&#92;&quot;Rank (of 8)&#92;&quot;:3,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcaa Strength&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;ST&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:12.0,&#92;&quot;League Avg&#92;&quot;:16.1,&#92;&quot;Rank (of 8)&#92;&quot;:7,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;BLK&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:3.0,&#92;&quot;League Avg&#92;&quot;:7.1,&#92;&quot;Rank (of 8)&#92;&quot;:7,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;},{&#92;&quot;Category&#92;&quot;:&#92;&quot;TO&#92;&quot;,&#92;&quot;Our Proj&#92;&quot;:27.4,&#92;&quot;League Avg&#92;&quot;:24.5,&#92;&quot;Rank (of 8)&#92;&quot;:7,&#92;&quot;Assessment&#92;&quot;:&#92;&quot;\ud83d\udcc9 Weakness&#92;&quot;}]&quot;' data-total-rows='9' data-total-columns='5' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-show-filters='false' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false' data-download-file-name='&quot;rank_rows&quot;'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "9c90b85303b19abaea3fb88c81bb7879",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "cdac10971005b89c8cba418e6e1718a4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h3 id=\"category-strategy-recommendation\">Category Strategy Recommendation</h3>\n<span class=\"paragraph\"><strong>Target (3 cats):</strong> AST, PTS, REB</span>\n<span class=\"paragraph\"><strong>Consider punting (6 cats):</strong> AdjFG%, 3PTM, FT%, ST, BLK, TO</span>\n<span class=\"paragraph\"><em>Strategy: Win 5 of 9 categories each week. Focus roster moves on target cats.</em></span></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

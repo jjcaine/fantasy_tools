@@ -1,0 +1,2414 @@
+[
+  {
+    "date": "2025-11-03",
+    "game_id": "6531296",
+    "away": "Bradley",
+    "away_score": "63",
+    "home": "St. Bonaventure",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6501529",
+    "away": "Lafayette",
+    "away_score": "76",
+    "home": "Saint Joseph's",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6501563",
+    "away": "Canisius",
+    "away_score": "48",
+    "home": "Dayton",
+    "home_score": "88",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6502322",
+    "away": "Wofford",
+    "away_score": "46",
+    "home": "George Mason",
+    "home_score": "70",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6505293",
+    "away": "Niagara",
+    "away_score": "63",
+    "home": "Duquesne",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6505846",
+    "away": "Wagner",
+    "away_score": "74",
+    "home": "VCU",
+    "home_score": "103",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6506429",
+    "away": "Stetson",
+    "away_score": "62",
+    "home": "Rhode Island",
+    "home_score": "93",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6530487",
+    "away": "DeSales",
+    "away_score": "63",
+    "home": "Davidson",
+    "home_score": "97",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6501703",
+    "away": "Maine",
+    "away_score": "47",
+    "home": "George Washington",
+    "home_score": "67",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6504411",
+    "away": "Cleveland St.",
+    "away_score": "88",
+    "home": "Loyola Chicago",
+    "home_score": "91",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-03",
+    "game_id": "6504574",
+    "away": "Southeast Mo. St.",
+    "away_score": "67",
+    "home": "Saint Louis",
+    "home_score": "92",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-04",
+    "game_id": "6502206",
+    "away": "NJIT",
+    "away_score": "72",
+    "home": "Fordham",
+    "home_score": "61",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-05",
+    "game_id": "6501097",
+    "away": "Coppin St.",
+    "away_score": "59",
+    "home": "La Salle",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-05",
+    "game_id": "6504529",
+    "away": "Southern Va.",
+    "away_score": "56",
+    "home": "Richmond",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-06",
+    "game_id": "6504575",
+    "away": "Chicago St.",
+    "away_score": "86",
+    "home": "Saint Louis",
+    "home_score": "108",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-06",
+    "game_id": "6504412",
+    "away": "Mercyhurst",
+    "away_score": "73",
+    "home": "Loyola Chicago",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6505319",
+    "away": "Tulsa",
+    "away_score": "82",
+    "home": "Rhode Island",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6506165",
+    "away": "Washington St.",
+    "away_score": "69",
+    "home": "Davidson",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6506439",
+    "away": "Winthrop",
+    "away_score": "90",
+    "home": "George Mason",
+    "home_score": "96",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6530761",
+    "away": "Sacred Heart",
+    "away_score": "80",
+    "home": "Duquesne",
+    "home_score": "92",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6502207",
+    "away": "Mt. St. Mary (NY)",
+    "away_score": "37",
+    "home": "Fordham",
+    "home_score": "106",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-07",
+    "game_id": "6505847",
+    "away": "VCU",
+    "away_score": "77",
+    "home": "Utah St.",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6501525",
+    "away": "Drexel",
+    "away_score": "65",
+    "home": "Saint Joseph's",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6501704",
+    "away": "George Washington",
+    "away_score": "99",
+    "home": "South Fla.",
+    "home_score": "95",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6502271",
+    "away": "UMBC",
+    "away_score": "71",
+    "home": "Dayton",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6504682",
+    "away": "Monmouth",
+    "away_score": "60",
+    "home": "La Salle",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6501565",
+    "away": "Canisius",
+    "away_score": "70",
+    "home": "St. Bonaventure",
+    "home_score": "89",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-08",
+    "game_id": "6504530",
+    "away": "East Carolina",
+    "away_score": "72",
+    "home": "Richmond",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-09",
+    "game_id": "6504415",
+    "away": "Loyola Chicago",
+    "away_score": "62",
+    "home": "North Texas",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-10",
+    "game_id": "6501037",
+    "away": "Lindenwood",
+    "away_score": "66",
+    "home": "Saint Louis",
+    "home_score": "109",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6502208",
+    "away": "Wagner",
+    "away_score": "61",
+    "home": "Fordham",
+    "home_score": "63",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6502272",
+    "away": "Dayton",
+    "away_score": "62",
+    "home": "Cincinnati",
+    "home_score": "74",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6502901",
+    "away": "La Salle",
+    "away_score": "63",
+    "home": "Temple",
+    "home_score": "90",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6504531",
+    "away": "William & Mary",
+    "away_score": "86",
+    "home": "Richmond",
+    "home_score": "90",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6504846",
+    "away": "Stonehill",
+    "away_score": "57",
+    "home": "Rhode Island",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6505427",
+    "away": "Davidson",
+    "away_score": "62",
+    "home": "Charlotte",
+    "home_score": "55",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6531063",
+    "away": "Catawba",
+    "away_score": "62",
+    "home": "George Mason",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-11",
+    "game_id": "6506240",
+    "away": "Queens (NC)",
+    "away_score": "81",
+    "home": "Duquesne",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-12",
+    "game_id": "6501312",
+    "away": "Saint Joseph's",
+    "away_score": "59",
+    "home": "Virginia Tech",
+    "home_score": "94",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-12",
+    "game_id": "6501705",
+    "away": "American",
+    "away_score": "67",
+    "home": "George Washington",
+    "home_score": "107",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-12",
+    "game_id": "6502957",
+    "away": "Siena",
+    "away_score": "66",
+    "home": "St. Bonaventure",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-12",
+    "game_id": "6505395",
+    "away": "Saint Peter's",
+    "away_score": "61",
+    "home": "VCU",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-13",
+    "game_id": "6501624",
+    "away": "Loyola Chicago",
+    "away_score": "74",
+    "home": "Wichita St.",
+    "home_score": "95",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-14",
+    "game_id": "6501978",
+    "away": "Fordham",
+    "away_score": "71",
+    "home": "Iona",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-14",
+    "game_id": "6506142",
+    "away": "UAlbany",
+    "away_score": "61",
+    "home": "Rhode Island",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6503013",
+    "away": "Penn St.",
+    "away_score": "83",
+    "home": "La Salle",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6531064",
+    "away": "New Hampshire",
+    "away_score": "44",
+    "home": "George Mason",
+    "home_score": "61",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6502513",
+    "away": "Youngstown St.",
+    "away_score": "80",
+    "home": "St. Bonaventure",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6501706",
+    "away": "Old Dominion",
+    "away_score": "73",
+    "home": "George Washington",
+    "home_score": "96",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6506450",
+    "away": "Bowling Green",
+    "away_score": "87",
+    "home": "Davidson",
+    "home_score": "91",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6501410",
+    "away": "Bethune-Cookman",
+    "away_score": "82",
+    "home": "Dayton",
+    "home_score": "91",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6501493",
+    "away": "Grand Canyon",
+    "away_score": "64",
+    "home": "Saint Louis",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-15",
+    "game_id": "6505010",
+    "away": "Duquesne",
+    "away_score": "77",
+    "home": "Villanova",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-16",
+    "game_id": "6502209",
+    "away": "Manhattanville",
+    "away_score": "62",
+    "home": "Fordham",
+    "home_score": "96",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-16",
+    "game_id": "6504417",
+    "away": "Colorado St.",
+    "away_score": "80",
+    "home": "Loyola Chicago",
+    "home_score": "67",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-17",
+    "game_id": "6501526",
+    "away": "Saint Joseph's",
+    "away_score": "74",
+    "home": "Penn",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-17",
+    "game_id": "6503650",
+    "away": "VCU",
+    "away_score": "79",
+    "home": "NC State",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-18",
+    "game_id": "6502462",
+    "away": "Jacksonville",
+    "away_score": "57",
+    "home": "George Mason",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-18",
+    "game_id": "6501064",
+    "away": "Rhode Island",
+    "away_score": "86",
+    "home": "Yale",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-19",
+    "game_id": "6501707",
+    "away": "UMBC",
+    "away_score": "52",
+    "home": "George Washington",
+    "home_score": "89",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-19",
+    "game_id": "6503755",
+    "away": "VMI",
+    "away_score": "54",
+    "home": "Richmond",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-19",
+    "game_id": "6505011",
+    "away": "Villanova",
+    "away_score": "70",
+    "home": "La Salle",
+    "home_score": "55",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-19",
+    "game_id": "6529199",
+    "away": "Loyola Maryland",
+    "away_score": "78",
+    "home": "Duquesne",
+    "home_score": "92",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-19",
+    "game_id": "6502274",
+    "away": "Dayton",
+    "away_score": "77",
+    "home": "Marquette",
+    "home_score": "71",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-20",
+    "game_id": "6531861",
+    "away": "Robert Morris",
+    "away_score": "61",
+    "home": "St. Bonaventure",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-20",
+    "game_id": "6501269",
+    "away": "LIU",
+    "away_score": "53",
+    "home": "Fordham",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-20",
+    "game_id": "6501527",
+    "away": "Saint Joseph's",
+    "away_score": "85",
+    "home": "UNLV",
+    "home_score": "99",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-21",
+    "game_id": "6503960",
+    "away": "Davidson",
+    "away_score": "59",
+    "home": "Boston College",
+    "home_score": "49",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-21",
+    "game_id": "6504419",
+    "away": "NIU",
+    "away_score": "76",
+    "home": "Loyola Chicago",
+    "home_score": "59",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-21",
+    "game_id": "6504576",
+    "away": "Purdue Fort Wayne",
+    "away_score": "60",
+    "home": "Saint Louis",
+    "home_score": "91",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-22",
+    "game_id": "6501745",
+    "away": "N.C. Central",
+    "away_score": "55",
+    "home": "Dayton",
+    "home_score": "74",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-22",
+    "game_id": "6531420",
+    "away": "Duquesne",
+    "away_score": "86",
+    "home": "Northeastern",
+    "home_score": "93",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-22",
+    "game_id": "6505166",
+    "away": "Lancaster Bible",
+    "away_score": "46",
+    "home": "La Salle",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-22",
+    "game_id": "6504533",
+    "away": "Gardner-Webb",
+    "away_score": "67",
+    "home": "Richmond",
+    "home_score": "102",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-22",
+    "game_id": "6501101",
+    "away": "Coppin St.",
+    "away_score": "58",
+    "home": "VCU",
+    "home_score": "101",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-23",
+    "game_id": "6501708",
+    "away": "George Washington",
+    "away_score": "86",
+    "home": "McNeese",
+    "home_score": "92",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-23",
+    "game_id": "6533944",
+    "away": "Utah St.",
+    "away_score": "94",
+    "home": "Davidson",
+    "home_score": "60",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-24",
+    "game_id": "6534059",
+    "away": "Rhode Island",
+    "away_score": "55",
+    "home": "Towson",
+    "home_score": "62",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-24",
+    "game_id": "6501709",
+    "away": "George Washington",
+    "away_score": "92",
+    "home": "Middle Tenn.",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-24",
+    "game_id": "6503795",
+    "away": "George Mason",
+    "away_score": "92",
+    "home": "Ohio",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6534056",
+    "away": "Rhode Island",
+    "away_score": "80",
+    "home": "Vermont",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6502560",
+    "away": "UNI",
+    "away_score": "72",
+    "home": "Loyola Chicago",
+    "home_score": "51",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6503000",
+    "away": "St. Bonaventure",
+    "away_score": "70",
+    "home": "North Carolina",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6501530",
+    "away": "Rutgers-Camden",
+    "away_score": "61",
+    "home": "Saint Joseph's",
+    "home_score": "100",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6501336",
+    "away": "Murray St.",
+    "away_score": "96",
+    "home": "George Washington",
+    "home_score": "95",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-25",
+    "game_id": "6533957",
+    "away": "George Mason",
+    "away_score": "74",
+    "home": "Fla. Atlantic",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-26",
+    "game_id": "6534115",
+    "away": "Loyola Chicago",
+    "away_score": "51",
+    "home": "San Jose St.",
+    "home_score": "63",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-26",
+    "game_id": "6505848",
+    "away": "VCU",
+    "away_score": "78",
+    "home": "South Fla.",
+    "home_score": "66",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-26",
+    "game_id": "6531337",
+    "away": "Central St. (OH)",
+    "away_score": "80",
+    "home": "Duquesne",
+    "home_score": "101",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-26",
+    "game_id": "6534054",
+    "away": "Rhode Island",
+    "away_score": "90",
+    "home": "Temple",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-27",
+    "game_id": "6504642",
+    "away": "Richmond",
+    "away_score": "72",
+    "home": "Furman",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-27",
+    "game_id": "6530610",
+    "away": "St. Bonaventure",
+    "away_score": "67",
+    "home": "East Carolina",
+    "home_score": "58",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-27",
+    "game_id": "6534161",
+    "away": "VCU",
+    "away_score": "74",
+    "home": "Vanderbilt",
+    "home_score": "89",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-27",
+    "game_id": "6504577",
+    "away": "Saint Louis",
+    "away_score": "71",
+    "home": "Santa Clara",
+    "home_score": "70",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-27",
+    "game_id": "6502275",
+    "away": "Georgetown",
+    "away_score": "79",
+    "home": "Dayton",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6534158",
+    "away": "Virginia Tech",
+    "away_score": "68",
+    "home": "VCU",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6534050",
+    "away": "Richmond",
+    "away_score": "71",
+    "home": "Charlotte",
+    "home_score": "66",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6502880",
+    "away": "Hofstra",
+    "away_score": "63",
+    "home": "La Salle",
+    "home_score": "58",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6506118",
+    "away": "N.C. A&T",
+    "away_score": "74",
+    "home": "Davidson",
+    "home_score": "90",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6502213",
+    "away": "Fordham",
+    "away_score": "74",
+    "home": "Franklin Pierce",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6534122",
+    "away": "Stanford",
+    "away_score": "78",
+    "home": "Saint Louis",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-28",
+    "game_id": "6534047",
+    "away": "BYU",
+    "away_score": "83",
+    "home": "Dayton",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-29",
+    "game_id": "6504077",
+    "away": "James Madison",
+    "away_score": "66",
+    "home": "George Mason",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-29",
+    "game_id": "6503693",
+    "away": "La Salle",
+    "away_score": "71",
+    "home": "Penn",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-29",
+    "game_id": "6502214",
+    "away": "Fordham",
+    "away_score": "88",
+    "home": "UAlbany",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-30",
+    "game_id": "6505905",
+    "away": "La Salle",
+    "away_score": "60",
+    "home": "Merrimack",
+    "home_score": "66",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-30",
+    "game_id": "6502354",
+    "away": "Princeton",
+    "away_score": "58",
+    "home": "Saint Joseph's",
+    "home_score": "60",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-30",
+    "game_id": "6502215",
+    "away": "Fordham",
+    "away_score": "62",
+    "home": "Colgate",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2025-11-30",
+    "game_id": "6531862",
+    "away": "St. Bonaventure",
+    "away_score": "70",
+    "home": "Fla. Atlantic",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6501209",
+    "away": "George Washington",
+    "away_score": "84",
+    "home": "Army West Point",
+    "home_score": "70",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6501230",
+    "away": "Brown",
+    "away_score": "56",
+    "home": "Rhode Island",
+    "home_score": "66",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6502277",
+    "away": "ETSU",
+    "away_score": "71",
+    "home": "Dayton",
+    "home_score": "88",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6504706",
+    "away": "William & Mary",
+    "away_score": "83",
+    "home": "Duquesne",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6505661",
+    "away": "Cornell",
+    "away_score": "81",
+    "home": "George Mason",
+    "home_score": "99",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6501372",
+    "away": "Central Mich.",
+    "away_score": "72",
+    "home": "Loyola Chicago",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-02",
+    "game_id": "6504578",
+    "away": "Saint Louis",
+    "away_score": "91",
+    "home": "LMU (CA)",
+    "home_score": "70",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-03",
+    "game_id": "6531728",
+    "away": "Bloomsburg",
+    "away_score": "43",
+    "home": "St. Bonaventure",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-03",
+    "game_id": "6504537",
+    "away": "Richmond",
+    "away_score": "84",
+    "home": "Belmont",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-04",
+    "game_id": "6506079",
+    "away": "The Citadel",
+    "away_score": "63",
+    "home": "Davidson",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-05",
+    "game_id": "6505851",
+    "away": "Samford",
+    "away_score": "57",
+    "home": "VCU",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6502278",
+    "away": "Dayton",
+    "away_score": "73",
+    "home": "Virginia",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6503098",
+    "away": "Rhode Island",
+    "away_score": "71",
+    "home": "Providence",
+    "home_score": "90",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6504538",
+    "away": "Old Dominion",
+    "away_score": "77",
+    "home": "Richmond",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6501191",
+    "away": "Stony Brook",
+    "away_score": "75",
+    "home": "Duquesne",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6501700",
+    "away": "St. Bonaventure",
+    "away_score": "77",
+    "home": "Buffalo",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6502210",
+    "away": "Holy Cross",
+    "away_score": "70",
+    "home": "Fordham",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6534437",
+    "away": "La Salle",
+    "away_score": "69",
+    "home": "Drexel",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6502366",
+    "away": "Princeton",
+    "away_score": "68",
+    "home": "Loyola Chicago",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6501324",
+    "away": "George Mason",
+    "away_score": "62",
+    "home": "Virginia Tech",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6534434",
+    "away": "Saint Joseph's",
+    "away_score": "70",
+    "home": "Temple",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-06",
+    "game_id": "6501710",
+    "away": "William & Mary",
+    "away_score": "86",
+    "home": "George Washington",
+    "home_score": "99",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-07",
+    "game_id": "6530488",
+    "away": "Saint Mary's (CA)",
+    "away_score": "70",
+    "home": "Davidson",
+    "home_score": "61",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-07",
+    "game_id": "6501373",
+    "away": "Central Mich.",
+    "away_score": "65",
+    "home": "Saint Louis",
+    "home_score": "107",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-09",
+    "game_id": "6501106",
+    "away": "Coppin St.",
+    "away_score": "65",
+    "home": "Saint Joseph's",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-09",
+    "game_id": "6530392",
+    "away": "McNeese",
+    "away_score": "66",
+    "home": "Rhode Island",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-10",
+    "game_id": "6501711",
+    "away": "Delaware",
+    "away_score": "70",
+    "home": "George Washington",
+    "home_score": "58",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-10",
+    "game_id": "6502211",
+    "away": "FDU",
+    "away_score": "54",
+    "home": "Fordham",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-10",
+    "game_id": "6502923",
+    "away": "Colgate",
+    "away_score": "77",
+    "home": "St. Bonaventure",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-10",
+    "game_id": "6505790",
+    "away": "New Mexico",
+    "away_score": "81",
+    "home": "VCU",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-10",
+    "game_id": "6503143",
+    "away": "Duquesne",
+    "away_score": "64",
+    "home": "Boise St.",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-11",
+    "game_id": "6501528",
+    "away": "Saint Joseph's",
+    "away_score": "63",
+    "home": "Syracuse",
+    "home_score": "71",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6504836",
+    "away": "Old Dominion",
+    "away_score": "61",
+    "home": "George Mason",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6502212",
+    "away": "Manhattan",
+    "away_score": "53",
+    "home": "Fordham",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6530489",
+    "away": "Mercyhurst",
+    "away_score": "47",
+    "home": "Davidson",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6501712",
+    "away": "George Washington",
+    "away_score": "70",
+    "home": "Florida",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6501275",
+    "away": "La Salle",
+    "away_score": "60",
+    "home": "LIU",
+    "home_score": "70",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6503799",
+    "away": "St. Bonaventure",
+    "away_score": "83",
+    "home": "Ohio",
+    "home_score": "88",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6504539",
+    "away": "Southern Ill.",
+    "away_score": "84",
+    "home": "Richmond",
+    "home_score": "93",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6502276",
+    "away": "North Florida",
+    "away_score": "61",
+    "home": "Dayton",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6504579",
+    "away": "San Francisco",
+    "away_score": "75",
+    "home": "Saint Louis",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-13",
+    "game_id": "6530858",
+    "away": "Duquesne",
+    "away_score": "75",
+    "home": "Nevada",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-14",
+    "game_id": "6504420",
+    "away": "Chicago St.",
+    "away_score": "84",
+    "home": "Loyola Chicago",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-15",
+    "game_id": "6505299",
+    "away": "Niagara",
+    "away_score": "58",
+    "home": "VCU",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-16",
+    "game_id": "6501572",
+    "away": "Canisius",
+    "away_score": "45",
+    "home": "Rhode Island",
+    "home_score": "62",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-16",
+    "game_id": "6502279",
+    "away": "Florida St.",
+    "away_score": "69",
+    "home": "Dayton",
+    "home_score": "97",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-17",
+    "game_id": "6504540",
+    "away": "Richmond",
+    "away_score": "70",
+    "home": "Elon",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-17",
+    "game_id": "6501416",
+    "away": "Bethune-Cookman",
+    "away_score": "53",
+    "home": "Saint Louis",
+    "home_score": "112",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-17",
+    "game_id": "6504422",
+    "away": "Loyola Chicago",
+    "away_score": "71",
+    "home": "San Francisco",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-18",
+    "game_id": "6501532",
+    "away": "Delaware St.",
+    "away_score": "51",
+    "home": "Saint Joseph's",
+    "home_score": "67",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-18",
+    "game_id": "6502910",
+    "away": "Temple",
+    "away_score": "68",
+    "home": "Davidson",
+    "home_score": "63",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-18",
+    "game_id": "6503258",
+    "away": "American",
+    "away_score": "83",
+    "home": "VCU",
+    "home_score": "105",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-19",
+    "game_id": "6501894",
+    "away": "La Salle",
+    "away_score": "72",
+    "home": "High Point",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-20",
+    "game_id": "6502273",
+    "away": "Liberty",
+    "away_score": "64",
+    "home": "Dayton",
+    "home_score": "61",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-20",
+    "game_id": "6531045",
+    "away": "Le Moyne",
+    "away_score": "81",
+    "home": "St. Bonaventure",
+    "home_score": "92",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-20",
+    "game_id": "6504424",
+    "away": "Loyola Chicago",
+    "away_score": "80",
+    "home": "Santa Clara",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-20",
+    "game_id": "6504543",
+    "away": "The Citadel",
+    "away_score": "56",
+    "home": "Richmond",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-21",
+    "game_id": "6529201",
+    "away": "Loyola Maryland",
+    "away_score": "79",
+    "home": "George Mason",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-21",
+    "game_id": "6504580",
+    "away": "New Hampshire",
+    "away_score": "79",
+    "home": "Saint Louis",
+    "home_score": "93",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-21",
+    "game_id": "6503492",
+    "away": "La Salle",
+    "away_score": "50",
+    "home": "Michigan",
+    "home_score": "102",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6501842",
+    "away": "New Haven",
+    "away_score": "47",
+    "home": "Fordham",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6501713",
+    "away": "St. Mary's (MD)",
+    "away_score": "40",
+    "home": "George Washington",
+    "home_score": "97",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6501531",
+    "away": "Coastal Carolina",
+    "away_score": "68",
+    "home": "Saint Joseph's",
+    "home_score": "62",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6501573",
+    "away": "Canisius",
+    "away_score": "59",
+    "home": "Duquesne",
+    "home_score": "103",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6505812",
+    "away": "Rider",
+    "away_score": "79",
+    "home": "VCU",
+    "home_score": "100",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6534742",
+    "away": "Northeastern",
+    "away_score": "77",
+    "home": "Rhode Island",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-22",
+    "game_id": "6501522",
+    "away": "Davidson",
+    "away_score": "61",
+    "home": "Kansas",
+    "home_score": "90",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-27",
+    "game_id": "6531421",
+    "away": "Cleary",
+    "away_score": "49",
+    "home": "Duquesne",
+    "home_score": "99",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-28",
+    "game_id": "6501533",
+    "away": "Arcadia",
+    "away_score": "65",
+    "home": "Saint Joseph's",
+    "home_score": "87",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-28",
+    "game_id": "6504581",
+    "away": "Principia",
+    "away_score": "33",
+    "home": "Saint Louis",
+    "home_score": "114",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-28",
+    "game_id": "6504545",
+    "away": "Charleston So.",
+    "away_score": "77",
+    "home": "Richmond",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-28",
+    "game_id": "6503698",
+    "away": "Penn",
+    "away_score": "79",
+    "home": "George Mason",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-30",
+    "game_id": "6530611",
+    "away": "Duquesne",
+    "away_score": "89",
+    "home": "Davidson",
+    "home_score": "83",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6504425",
+    "away": "Loyola Chicago",
+    "away_score": "61",
+    "home": "Rhode Island",
+    "home_score": "57",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6504297",
+    "away": "Fordham",
+    "away_score": "56",
+    "home": "Dayton",
+    "home_score": "63",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6505852",
+    "away": "St. Bonaventure",
+    "away_score": "82",
+    "home": "VCU",
+    "home_score": "89",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6505906",
+    "away": "George Mason",
+    "away_score": "80",
+    "home": "La Salle",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6504546",
+    "away": "George Washington",
+    "away_score": "99",
+    "home": "Richmond",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2025-12-31",
+    "game_id": "6504582",
+    "away": "Saint Joseph's",
+    "away_score": "79",
+    "home": "Saint Louis",
+    "home_score": "102",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-03",
+    "game_id": "6505853",
+    "away": "VCU",
+    "away_score": "93",
+    "home": "Duquesne",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-03",
+    "game_id": "6504426",
+    "away": "Dayton",
+    "away_score": "70",
+    "home": "Loyola Chicago",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-03",
+    "game_id": "6505590",
+    "away": "La Salle",
+    "away_score": "55",
+    "home": "George Washington",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-03",
+    "game_id": "6531065",
+    "away": "Rhode Island",
+    "away_score": "50",
+    "home": "George Mason",
+    "home_score": "61",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-03",
+    "game_id": "6504919",
+    "away": "Davidson",
+    "away_score": "62",
+    "home": "Saint Joseph's",
+    "home_score": "56",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-04",
+    "game_id": "6504298",
+    "away": "Richmond",
+    "away_score": "83",
+    "home": "Fordham",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-06",
+    "game_id": "6504910",
+    "away": "George Washington",
+    "away_score": "72",
+    "home": "Dayton",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6504299",
+    "away": "George Mason",
+    "away_score": "67",
+    "home": "Fordham",
+    "home_score": "58",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6504583",
+    "away": "Saint Louis",
+    "away_score": "71",
+    "home": "VCU",
+    "home_score": "62",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6504921",
+    "away": "Duquesne",
+    "away_score": "90",
+    "home": "Saint Joseph's",
+    "home_score": "97",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6505907",
+    "away": "La Salle",
+    "away_score": "79",
+    "home": "Rhode Island",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6531863",
+    "away": "Richmond",
+    "away_score": "89",
+    "home": "St. Bonaventure",
+    "home_score": "80",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-07",
+    "game_id": "6504427",
+    "away": "Davidson",
+    "away_score": "79",
+    "home": "Loyola Chicago",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-10",
+    "game_id": "6504300",
+    "away": "Fordham",
+    "away_score": "81",
+    "home": "St. Bonaventure",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-10",
+    "game_id": "6505854",
+    "away": "VCU",
+    "away_score": "80",
+    "home": "George Mason",
+    "home_score": "86",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-10",
+    "game_id": "6530713",
+    "away": "Rhode Island",
+    "away_score": "70",
+    "home": "Davidson",
+    "home_score": "45",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-10",
+    "game_id": "6504428",
+    "away": "Loyola Chicago",
+    "away_score": "66",
+    "home": "George Washington",
+    "home_score": "101",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-10",
+    "game_id": "6504584",
+    "away": "Saint Louis",
+    "away_score": "84",
+    "home": "La Salle",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-11",
+    "game_id": "6504550",
+    "away": "Saint Joseph's",
+    "away_score": "67",
+    "home": "Richmond",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-13",
+    "game_id": "6504429",
+    "away": "George Mason",
+    "away_score": "82",
+    "home": "Loyola Chicago",
+    "home_score": "74",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-13",
+    "game_id": "6504911",
+    "away": "Dayton",
+    "away_score": "71",
+    "home": "Duquesne",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-14",
+    "game_id": "6505856",
+    "away": "VCU",
+    "away_score": "84",
+    "home": "Rhode Island",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-14",
+    "game_id": "6504548",
+    "away": "La Salle",
+    "away_score": "53",
+    "home": "Richmond",
+    "home_score": "74",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-14",
+    "game_id": "6504922",
+    "away": "St. Bonaventure",
+    "away_score": "64",
+    "home": "Saint Joseph's",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-14",
+    "game_id": "6505591",
+    "away": "Davidson",
+    "away_score": "84",
+    "home": "George Washington",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-14",
+    "game_id": "6504301",
+    "away": "Fordham",
+    "away_score": "56",
+    "home": "Saint Louis",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-16",
+    "game_id": "6504430",
+    "away": "Loyola Chicago",
+    "away_score": "51",
+    "home": "Dayton",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-17",
+    "game_id": "6504302",
+    "away": "Duquesne",
+    "away_score": "74",
+    "home": "Fordham",
+    "home_score": "63",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-17",
+    "game_id": "6505908",
+    "away": "St. Bonaventure",
+    "away_score": "74",
+    "home": "La Salle",
+    "home_score": "78",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-17",
+    "game_id": "6504585",
+    "away": "Richmond",
+    "away_score": "63",
+    "home": "Saint Louis",
+    "home_score": "88",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-19",
+    "game_id": "6504924",
+    "away": "Saint Joseph's",
+    "away_score": "72",
+    "home": "VCU",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-19",
+    "game_id": "6505592",
+    "away": "George Washington",
+    "away_score": "64",
+    "home": "George Mason",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-20",
+    "game_id": "6504431",
+    "away": "Loyola Chicago",
+    "away_score": "70",
+    "home": "St. Bonaventure",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-20",
+    "game_id": "6504586",
+    "away": "Saint Louis",
+    "away_score": "81",
+    "home": "Duquesne",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-21",
+    "game_id": "6504912",
+    "away": "Dayton",
+    "away_score": "64",
+    "home": "La Salle",
+    "home_score": "67",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-21",
+    "game_id": "6504303",
+    "away": "Fordham",
+    "away_score": "63",
+    "home": "Davidson",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-21",
+    "game_id": "6504552",
+    "away": "Rhode Island",
+    "away_score": "69",
+    "home": "Richmond",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-23",
+    "game_id": "6504587",
+    "away": "Saint Louis",
+    "away_score": "97",
+    "home": "St. Bonaventure",
+    "home_score": "62",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-24",
+    "game_id": "6504433",
+    "away": "Duquesne",
+    "away_score": "71",
+    "home": "Loyola Chicago",
+    "home_score": "59",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-24",
+    "game_id": "6504914",
+    "away": "Dayton",
+    "away_score": "74",
+    "home": "Saint Joseph's",
+    "home_score": "81",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-24",
+    "game_id": "6531067",
+    "away": "George Mason",
+    "away_score": "65",
+    "home": "Rhode Island",
+    "home_score": "74",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-24",
+    "game_id": "6505593",
+    "away": "Richmond",
+    "away_score": "69",
+    "home": "George Washington",
+    "home_score": "85",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-24",
+    "game_id": "6505857",
+    "away": "VCU",
+    "away_score": "75",
+    "home": "Davidson",
+    "home_score": "69",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-27",
+    "game_id": "6504915",
+    "away": "Rhode Island",
+    "away_score": "81",
+    "home": "Dayton",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-27",
+    "game_id": "6505858",
+    "away": "Richmond",
+    "away_score": "69",
+    "home": "VCU",
+    "home_score": "77",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-27",
+    "game_id": "6504588",
+    "away": "George Washington",
+    "away_score": "76",
+    "home": "Saint Louis",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-27",
+    "game_id": "6504435",
+    "away": "Saint Joseph's",
+    "away_score": "85",
+    "home": "Loyola Chicago",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-28",
+    "game_id": "6504304",
+    "away": "La Salle",
+    "away_score": "58",
+    "home": "Fordham",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-28",
+    "game_id": "6530853",
+    "away": "Davidson",
+    "away_score": "52",
+    "home": "George Mason",
+    "home_score": "60",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-28",
+    "game_id": "6531422",
+    "away": "St. Bonaventure",
+    "away_score": "87",
+    "home": "Duquesne",
+    "home_score": "79",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-30",
+    "game_id": "6504589",
+    "away": "Dayton",
+    "away_score": "71",
+    "home": "Saint Louis",
+    "home_score": "102",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-30",
+    "game_id": "6504436",
+    "away": "Loyola Chicago",
+    "away_score": "75",
+    "home": "VCU",
+    "home_score": "89",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-31",
+    "game_id": "6504305",
+    "away": "Fordham",
+    "away_score": "79",
+    "home": "George Washington",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-31",
+    "game_id": "6504926",
+    "away": "Saint Joseph's",
+    "away_score": "67",
+    "home": "La Salle",
+    "home_score": "58",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-31",
+    "game_id": "6504556",
+    "away": "Davidson",
+    "away_score": "79",
+    "home": "Richmond",
+    "home_score": "54",
+    "state": "final"
+  },
+  {
+    "date": "2026-01-31",
+    "game_id": "6531069",
+    "away": "George Mason",
+    "away_score": "77",
+    "home": "St. Bonaventure",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-01",
+    "game_id": "6531423",
+    "away": "Rhode Island",
+    "away_score": "61",
+    "home": "Duquesne",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-03",
+    "game_id": "6504306",
+    "away": "VCU",
+    "away_score": "63",
+    "home": "Fordham",
+    "home_score": "59",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-03",
+    "game_id": "6504916",
+    "away": "St. Bonaventure",
+    "away_score": "70",
+    "home": "Dayton",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-03",
+    "game_id": "6504438",
+    "away": "La Salle",
+    "away_score": "61",
+    "home": "Loyola Chicago",
+    "home_score": "71",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-03",
+    "game_id": "6504590",
+    "away": "Saint Louis",
+    "away_score": "91",
+    "home": "Davidson",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-04",
+    "game_id": "6504927",
+    "away": "George Washington",
+    "away_score": "73",
+    "home": "Saint Joseph's",
+    "home_score": "76",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-04",
+    "game_id": "6531066",
+    "away": "Duquesne",
+    "away_score": "71",
+    "home": "George Mason",
+    "home_score": "65",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-06",
+    "game_id": "6504440",
+    "away": "Loyola Chicago",
+    "away_score": "64",
+    "home": "Davidson",
+    "home_score": "84",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-06",
+    "game_id": "6504917",
+    "away": "Dayton",
+    "away_score": "73",
+    "home": "VCU",
+    "home_score": "99",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-07",
+    "game_id": "6504307",
+    "away": "St. Bonaventure",
+    "away_score": "70",
+    "home": "Fordham",
+    "home_score": "67",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-07",
+    "game_id": "6505594",
+    "away": "George Washington",
+    "away_score": "86",
+    "home": "Duquesne",
+    "home_score": "88",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-07",
+    "game_id": "6532086",
+    "away": "Richmond",
+    "away_score": "77",
+    "home": "Rhode Island",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-07",
+    "game_id": "6504591",
+    "away": "La Salle",
+    "away_score": "58",
+    "home": "Saint Louis",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-07",
+    "game_id": "6504928",
+    "away": "Saint Joseph's",
+    "away_score": "52",
+    "home": "George Mason",
+    "home_score": "60",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-09",
+    "game_id": "6585222",
+    "away": "Mid-Atlantic Christ.",
+    "away_score": "53",
+    "home": "Davidson",
+    "home_score": "114",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-10",
+    "game_id": "6504308",
+    "away": "Fordham",
+    "away_score": "68",
+    "home": "Saint Joseph's",
+    "home_score": "64",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-10",
+    "game_id": "6504557",
+    "away": "George Mason",
+    "away_score": "70",
+    "home": "Richmond",
+    "home_score": "82",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-10",
+    "game_id": "6505595",
+    "away": "Rhode Island",
+    "away_score": "70",
+    "home": "George Washington",
+    "home_score": "75",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-11",
+    "game_id": "6505860",
+    "away": "VCU",
+    "away_score": "77",
+    "home": "La Salle",
+    "home_score": "68",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-13",
+    "game_id": "6505596",
+    "away": "George Mason",
+    "away_score": "53",
+    "home": "George Washington",
+    "home_score": "72",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-13",
+    "game_id": "6504441",
+    "away": "Saint Louis",
+    "away_score": "86",
+    "home": "Loyola Chicago",
+    "home_score": "59",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-14",
+    "game_id": "6504309",
+    "away": "Fordham",
+    "away_score": "70",
+    "home": "Rhode Island",
+    "home_score": "66",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-14",
+    "game_id": "6531424",
+    "away": "Duquesne",
+    "away_score": "78",
+    "home": "St. Bonaventure",
+    "home_score": "73",
+    "state": "final"
+  },
+  {
+    "date": "2026-02-14",
+    "game_id": "6505859",
+    "away": "VCU",
+    "away_score": "78",
+    "home": "Richmond",
+    "home_score": "67",
+    "state": "final"
+  }
+]

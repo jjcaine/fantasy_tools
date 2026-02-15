@@ -6,6 +6,7 @@ from pathlib import Path
 from src import ncaa_client, fantrax_client
 from src.boxscore_collector import collect_all_a10_game_ids, collect_boxscores, aggregate_player_stats
 from src.schedule_scanner import scan_all_periods
+from src.validation import run_validation
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
@@ -83,5 +84,8 @@ if __name__ == "__main__":
 
     print("\n--- FanTrax Data ---")
     collect_fantrax_data()
+
+    print("\n--- Validation ---")
+    run_validation()
 
     print("\nDone! All data saved to data/")

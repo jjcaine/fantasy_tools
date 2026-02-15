@@ -1,0 +1,767 @@
+{
+  "14": {
+    "period": 14,
+    "start": "2026-02-09",
+    "end": "2026-02-15",
+    "games": [
+      {
+        "date": "2026-02-09",
+        "game_id": "6585222",
+        "away": "Mid-Atlantic Christ.",
+        "away_score": "53",
+        "home": "Davidson",
+        "home_score": "114",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-10",
+        "game_id": "6504308",
+        "away": "Fordham",
+        "away_score": "68",
+        "home": "Saint Joseph's",
+        "home_score": "64",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-10",
+        "game_id": "6504557",
+        "away": "George Mason",
+        "away_score": "70",
+        "home": "Richmond",
+        "home_score": "82",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-10",
+        "game_id": "6505595",
+        "away": "Rhode Island",
+        "away_score": "70",
+        "home": "George Washington",
+        "home_score": "75",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-11",
+        "game_id": "6505860",
+        "away": "VCU",
+        "away_score": "77",
+        "home": "La Salle",
+        "home_score": "68",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-13",
+        "game_id": "6505596",
+        "away": "George Mason",
+        "away_score": "53",
+        "home": "George Washington",
+        "home_score": "72",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-13",
+        "game_id": "6504441",
+        "away": "Saint Louis",
+        "away_score": "86",
+        "home": "Loyola Chicago",
+        "home_score": "59",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-14",
+        "game_id": "6504309",
+        "away": "Fordham",
+        "away_score": "70",
+        "home": "Rhode Island",
+        "home_score": "66",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-14",
+        "game_id": "6531424",
+        "away": "Duquesne",
+        "away_score": "78",
+        "home": "St. Bonaventure",
+        "home_score": "73",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-14",
+        "game_id": "6505859",
+        "away": "VCU",
+        "away_score": "78",
+        "home": "Richmond",
+        "home_score": "67",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-15",
+        "game_id": "6504918",
+        "away": "Davidson",
+        "away_score": "",
+        "home": "Dayton",
+        "home_score": "",
+        "state": "pre"
+      }
+    ],
+    "games_per_team": {
+      "Davidson": 2,
+      "Dayton": 1,
+      "Duquesne": 1,
+      "Fordham": 2,
+      "George Mason": 2,
+      "George Washington": 2,
+      "La Salle": 1,
+      "Loyola Chicago": 1,
+      "Mid-Atlantic Christ.": 1,
+      "Rhode Island": 2,
+      "Richmond": 2,
+      "Saint Joseph's": 1,
+      "Saint Louis": 1,
+      "St. Bonaventure": 1,
+      "VCU": 2
+    },
+    "game_dates_per_team": {
+      "Mid-Atlantic Christ.": [
+        "2026-02-09"
+      ],
+      "Davidson": [
+        "2026-02-09",
+        "2026-02-15"
+      ],
+      "Fordham": [
+        "2026-02-10",
+        "2026-02-14"
+      ],
+      "Saint Joseph's": [
+        "2026-02-10"
+      ],
+      "George Mason": [
+        "2026-02-10",
+        "2026-02-13"
+      ],
+      "Richmond": [
+        "2026-02-10",
+        "2026-02-14"
+      ],
+      "Rhode Island": [
+        "2026-02-10",
+        "2026-02-14"
+      ],
+      "George Washington": [
+        "2026-02-10",
+        "2026-02-13"
+      ],
+      "VCU": [
+        "2026-02-11",
+        "2026-02-14"
+      ],
+      "La Salle": [
+        "2026-02-11"
+      ],
+      "Saint Louis": [
+        "2026-02-13"
+      ],
+      "Loyola Chicago": [
+        "2026-02-13"
+      ],
+      "Duquesne": [
+        "2026-02-14"
+      ],
+      "St. Bonaventure": [
+        "2026-02-14"
+      ],
+      "Dayton": [
+        "2026-02-15"
+      ]
+    }
+  },
+  "15": {
+    "period": 15,
+    "start": "2026-02-16",
+    "end": "2026-02-22",
+    "games": [
+      {
+        "date": "2026-02-17",
+        "game_id": "6504592",
+        "away": "Saint Louis",
+        "away_score": "",
+        "home": "Rhode Island",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-17",
+        "game_id": "6505597",
+        "away": "George Washington",
+        "away_score": "",
+        "home": "VCU",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6504442",
+        "away": "Loyola Chicago",
+        "away_score": "",
+        "home": "Fordham",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6504930",
+        "away": "Saint Joseph's",
+        "away_score": "",
+        "home": "St. Bonaventure",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6504920",
+        "away": "Dayton",
+        "away_score": "",
+        "home": "George Mason",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6505909",
+        "away": "La Salle",
+        "away_score": "",
+        "home": "Duquesne",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6530854",
+        "away": "Richmond",
+        "away_score": "",
+        "home": "Davidson",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-20",
+        "game_id": "6504593",
+        "away": "VCU",
+        "away_score": "",
+        "home": "Saint Louis",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-21",
+        "game_id": "6504310",
+        "away": "Davidson",
+        "away_score": "",
+        "home": "Fordham",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-21",
+        "game_id": "6504443",
+        "away": "Loyola Chicago",
+        "away_score": "",
+        "home": "Saint Joseph's",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-21",
+        "game_id": "6504923",
+        "away": "Duquesne",
+        "away_score": "",
+        "home": "Dayton",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-21",
+        "game_id": "6505910",
+        "away": "Rhode Island",
+        "away_score": "",
+        "home": "La Salle",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-21",
+        "game_id": "6504558",
+        "away": "St. Bonaventure",
+        "away_score": "",
+        "home": "Richmond",
+        "home_score": "",
+        "state": "pre"
+      }
+    ],
+    "games_per_team": {
+      "Davidson": 2,
+      "Dayton": 2,
+      "Duquesne": 2,
+      "Fordham": 2,
+      "George Mason": 1,
+      "George Washington": 1,
+      "La Salle": 2,
+      "Loyola Chicago": 2,
+      "Rhode Island": 2,
+      "Richmond": 2,
+      "Saint Joseph's": 2,
+      "Saint Louis": 2,
+      "St. Bonaventure": 2,
+      "VCU": 2
+    },
+    "game_dates_per_team": {
+      "Saint Louis": [
+        "2026-02-17",
+        "2026-02-20"
+      ],
+      "Rhode Island": [
+        "2026-02-17",
+        "2026-02-21"
+      ],
+      "George Washington": [
+        "2026-02-17"
+      ],
+      "VCU": [
+        "2026-02-17",
+        "2026-02-20"
+      ],
+      "Loyola Chicago": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Fordham": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Saint Joseph's": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "St. Bonaventure": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Dayton": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "George Mason": [
+        "2026-02-18"
+      ],
+      "La Salle": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Duquesne": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Richmond": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "Davidson": [
+        "2026-02-18",
+        "2026-02-21"
+      ]
+    }
+  },
+  "16": {
+    "period": 16,
+    "start": "2026-02-23",
+    "end": "2026-03-01",
+    "games": [
+      {
+        "date": "2026-02-24",
+        "game_id": "6505598",
+        "away": "George Washington",
+        "away_score": "",
+        "home": "La Salle",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-24",
+        "game_id": "6504594",
+        "away": "Saint Louis",
+        "away_score": "",
+        "home": "Dayton",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-25",
+        "game_id": "6504931",
+        "away": "George Mason",
+        "away_score": "",
+        "home": "Saint Joseph's",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-25",
+        "game_id": "6531425",
+        "away": "Davidson",
+        "away_score": "",
+        "home": "Duquesne",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-25",
+        "game_id": "6531864",
+        "away": "Rhode Island",
+        "away_score": "",
+        "home": "St. Bonaventure",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-27",
+        "game_id": "6504929",
+        "away": "Dayton",
+        "away_score": "",
+        "home": "George Washington",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-28",
+        "game_id": "6504311",
+        "away": "Fordham",
+        "away_score": "",
+        "home": "VCU",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-28",
+        "game_id": "6504932",
+        "away": "Saint Joseph's",
+        "away_score": "",
+        "home": "Rhode Island",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-28",
+        "game_id": "6504444",
+        "away": "Richmond",
+        "away_score": "",
+        "home": "Loyola Chicago",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-28",
+        "game_id": "6531068",
+        "away": "St. Bonaventure",
+        "away_score": "",
+        "home": "George Mason",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-02-28",
+        "game_id": "6504595",
+        "away": "Duquesne",
+        "away_score": "",
+        "home": "Saint Louis",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-01",
+        "game_id": "6505911",
+        "away": "La Salle",
+        "away_score": "",
+        "home": "Davidson",
+        "home_score": "",
+        "state": "pre"
+      }
+    ],
+    "games_per_team": {
+      "Davidson": 2,
+      "Dayton": 2,
+      "Duquesne": 2,
+      "Fordham": 1,
+      "George Mason": 2,
+      "George Washington": 2,
+      "La Salle": 2,
+      "Loyola Chicago": 1,
+      "Rhode Island": 2,
+      "Richmond": 1,
+      "Saint Joseph's": 2,
+      "Saint Louis": 2,
+      "St. Bonaventure": 2,
+      "VCU": 1
+    },
+    "game_dates_per_team": {
+      "George Washington": [
+        "2026-02-24",
+        "2026-02-27"
+      ],
+      "La Salle": [
+        "2026-02-24",
+        "2026-03-01"
+      ],
+      "Saint Louis": [
+        "2026-02-24",
+        "2026-02-28"
+      ],
+      "Dayton": [
+        "2026-02-24",
+        "2026-02-27"
+      ],
+      "George Mason": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "Saint Joseph's": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "Davidson": [
+        "2026-02-25",
+        "2026-03-01"
+      ],
+      "Duquesne": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "Rhode Island": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "St. Bonaventure": [
+        "2026-02-25",
+        "2026-02-28"
+      ],
+      "Fordham": [
+        "2026-02-28"
+      ],
+      "VCU": [
+        "2026-02-28"
+      ],
+      "Richmond": [
+        "2026-02-28"
+      ],
+      "Loyola Chicago": [
+        "2026-02-28"
+      ]
+    }
+  },
+  "17": {
+    "period": 17,
+    "start": "2026-03-02",
+    "end": "2026-03-08",
+    "games": [
+      {
+        "date": "2026-03-03",
+        "game_id": "6505855",
+        "away": "George Mason",
+        "away_score": "",
+        "home": "VCU",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-03",
+        "game_id": "6504559",
+        "away": "Dayton",
+        "away_score": "",
+        "home": "Richmond",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-04",
+        "game_id": "6504312",
+        "away": "Fordham",
+        "away_score": "",
+        "home": "La Salle",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-04",
+        "game_id": "6504933",
+        "away": "Saint Joseph's",
+        "away_score": "",
+        "home": "Davidson",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-04",
+        "game_id": "6505599",
+        "away": "St. Bonaventure",
+        "away_score": "",
+        "home": "George Washington",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-04",
+        "game_id": "6531426",
+        "away": "Duquesne",
+        "away_score": "",
+        "home": "Rhode Island",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-04",
+        "game_id": "6504445",
+        "away": "Loyola Chicago",
+        "away_score": "",
+        "home": "Saint Louis",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-06",
+        "game_id": "6504934",
+        "away": "VCU",
+        "away_score": "",
+        "home": "Dayton",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6504313",
+        "away": "Rhode Island",
+        "away_score": "",
+        "home": "Fordham",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6504596",
+        "away": "Saint Louis",
+        "away_score": "",
+        "home": "George Mason",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6504446",
+        "away": "George Washington",
+        "away_score": "",
+        "home": "Loyola Chicago",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6531865",
+        "away": "Davidson",
+        "away_score": "",
+        "home": "St. Bonaventure",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6504935",
+        "away": "La Salle",
+        "away_score": "",
+        "home": "Saint Joseph's",
+        "home_score": "",
+        "state": "pre"
+      },
+      {
+        "date": "2026-03-07",
+        "game_id": "6530545",
+        "away": "Richmond",
+        "away_score": "",
+        "home": "Duquesne",
+        "home_score": "",
+        "state": "pre"
+      }
+    ],
+    "games_per_team": {
+      "Davidson": 2,
+      "Dayton": 2,
+      "Duquesne": 2,
+      "Fordham": 2,
+      "George Mason": 2,
+      "George Washington": 2,
+      "La Salle": 2,
+      "Loyola Chicago": 2,
+      "Rhode Island": 2,
+      "Richmond": 2,
+      "Saint Joseph's": 2,
+      "Saint Louis": 2,
+      "St. Bonaventure": 2,
+      "VCU": 2
+    },
+    "game_dates_per_team": {
+      "George Mason": [
+        "2026-03-03",
+        "2026-03-07"
+      ],
+      "VCU": [
+        "2026-03-03",
+        "2026-03-06"
+      ],
+      "Dayton": [
+        "2026-03-03",
+        "2026-03-06"
+      ],
+      "Richmond": [
+        "2026-03-03",
+        "2026-03-07"
+      ],
+      "Fordham": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "La Salle": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Saint Joseph's": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Davidson": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "St. Bonaventure": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "George Washington": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Duquesne": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Rhode Island": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Loyola Chicago": [
+        "2026-03-04",
+        "2026-03-07"
+      ],
+      "Saint Louis": [
+        "2026-03-04",
+        "2026-03-07"
+      ]
+    }
+  }
+}

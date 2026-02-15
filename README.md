@@ -44,7 +44,18 @@ Run before every analysis session. Pulls latest player stats, rosters, schedule,
 uv run python src/collect_data.py
 ```
 
-## Playoff Analysis Workflow
+## TUI Workflows
+
+### Check your matchup
+
+1. Press `d` to refresh data (if needed)
+2. Press `m` to open the Matchup Dashboard
+3. Select a scoring period and opponent from the dropdowns
+4. Review the 9-category H2H comparison — green = winning, red = losing
+5. Check the all-opponents overview to see your projected record vs the field
+6. Identify swing categories (small margins) to target with waiver moves
+
+## Notebook Analysis Workflow
 
 ### 1. Roster Analyzer — "What do we have?"
 

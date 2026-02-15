@@ -1079,3 +1079,87 @@ def run_schedule_data_quality(schedule: dict) -> DataQualityReport:
             )
 
     return report
+
+
+# ── Lineup optimization ──────────────────────────────────────────────
+
+
+@dataclass
+class DayPlan:
+    """One day's lineup decision."""
+    date: str
+    playing: int
+    starting: int
+    benched: int
+    starters: list[str]
+    benched_players: list[dict]
+    cumulative_gp: int
+
+
+@dataclass
+class LineupPlan:
+    """Full period lineup optimization result."""
+    days: list[DayPlan]
+    effective_games: dict[str, int]
+    total_gp: int
+    gp_max: int
+
+
+def optimize_lineup(
+    roster_lines: list[PlayerCatLine],
+    game_dates_per_team: dict[str, list[str]],
+    z_by_name: dict[str, float],
+    gp_max: int = 15,
+    active_slots: int = 6,
+) -> LineupPlan:
+    """Greedy lineup optimizer: start highest-z players each day within GP budget.
+
+    Args:
+        roster_lines: PlayerCatLine for each rostered player.
+        game_dates_per_team: {ncaa_team: [date_str, ...]} for the period.
+        z_by_name: {player_name: composite_z_score} for prioritization.
+        gp_max: Maximum total games played allowed in the period.
+        active_slots: Maximum players that can be active on any single day.
+
+    Returns:
+        LineupPlan with daily decisions and effective games per player.
+    """
+    all_dates = sorted({d for dates in game_dates_per_team.values() for d in dates})
+
+    effective_games: dict[str, int] = {cl.name: 0 for cl in roster_lines}
+    days: list[DayPlan] = []
+    cumulative_gp = 0
+
+    for d in all_dates:
+        playing = []
+        for cl in roster_lines:
+            team_dates = game_dates_per_team.get(cl.team, [])
+            if d in team_dates:
+                playing.append({"name": cl.name, "team": cl.team, "value": z_by_name.get(cl.name, 0)})
+
+        playing.sort(key=lambda x: x["value"], reverse=True)
+
+        can_start = min(len(playing), active_slots, gp_max - cumulative_gp)
+        starters = playing[:can_start]
+        benched = playing[can_start:]
+
+        for p in starters:
+            effective_games[p["name"]] += 1
+        cumulative_gp += len(starters)
+
+        days.append(DayPlan(
+            date=d,
+            playing=len(playing),
+            starting=len(starters),
+            benched=len(benched),
+            starters=[p["name"] for p in starters],
+            benched_players=[{"name": p["name"], "value": p["value"]} for p in benched],
+            cumulative_gp=cumulative_gp,
+        ))
+
+    return LineupPlan(
+        days=days,
+        effective_games=effective_games,
+        total_gp=cumulative_gp,
+        gp_max=gp_max,
+    )

@@ -55,6 +55,39 @@ uv run python src/collect_data.py
 5. Check the all-opponents overview to see your projected record vs the field
 6. Identify swing categories (small margins) to target with waiver moves
 
+### Evaluate waivers
+
+1. Press `w` to open the Waiver Optimizer
+2. Select a scoring period
+3. Browse the FA rankings table (sorted by schedule-adjusted z-score)
+4. Check "Best Available Per Category" for targeted pickups
+5. Use the Swap Simulator: select a drop candidate and a FA to add
+6. Compare before/after projected category totals to evaluate the swap
+
+### Optimize your lineup
+
+1. Press `l` to open the Lineup Optimizer
+2. Select the period and adjust GP Max if needed
+3. Review the game calendar to see who plays when
+4. Check the GP budget tracker — if over budget, benching is needed
+5. Follow the optimal daily lineup plan (highest-z players started first)
+6. Check streaming recommendations for days with open roster spots
+
+### Scout player rankings
+
+1. Press `r` to open Player Rankings
+2. Adjust Min GP, Min MPG filters to focus on qualified players
+3. Sort by Composite Z, Schedule-Adjusted Z, or any individual category
+4. Use per-category z-scores to find specialists for swing categories
+
+### Analyze your roster
+
+1. Press `t` to open Roster Analysis
+2. Select a scoring period
+3. Review per-game stats and projected games for each player
+4. Check category ranks (1-8) — green = strength, red = weakness
+5. Use weaknesses to identify categories to target on waivers
+
 ## Notebook Analysis Workflow
 
 ### 1. Roster Analyzer — "What do we have?"

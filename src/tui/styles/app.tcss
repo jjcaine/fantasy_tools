@@ -1,0 +1,59 @@
+/* Fantasy Tools TUI Global Styles */
+
+Screen {
+    layout: vertical;
+}
+
+/* Data freshness header */
+#data-freshness {
+    height: 1;
+    background: $surface;
+    color: $text-muted;
+    padding: 0 1;
+}
+
+/* Data Refresh Screen */
+#refresh-log {
+    height: 1fr;
+    border: solid $primary;
+    margin: 1;
+}
+
+#start-collection {
+    margin: 1;
+    width: auto;
+}
+
+/* Help modal */
+HelpScreen {
+    align: center middle;
+}
+
+#help-dialog {
+    width: 60;
+    height: auto;
+    max-height: 80%;
+    border: thick $primary;
+    background: $surface;
+    padding: 1 2;
+}
+
+#help-title {
+    text-align: center;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+#help-close {
+    width: 100%;
+    margin-top: 1;
+}
+
+/* Placeholder screens */
+.placeholder-label {
+    width: 100%;
+    height: 100%;
+    content-align: center middle;
+    text-style: bold;
+    color: $text-muted;
+}

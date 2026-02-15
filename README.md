@@ -16,17 +16,31 @@ Daily analysis logs live in `analysis/` to track what the models projected vs. w
 
 Team: **Sick-Os Revenge** (8th seed). Playoffs: Periods 15-17 (Feb 16 - Mar 8). Top 2 seeds auto-promoted, seeds 3-4 get R1 byes, seeds 5-8 play in. Daily waiver wire, $100 budget across 3 rounds.
 
-## Setup
+## Quick Start
 
-```
+Prerequisites: Python 3.13+, [uv](https://docs.astral.sh/uv/)
+
+```bash
+# Install dependencies
 uv sync
+
+# Launch the TUI
+uv run fantasy
 ```
+
+The TUI provides a keyboard-driven interface for daily workflows. Press `?` at any time for help. See [Keybindings](#keybindings) below.
+
+### Configuration
+
+Edit `config.toml` at the project root to set your team name, scoring categories, period dates, and GP limits. The TUI reads this file on startup.
 
 ## Refresh Data
 
 Run before every analysis session. Pulls latest player stats, rosters, schedule, and matchup history.
 
-```
+```bash
+# From the TUI: press d to open the Data Refresh screen, then click Start Collection
+# Or from the command line:
 uv run python src/collect_data.py
 ```
 
@@ -99,3 +113,16 @@ marimo edit notebooks/player_rankings.py
 **Roster analyzer → Matchup analyzer → Waiver optimizer**
 
 What you're good at → What you need to win → Who to pick up.
+
+## Keybindings
+
+| Key | Screen |
+|-----|--------|
+| `d` | Data Refresh |
+| `m` | Matchup Dashboard |
+| `r` | Player Rankings |
+| `t` | Roster Analysis |
+| `w` | Waiver Optimizer |
+| `l` | Lineup Optimizer |
+| `?` | Help overlay |
+| `q` | Quit |

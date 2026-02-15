@@ -49,6 +49,14 @@ HelpScreen {
     margin-top: 1;
 }
 
+/* Screen intro banners */
+.screen-intro {
+    height: auto;
+    padding: 0 1;
+    color: $text-muted;
+    background: $surface;
+}
+
 /* Placeholder screens */
 .placeholder-label {
     width: 100%;

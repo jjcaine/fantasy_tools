@@ -106,6 +106,12 @@ class RosterScreen(BaseScreen):
 
         self.query_one("#roster-loading").remove()
 
+        self.mount(Static(
+            "Your roster breakdown with per-game stats and category rankings. "
+            "Use weaknesses (red) to identify categories to target on waivers.",
+            classes="screen-intro",
+        ))
+
         period_options = [(f"Period {p}", p) for p in self._periods]
         controls = Horizontal(id="roster-controls")
         self.mount(controls)
@@ -123,7 +129,7 @@ class RosterScreen(BaseScreen):
             "SPG", "BPG", "TOPG", "3PM", "AdjFG%", "FT%", "Games",
         )
 
-        self.mount(Label("[bold]Category Ranks (1=best, 8=worst)[/bold]"))
+        self.mount(Label("[bold]Category Ranks[/bold] — your projected rank among all 8 teams (green = top 3, red = bottom 3)"))
         rank_table = DataTable(id="roster-ranks")
         self.mount(rank_table)
         from src.fantasy_math import CATEGORIES

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from textual.app import ComposeResult
 from textual.containers import Horizontal
+from textual.events import Key
 from textual.widgets import DataTable, Footer, Header, Input, Label, LoadingIndicator, Select, Static
 from textual import work
 
@@ -27,6 +28,8 @@ Columns:
   Per-category   Individual z-scores for each of the 9 cats
 
 Keybindings:
+  /      Search players by name
+  Esc    Close search (or go home if search is closed)
   ?      Show this help
 """
 
@@ -57,6 +60,11 @@ class RankingsScreen(BaseScreen):
         width: 1fr;
         margin-right: 1;
     }
+    .input-label {
+        width: auto;
+        padding: 1 1 0 1;
+        color: $text-muted;
+    }
     #rankings-controls Input {
         width: 12;
         margin-right: 1;
@@ -64,6 +72,25 @@ class RankingsScreen(BaseScreen):
     #rankings-table {
         height: 1fr;
         margin: 0 1;
+    }
+    #search-bar {
+        height: auto;
+        padding: 0 1;
+        display: none;
+    }
+    #search-bar.visible {
+        display: block;
+    }
+    #search-bar Horizontal {
+        height: 3;
+    }
+    #search-bar Label {
+        width: auto;
+        padding: 1 1 0 0;
+        color: $text-muted;
+    }
+    #search-input {
+        width: 1fr;
     }
     #rankings-loading {
         height: 100%;
@@ -75,12 +102,18 @@ class RankingsScreen(BaseScreen):
     }
     """
 
+    BINDINGS = [
+        *BaseScreen.BINDINGS,
+        ("slash", "toggle_search", "/Search"),
+    ]
+
     def __init__(self, **kwargs) -> None:
         super().__init__(**kwargs)
         self._players: list | None = None
         self._schedule: dict | None = None
         self._periods: list[str] = []
         self._z_data: list[dict] = []
+        self._search_filter: str = ""
         self._loading = True
 
     def compose(self) -> ComposeResult:
@@ -119,6 +152,13 @@ class RankingsScreen(BaseScreen):
 
         self.query_one("#rankings-loading").remove()
 
+        self.mount(Static(
+            "Browse z-score rankings for all A-10 players. "
+            "Filter by games played and minutes, sort by any category to find specialists. "
+            "Higher z = better than average.",
+            classes="screen-intro",
+        ))
+
         period_options = [(f"Period {p}", p) for p in self._periods]
 
         controls = Horizontal(id="rankings-controls")
@@ -126,12 +166,24 @@ class RankingsScreen(BaseScreen):
         controls.mount(
             Select(period_options, prompt="Period", id="period-select",
                    value=self._periods[0] if self._periods else Select.BLANK),
+            Label("Min Games:", classes="input-label"),
             Input(value="5", placeholder="Min GP", id="min-gp-input", type="integer"),
+            Label("Min MPG:", classes="input-label"),
             Input(value="10", placeholder="Min MPG", id="min-mpg-input", type="number"),
             Select(SORT_OPTIONS, prompt="Sort by", id="sort-select", value="composite"),
         )
 
-        table = DataTable(id="rankings-table")
+        from textual.containers import Vertical
+        search_bar = Vertical(id="search-bar")
+        self.mount(search_bar)
+        search_row = Horizontal()
+        search_bar.mount(search_row)
+        search_row.mount(
+            Label("/"),
+            Input(placeholder="Search players...", id="search-input"),
+        )
+
+        table = DataTable(id="rankings-table", cursor_type="row")
         self.mount(table)
         table.add_columns(
             "Player", "Team", "GP", "MPG", "Comp Z", "Sched Z",
@@ -148,11 +200,49 @@ class RankingsScreen(BaseScreen):
                 self.notify(f"Error refreshing rankings: {e}", severity="error")
 
     def on_input_changed(self, event: Input.Changed) -> None:
-        if not self._loading:
-            try:
-                self._refresh_rankings()
-            except Exception as e:
-                self.notify(f"Error refreshing rankings: {e}", severity="error")
+        if self._loading:
+            return
+        if event.input.id == "search-input":
+            self._search_filter = event.value.strip().lower()
+            self._repopulate_table()
+            return
+        try:
+            self._refresh_rankings()
+        except Exception as e:
+            self.notify(f"Error refreshing rankings: {e}", severity="error")
+
+    def action_toggle_search(self) -> None:
+        try:
+            search_bar = self.query_one("#search-bar")
+        except Exception:
+            return
+        if search_bar.has_class("visible"):
+            self._close_search()
+        else:
+            search_bar.add_class("visible")
+            search_input = self.query_one("#search-input", Input)
+            search_input.value = ""
+            search_input.focus()
+
+    def _close_search(self) -> None:
+        search_bar = self.query_one("#search-bar")
+        search_bar.remove_class("visible")
+        self._search_filter = ""
+        search_input = self.query_one("#search-input", Input)
+        search_input.value = ""
+        self._repopulate_table()
+        self.query_one("#rankings-table", DataTable).focus()
+
+    def action_go_home(self) -> None:
+        """Close search first if open, otherwise go home."""
+        try:
+            search_bar = self.query_one("#search-bar")
+            if search_bar.has_class("visible"):
+                self._close_search()
+                return
+        except Exception:
+            pass
+        super().action_go_home()
 
     def _refresh_rankings(self) -> None:
         try:
@@ -199,11 +289,18 @@ class RankingsScreen(BaseScreen):
             z_data.sort(key=lambda r: r["z_scores"].get(sort_key) or -999, reverse=True)
 
         self._z_data = z_data
+        self._repopulate_table()
 
+    def _repopulate_table(self) -> None:
+        """Populate the table from _z_data, applying the current search filter."""
         table = self.query_one("#rankings-table", DataTable)
         table.clear()
         from src.fantasy_math import CATEGORIES
-        for row in z_data:
+
+        query = self._search_filter
+        for row in self._z_data:
+            if query and query not in row["name"].lower() and query not in row["team"].lower():
+                continue
             zs = row["z_scores"]
             cat_vals = []
             for cat in CATEGORIES:

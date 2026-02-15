@@ -132,6 +132,12 @@ class LineupScreen(BaseScreen):
 
         self.query_one("#lineup-loading").remove()
 
+        self.mount(Static(
+            "Optimize daily start/sit decisions within the GP budget. "
+            "Higher-z players start first. Open slots are streaming opportunities.",
+            classes="screen-intro",
+        ))
+
         period_options = [(f"Period {p}", p) for p in self._periods]
         default_period = self._periods[0] if self._periods else Select.BLANK
         default_gp = get_gp_max(int(default_period)) if default_period is not Select.BLANK else 15
@@ -145,13 +151,13 @@ class LineupScreen(BaseScreen):
 
         self.mount(Label("", id="gp-tracker"))
 
-        self.mount(Label("[bold]Game Calendar[/bold]"))
+        self.mount(Label("[bold]Game Calendar[/bold] — who plays when (X = game day)"))
         self.mount(DataTable(id="calendar-table"))
 
-        self.mount(Label("[bold]Optimal Daily Lineup[/bold]"))
+        self.mount(Label("[bold]Optimal Daily Lineup[/bold] — greedy by z-score, respecting GP max"))
         self.mount(DataTable(id="lineup-table"))
 
-        self.mount(Label("[bold]Streaming Recommendations[/bold]", id="streaming-label"))
+        self.mount(Label("[bold]Streaming Recommendations[/bold] — days with open roster spots and best available FAs", id="streaming-label"))
         self.mount(DataTable(id="streaming-table"))
 
         self._refresh_lineup()

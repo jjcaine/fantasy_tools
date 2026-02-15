@@ -137,6 +137,12 @@ class WaiverScreen(BaseScreen):
 
         self.query_one("#waiver-loading").remove()
 
+        self.mount(Static(
+            "Evaluate free agents and simulate roster swaps. "
+            "Pick a player to drop and one to add, then compare projected before/after totals.",
+            classes="screen-intro",
+        ))
+
         period_options = [(f"Period {p}", p) for p in self._periods]
         controls = Horizontal(id="waiver-controls")
         self.mount(controls)
@@ -146,20 +152,20 @@ class WaiverScreen(BaseScreen):
         )
 
         # FA rankings table
-        self.mount(Label("[bold]Free Agent Rankings[/bold] (by schedule-adjusted z)"))
+        self.mount(Label("[bold]Free Agent Rankings[/bold] — sorted by schedule-adjusted z-score (higher = more valuable this period)"))
         fa_table = DataTable(id="fa-table")
         self.mount(fa_table)
         fa_table.add_columns("Rank", "Player", "Team", "GP", "Comp Z", "Sched Z")
 
         # Best per category
-        self.mount(Label("[bold]Best Available Per Category[/bold] (top 5)"))
+        self.mount(Label("[bold]Best Available Per Category[/bold] — top 5 FAs for each stat category"))
         best_table = DataTable(id="best-per-cat")
         self.mount(best_table)
         from src.fantasy_math import CATEGORIES
         best_table.add_columns("Category", "#1", "#2", "#3", "#4", "#5")
 
         # Swap simulator
-        self.mount(Label("[bold]Swap Simulator[/bold]"))
+        self.mount(Label("[bold]Swap Simulator[/bold] — select a drop and add to see projected impact on each category"))
         swap_controls = Horizontal(id="swap-controls")
         self.mount(swap_controls)
         swap_controls.mount(

@@ -22,12 +22,16 @@ class BaseScreen(Screen):
         """Pop back to the default (home) screen."""
         while len(self.app.screen_stack) > 1:
             self.app.pop_screen()
+        from src.config import get_my_team
+        self.app.sub_title = get_my_team()
 
     def action_goto(self, screen_name: str) -> None:
         """Switch to a named screen."""
         # Pop to home first, then push target
         while len(self.app.screen_stack) > 1:
             self.app.pop_screen()
+        from src.tui.app import FantasyApp
+        self.app.sub_title = FantasyApp.SCREEN_TITLES.get(screen_name, screen_name)
         self.app.push_screen(screen_name)
 
     def action_show_help(self) -> None:

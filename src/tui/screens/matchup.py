@@ -133,6 +133,13 @@ class MatchupScreen(BaseScreen):
 
         self.query_one("#matchup-loading").remove()
 
+        self.mount(Static(
+            "Compare your projected stats against an opponent. Pick a period and opponent, "
+            "then check which 5 of 9 categories you're winning. "
+            "Swing categories (small margins) are where waiver moves matter most.",
+            classes="screen-intro",
+        ))
+
         period_options = [(f"Period {p}", p) for p in self._periods]
         opponent_options = [(name, name) for name in self._opponents]
 
@@ -151,6 +158,7 @@ class MatchupScreen(BaseScreen):
 
         overview = Vertical(id="overview-section")
         self.mount(overview)
+        overview.mount(Label("[bold]All Opponents[/bold] — your projected record vs every team this period"))
         overview_table = DataTable(id="overview-table")
         overview.mount(overview_table)
         overview_table.add_columns("Opponent", "Result", "Our Wins", "Their Wins", "Ties")

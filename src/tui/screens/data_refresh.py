@@ -57,6 +57,11 @@ class DataRefreshScreen(BaseScreen):
 
     def compose(self) -> ComposeResult:
         yield Header()
+        yield Static(
+            "Pull latest player stats, rosters, schedules, and matchup data. "
+            "Click Start Collection to run all steps. Press ? for full help.",
+            classes="screen-intro",
+        )
         yield Static(self._freshness_text(), id="data-freshness")
         yield Button("Start Collection", id="start-collection", variant="primary")
         yield RichLog(highlight=True, markup=True, id="refresh-log")

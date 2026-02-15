@@ -43,10 +43,20 @@ class FantasyApp(App):
         yield Header()
         yield Footer()
 
+    SCREEN_TITLES = {
+        "data_refresh": "Data Refresh",
+        "matchup": "Matchup Dashboard",
+        "rankings": "Player Rankings",
+        "roster": "Roster Analysis",
+        "waiver": "Waiver Optimizer",
+        "lineup": "Lineup Optimizer",
+    }
+
     def action_goto(self, screen_name: str) -> None:
         # Pop back to default screen first, then push the target
         while len(self.screen_stack) > 1:
             self.pop_screen()
+        self.sub_title = self.SCREEN_TITLES.get(screen_name, screen_name)
         self.push_screen(screen_name)
 
     def action_help(self) -> None:

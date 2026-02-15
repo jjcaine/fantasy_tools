@@ -7,10 +7,10 @@ from datetime import datetime
 from pathlib import Path
 
 from textual.app import ComposeResult
-from textual.screen import Screen
-from textual.widgets import Button, Header, RichLog, Static
+from textual.widgets import Button, Footer, Header, RichLog, Static
 from textual import work
 
+from src.tui.screens.base import BaseScreen
 from src.tui.screens.help import HelpScreen
 
 DATA_DIR = Path(__file__).resolve().parent.parent.parent.parent / "data"
@@ -52,18 +52,15 @@ Notes:
 """
 
 
-class DataRefreshScreen(Screen):
+class DataRefreshScreen(BaseScreen):
     """Screen for refreshing cached data files."""
-
-    BINDINGS = [
-        ("question_mark", "show_help", "Help"),
-    ]
 
     def compose(self) -> ComposeResult:
         yield Header()
         yield Static(self._freshness_text(), id="data-freshness")
         yield Button("Start Collection", id="start-collection", variant="primary")
         yield RichLog(highlight=True, markup=True, id="refresh-log")
+        yield Footer()
 
     def _freshness_text(self) -> str:
         parts = []

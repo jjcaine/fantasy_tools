@@ -4,11 +4,11 @@ from __future__ import annotations
 
 from textual.app import ComposeResult
 from textual.containers import Horizontal, Vertical
-from textual.screen import Screen
-from textual.widgets import DataTable, Header, Label, LoadingIndicator, Select, Static
+from textual.widgets import DataTable, Footer, Header, Label, LoadingIndicator, Select, Static
 from textual import work
 
 from src.config import get_my_team
+from src.tui.screens.base import BaseScreen
 from src.tui.screens.help import HelpScreen
 from src.tui.widgets.category_table import CategoryComparisonTable
 
@@ -38,10 +38,8 @@ Keybindings:
 """
 
 
-class MatchupScreen(Screen):
+class MatchupScreen(BaseScreen):
     """H2H matchup analysis screen."""
-
-    BINDINGS = [("question_mark", "show_help", "Help")]
 
     DEFAULT_CSS = """
     #matchup-controls {
@@ -92,6 +90,7 @@ class MatchupScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield LoadingIndicator(id="matchup-loading")
+        yield Footer()
 
     def on_mount(self) -> None:
         self._load_data()

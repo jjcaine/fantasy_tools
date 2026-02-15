@@ -4,11 +4,11 @@ from __future__ import annotations
 
 from textual.app import ComposeResult
 from textual.containers import Horizontal, Vertical
-from textual.screen import Screen
-from textual.widgets import DataTable, Header, Label, LoadingIndicator, Select, Static
+from textual.widgets import DataTable, Footer, Header, Label, LoadingIndicator, Select, Static
 from textual import work
 
 from src.config import get_my_team
+from src.tui.screens.base import BaseScreen
 from src.tui.screens.help import HelpScreen
 
 HELP_TEXT = """\
@@ -32,10 +32,8 @@ Keybindings:
 """
 
 
-class WaiverScreen(Screen):
+class WaiverScreen(BaseScreen):
     """Waiver wire analysis screen."""
-
-    BINDINGS = [("question_mark", "show_help", "Help")]
 
     DEFAULT_CSS = """
     #waiver-controls {
@@ -94,6 +92,7 @@ class WaiverScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield LoadingIndicator(id="waiver-loading")
+        yield Footer()
 
     def on_mount(self) -> None:
         self._load_data()

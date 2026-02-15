@@ -4,10 +4,10 @@ from __future__ import annotations
 
 from textual.app import ComposeResult
 from textual.containers import Horizontal
-from textual.screen import Screen
-from textual.widgets import DataTable, Header, Input, Label, LoadingIndicator, Select, Static
+from textual.widgets import DataTable, Footer, Header, Input, Label, LoadingIndicator, Select, Static
 from textual import work
 
+from src.tui.screens.base import BaseScreen
 from src.tui.screens.help import HelpScreen
 
 HELP_TEXT = """\
@@ -45,10 +45,8 @@ SORT_OPTIONS = [
 ]
 
 
-class RankingsScreen(Screen):
+class RankingsScreen(BaseScreen):
     """Player z-score rankings screen."""
-
-    BINDINGS = [("question_mark", "show_help", "Help")]
 
     DEFAULT_CSS = """
     #rankings-controls {
@@ -88,6 +86,7 @@ class RankingsScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield LoadingIndicator(id="rankings-loading")
+        yield Footer()
 
     def on_mount(self) -> None:
         self._load_data()

@@ -4,11 +4,11 @@ from __future__ import annotations
 
 from textual.app import ComposeResult
 from textual.containers import Horizontal, Vertical
-from textual.screen import Screen
-from textual.widgets import DataTable, Header, Input, Label, LoadingIndicator, Select, Static
+from textual.widgets import DataTable, Footer, Header, Input, Label, LoadingIndicator, Select, Static
 from textual import work
 
 from src.config import get_my_team, get_gp_max
+from src.tui.screens.base import BaseScreen
 from src.tui.screens.help import HelpScreen
 
 HELP_TEXT = """\
@@ -38,10 +38,8 @@ Keybindings:
 """
 
 
-class LineupScreen(Screen):
+class LineupScreen(BaseScreen):
     """Lineup optimization screen."""
-
-    BINDINGS = [("question_mark", "show_help", "Help")]
 
     DEFAULT_CSS = """
     #lineup-controls {
@@ -99,6 +97,7 @@ class LineupScreen(Screen):
     def compose(self) -> ComposeResult:
         yield Header()
         yield LoadingIndicator(id="lineup-loading")
+        yield Footer()
 
     def on_mount(self) -> None:
         self._load_data()

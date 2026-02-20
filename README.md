@@ -16,21 +16,79 @@ Daily analysis logs live in `analysis/` to track what the models projected vs. w
 
 Team: **Sick-Os Revenge** (8th seed). Playoffs: Periods 15-17 (Feb 16 - Mar 8). Top 2 seeds auto-promoted, seeds 3-4 get R1 byes, seeds 5-8 play in. Daily waiver wire, $100 budget across 3 rounds.
 
-## Setup
+## Quick Start
 
-```
+Prerequisites: Python 3.13+, [uv](https://docs.astral.sh/uv/)
+
+```bash
+# Install dependencies
 uv sync
+
+# Launch the TUI
+uv run fantasy
 ```
+
+The TUI provides a keyboard-driven interface for daily workflows. Press `?` at any time for help. See [Keybindings](#keybindings) below.
+
+### Configuration
+
+Edit `config.toml` at the project root to set your team name, scoring categories, period dates, and GP limits. The TUI reads this file on startup.
 
 ## Refresh Data
 
 Run before every analysis session. Pulls latest player stats, rosters, schedule, and matchup history.
 
-```
+```bash
+# From the TUI: press d to open the Data Refresh screen, then click Start Collection
+# Or from the command line:
 uv run python src/collect_data.py
 ```
 
-## Playoff Analysis Workflow
+## TUI Workflows
+
+### Check your matchup
+
+1. Press `d` to refresh data (if needed)
+2. Press `m` to open the Matchup Dashboard
+3. Select a scoring period and opponent from the dropdowns
+4. Review the 9-category H2H comparison — green = winning, red = losing
+5. Check the all-opponents overview to see your projected record vs the field
+6. Identify swing categories (small margins) to target with waiver moves
+
+### Evaluate waivers
+
+1. Press `w` to open the Waiver Optimizer
+2. Select a scoring period
+3. Browse the FA rankings table (sorted by schedule-adjusted z-score)
+4. Check "Best Available Per Category" for targeted pickups
+5. Use the Swap Simulator: select a drop candidate and a FA to add
+6. Compare before/after projected category totals to evaluate the swap
+
+### Optimize your lineup
+
+1. Press `l` to open the Lineup Optimizer
+2. Select the period and adjust GP Max if needed
+3. Review the game calendar to see who plays when
+4. Check the GP budget tracker — if over budget, benching is needed
+5. Follow the optimal daily lineup plan (highest-z players started first)
+6. Check streaming recommendations for days with open roster spots
+
+### Scout player rankings
+
+1. Press `r` to open Player Rankings
+2. Adjust Min GP, Min MPG filters to focus on qualified players
+3. Sort by Composite Z, Schedule-Adjusted Z, or any individual category
+4. Use per-category z-scores to find specialists for swing categories
+
+### Analyze your roster
+
+1. Press `t` to open Roster Analysis
+2. Select a scoring period
+3. Review per-game stats and projected games for each player
+4. Check category ranks (1-8) — green = strength, red = weakness
+5. Use weaknesses to identify categories to target on waivers
+
+## Notebook Analysis Workflow
 
 ### 1. Roster Analyzer — "What do we have?"
 
@@ -89,13 +147,26 @@ marimo edit notebooks/player_rankings.py
 
 ## During Each Playoff Round
 
-1. Refresh data daily (`uv run python src/collect_data.py`)
-2. Check lineup optimizer for start/sit decisions
-3. If a streaming slot opens, check waiver optimizer for best available
-4. Before R2/R3 waivers, re-run matchup analyzer against the next opponent
+1. Refresh data daily (TUI: `d` then Start Collection, or `uv run python src/collect_data.py`)
+2. Check lineup optimizer (`l`) for start/sit decisions
+3. If a streaming slot opens, check waiver optimizer (`w`) for best available
+4. Before R2/R3 waivers, re-run matchup analyzer (`m`) against the next opponent
 
 ## Critical Path
 
 **Roster analyzer → Matchup analyzer → Waiver optimizer**
 
 What you're good at → What you need to win → Who to pick up.
+
+## Keybindings
+
+| Key | Screen |
+|-----|--------|
+| `d` | Data Refresh |
+| `m` | Matchup Dashboard |
+| `r` | Player Rankings |
+| `t` | Roster Analysis |
+| `w` | Waiver Optimizer |
+| `l` | Lineup Optimizer |
+| `?` | Help overlay |
+| `q` | Quit |

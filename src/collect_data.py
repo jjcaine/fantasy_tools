@@ -2,6 +2,7 @@
 
 import json
 from pathlib import Path
+from typing import Callable
 
 from src import ncaa_client, fantrax_client
 from src.boxscore_collector import collect_all_a10_game_ids, collect_boxscores, aggregate_player_stats
@@ -12,55 +13,55 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 DATA_DIR.mkdir(exist_ok=True)
 
 
-def save_json(data, filename: str):
+def save_json(data, filename: str, log: Callable[..., object] = print):
     with open(DATA_DIR / filename, "w") as f:
         json.dump(data, f, indent=2, default=str)
-    print(f"  Saved {filename}")
+    log(f"  Saved {filename}")
 
 
-def collect_ncaa_standings():
+def collect_ncaa_standings(log: Callable[..., object] = print):
     """Pull A-10 conference standings."""
-    print("Collecting A-10 standings...")
+    log("Collecting A-10 standings...")
     standings = ncaa_client.get_standings()
-    save_json(standings, "a10_standings.json")
-    print(f"  {len(standings)} teams in standings")
+    save_json(standings, "a10_standings.json", log=log)
+    log(f"  {len(standings)} teams in standings")
     return standings
 
 
-def collect_player_stats():
+def collect_player_stats(log: Callable[..., object] = print):
     """Collect complete A-10 player stats from box scores."""
-    print("Collecting A-10 player stats from box scores...")
+    log("Collecting A-10 player stats from box scores...")
     games = collect_all_a10_game_ids()
     rows = collect_boxscores(games)
     df = aggregate_player_stats(rows)
     return df
 
 
-def collect_fantrax_data():
+def collect_fantrax_data(log: Callable[..., object] = print):
     """Pull all FanTrax league data."""
-    print("Connecting to FanTrax...")
+    log("Connecting to FanTrax...")
     league = fantrax_client.get_league()
-    print(f"  Connected to: {league.name}")
+    log(f"  Connected to: {league.name}")
 
-    print("Pulling standings...")
+    log("Pulling standings...")
     standings = fantrax_client.get_standings(league)
-    save_json(standings, "fantrax_standings.json")
+    save_json(standings, "fantrax_standings.json", log=log)
 
-    print("Pulling all team rosters...")
+    log("Pulling all team rosters...")
     rosters = fantrax_client.get_all_rosters(league)
-    save_json(rosters, "fantrax_rosters.json")
+    save_json(rosters, "fantrax_rosters.json", log=log)
 
-    print("Pulling matchup history (all periods)...")
+    log("Pulling matchup history (all periods)...")
     all_matchups = {}
     for period_num in range(1, 18):
         data = fantrax_client.get_matchup_period_data(league, period_num)
         if data["rows"]:
             all_matchups[period_num] = data
-    save_json(all_matchups, "fantrax_all_matchups.json")
+    save_json(all_matchups, "fantrax_all_matchups.json", log=log)
 
-    print("Pulling free agents...")
+    log("Pulling free agents...")
     free_agents = fantrax_client.get_free_agents()
-    save_json(free_agents, "fantrax_free_agents.json")
+    save_json(free_agents, "fantrax_free_agents.json", log=log)
 
     return {
         "standings": standings,

@@ -16,16 +16,27 @@
       "ncaa_team": "Saint Joseph's",
       "status": "NOT_IN_FANTRAX",
       "detail": "Not found in Fantrax rosters or FA pool",
-      "games": 23
+      "games": 24
     },
     {
       "name": "Fatt Hill",
       "ncaa_team": "George Mason",
       "status": "NAME_MISMATCH",
       "detail": "Last name match: NCAA 'Fatt Hill' ~ Fantrax 'Jermahri Hill'",
-      "games": 20,
+      "games": 21,
       "fantrax_name": "Jermahri Hill",
       "fantrax_team": "George Mason Patriots",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
+    },
+    {
+      "name": "Cameron Crawford",
+      "ncaa_team": "Duquesne",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'Cameron Crawford' ~ Fantrax 'Cam Crawford'",
+      "games": 26,
+      "fantrax_name": "Cam Crawford",
+      "fantrax_team": "Duquesne Dukes",
       "fantrax_source": "rostered",
       "fantasy_team": "Fordham University Christian Knights"
     },
@@ -34,31 +45,21 @@
       "ncaa_team": "Loyola Chicago",
       "status": "NAME_MISMATCH",
       "detail": "Last name match: NCAA 'Nicolus Anderson' ~ Fantrax 'Nic Anderson'",
-      "games": 20,
+      "games": 21,
       "fantrax_name": "Nic Anderson",
       "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
-    },
-    {
-      "name": "Cameron Crawford",
-      "ncaa_team": "Duquesne",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'Cameron Crawford' ~ Fantrax 'Cam Crawford'",
-      "games": 25,
-      "fantrax_name": "Cam Crawford",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "Joseph Grahovac",
       "ncaa_team": "St. Bonaventure",
       "status": "NAME_MISMATCH",
       "detail": "Last name match: NCAA 'Joseph Grahovac' ~ Fantrax 'Joe Grahovac'",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Joe Grahovac",
-      "fantrax_team": "StBon",
-      "fantrax_source": "FA"
+      "fantrax_team": "St. Bonaventure Bonnies",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
     },
     {
       "name": "Amar\u2019e Marshall",
@@ -75,7 +76,7 @@
       "ncaa_team": "Davidson",
       "status": "NAME_MISMATCH",
       "detail": "Last name match: NCAA 'JaQualon \"JQ\" Roberts' ~ Fantrax 'JaQualon Roberts'",
-      "games": 22,
+      "games": 24,
       "fantrax_name": "JaQualon Roberts",
       "fantrax_team": "David",
       "fantrax_source": "FA"
@@ -107,7 +108,7 @@
       "ncaa_team": "Fordham",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Dejour Reaves",
       "fantrax_team": "Fordham Rams",
       "fantrax_source": "rostered",
@@ -118,51 +119,40 @@
       "ncaa_team": "Duquesne",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Tarence Guinyard",
       "fantrax_team": "Duquesne Dukes",
       "fantrax_source": "rostered",
       "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
-      "name": "Jimmie Williams",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Jimmie Williams",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Brian"
-    },
-    {
-      "name": "Frank Mitchell",
-      "ncaa_team": "St. Bonaventure",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Frank Mitchell",
-      "fantrax_team": "St. Bonaventure Bonnies",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
-    },
-    {
       "name": "Darryl Simmons II",
       "ncaa_team": "St. Bonaventure",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Darryl Simmons",
       "fantrax_team": "St. Bonaventure Bonnies",
       "fantrax_source": "rostered",
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
+      "name": "Frank Mitchell",
+      "ncaa_team": "St. Bonaventure",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Frank Mitchell",
+      "fantrax_team": "St. Bonaventure Bonnies",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
+    },
+    {
       "name": "Javon Bennett",
       "ncaa_team": "Dayton",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 26,
       "fantrax_name": "Javon Bennett",
       "fantrax_team": "Dayton Flyers",
       "fantrax_source": "rostered",
@@ -190,44 +180,33 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "Jimmie Williams",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Jimmie Williams",
+      "fantrax_team": "Duquesne Dukes",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Brian"
+    },
+    {
       "name": "Jaiden Glover-Toscano",
       "ncaa_team": "Saint Joseph's",
       "status": "NOT_IN_FANTRAX",
       "detail": "Not found in Fantrax rosters or FA pool",
-      "games": 23
-    },
-    {
-      "name": "Kory Mincy",
-      "ncaa_team": "George Mason",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
-      "fantrax_name": "Kory Mincy",
-      "fantrax_team": "George Mason Patriots",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
+      "games": 24
     },
     {
       "name": "Tyler Cochran",
       "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Tyler Cochran",
       "fantrax_team": "Rhode Island Rams",
       "fantrax_source": "rostered",
       "fantasy_team": "We Don't Talk About Linda Bruno"
-    },
-    {
-      "name": "De'Shayne Montgomery",
-      "ncaa_team": "Dayton",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 23,
-      "fantrax_name": "Deshayne Montgomery",
-      "fantrax_team": "Dayton Flyers",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
     },
     {
       "name": "Zarique Nutter",
@@ -241,70 +220,70 @@
       "fantasy_team": "Frank's Quality"
     },
     {
+      "name": "Kory Mincy",
+      "ncaa_team": "George Mason",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 27,
+      "fantrax_name": "Kory Mincy",
+      "fantrax_team": "George Mason Patriots",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
+    },
+    {
+      "name": "De'Shayne Montgomery",
+      "ncaa_team": "Dayton",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "Deshayne Montgomery",
+      "fantrax_team": "Dayton Flyers",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Nishy Baby"
+    },
+    {
       "name": "Terrence Hill Jr.",
       "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Terrence Hill",
       "fantrax_team": "VCU Rams",
       "fantrax_source": "rostered",
       "fantasy_team": "Frank's Quality"
     },
     {
-      "name": "Lazar Djokovic",
-      "ncaa_team": "VCU",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Lazar Djokovic",
-      "fantrax_team": "VCU Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
-    },
-    {
       "name": "Jonah Hinton",
       "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 22,
+      "games": 23,
       "fantrax_name": "Jonah Hinton",
       "fantrax_team": "Rhode Island Rams",
       "fantrax_source": "rostered",
       "fantasy_team": "Sick-Os Revenge"
     },
     {
-      "name": "Riley Allenspach",
-      "ncaa_team": "George Mason",
+      "name": "Lazar Djokovic",
+      "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Riley Allenspach",
-      "fantrax_team": "George Mason Patriots",
+      "games": 26,
+      "fantrax_name": "Lazar Djokovic",
+      "fantrax_team": "VCU Rams",
       "fantrax_source": "rostered",
-      "fantasy_team": "We Don't Talk About Linda Bruno"
+      "fantasy_team": "Nishy Baby"
     },
     {
       "name": "Derek Simpson",
       "ncaa_team": "Saint Joseph's",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Derek Simpson",
       "fantrax_team": "Saint Joseph's Hawks",
       "fantrax_source": "rostered",
       "fantasy_team": "Back to the Big East"
-    },
-    {
-      "name": "Garrett Johnson",
-      "ncaa_team": "George Washington",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 22,
-      "fantrax_name": "Garrett Johnson",
-      "fantrax_team": "George Washington Revolutionaries",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "Keeyan Itejere",
@@ -318,26 +297,59 @@
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
-      "name": "Cayden Charles",
-      "ncaa_team": "St. Bonaventure",
+      "name": "Riley Allenspach",
+      "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Cayden Charles",
-      "fantrax_team": "St. Bonaventure Bonnies",
+      "games": 26,
+      "fantrax_name": "Riley Allenspach",
+      "fantrax_team": "George Mason Patriots",
       "fantrax_source": "rostered",
-      "fantasy_team": "Back to the Big East"
+      "fantasy_team": "We Don't Talk About Linda Bruno"
+    },
+    {
+      "name": "Garrett Johnson",
+      "ncaa_team": "George Washington",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 23,
+      "fantrax_name": "Garrett Johnson",
+      "fantrax_team": "George Washington Revolutionaries",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "AJ Lopez",
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "AJ Lopez",
       "fantrax_team": "Richmond Spiders",
       "fantrax_source": "rostered",
       "fantasy_team": "Frank's Quality"
+    },
+    {
+      "name": "Cayden Charles",
+      "ncaa_team": "St. Bonaventure",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Cayden Charles",
+      "fantrax_team": "St. Bonaventure Bonnies",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Back to the Big East"
+    },
+    {
+      "name": "Robbie Avila",
+      "ncaa_team": "Saint Louis",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Robbie Avila",
+      "fantrax_team": "Saint Louis Billikens",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
       "name": "Jahmere Tripp",
@@ -355,51 +367,18 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Jaeden Marshall",
       "fantrax_team": "La Salle Explorers",
       "fantrax_source": "rostered",
       "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
-      "name": "Robbie Avila",
-      "ncaa_team": "Saint Louis",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Robbie Avila",
-      "fantrax_team": "Saint Louis Billikens",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Boardwalk Hall is on Fire"
-    },
-    {
-      "name": "Trey Green",
-      "ncaa_team": "Saint Louis",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Trey Green",
-      "fantrax_team": "Saint Louis Billikens",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
-    },
-    {
-      "name": "Jerome Brewer, Jr.",
-      "ncaa_team": "La Salle",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 17,
-      "fantrax_name": "Jerome Brewer",
-      "fantrax_team": "La Salle Explorers",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
-    },
-    {
       "name": "Roberts Blums",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 26,
       "fantrax_name": "Roberts Blums",
       "fantrax_team": "Davidson Wildcats",
       "fantrax_source": "rostered",
@@ -410,22 +389,33 @@
       "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Jahari Long",
       "fantrax_team": "George Mason Patriots",
       "fantrax_source": "rostered",
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
-      "name": "Christian Henry",
-      "ncaa_team": "Fordham",
+      "name": "Trey Green",
+      "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Christian Henry",
-      "fantrax_team": "Fordham Rams",
+      "games": 25,
+      "fantrax_name": "Trey Green",
+      "fantrax_team": "Saint Louis Billikens",
       "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
+      "fantasy_team": "Fordham University Christian Knights"
+    },
+    {
+      "name": "Amael L'Etang",
+      "ncaa_team": "Dayton",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 22,
+      "fantrax_name": "Amael L'Etang",
+      "fantrax_team": "Dayton Flyers",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "Zarique Nutter",
@@ -439,55 +429,64 @@
       "fantasy_team": "Frank's Quality"
     },
     {
-      "name": "Justin Moore",
-      "ncaa_team": "Loyola Chicago",
+      "name": "Jerome Brewer, Jr.",
+      "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 21,
-      "fantrax_name": "Justin Moore",
-      "fantrax_team": "Loyola (IL) Ramblers",
+      "games": 18,
+      "fantrax_name": "Jerome Brewer",
+      "fantrax_team": "La Salle Explorers",
       "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
+      "fantasy_team": "Sick-Os Revenge"
     },
     {
-      "name": "Amael L'Etang",
-      "ncaa_team": "Dayton",
+      "name": "Christian Henry",
+      "ncaa_team": "Fordham",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 25,
+      "fantrax_name": "Christian Henry",
+      "fantrax_team": "Ford",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Dion Brown",
+      "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 20,
-      "fantrax_name": "Amael L'Etang",
-      "fantrax_team": "Dayton Flyers",
+      "games": 26,
+      "fantrax_name": "Dion Brown",
+      "fantrax_team": "Saint Louis Billikens",
       "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
+      "fantasy_team": "Sick-Os Revenge"
     },
     {
       "name": "Dasear Haskins",
       "ncaa_team": "Saint Joseph's",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Dasear Haskins",
       "fantrax_team": "Saint Joseph's Hawks",
       "fantrax_source": "rostered",
       "fantasy_team": "Back to the Big East"
     },
     {
-      "name": "Rikus Schulte",
-      "ncaa_team": "Fordham",
+      "name": "Xavier Amos",
+      "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
-      "fantrax_name": "Rikus Schulte",
-      "fantrax_team": "Fordham Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Boardwalk Hall is on Fire"
+      "detail": "Matched in Fantrax (FA)",
+      "games": 13,
+      "fantrax_name": "Xavier Amos",
+      "fantrax_team": "LoyIL",
+      "fantrax_source": "FA"
     },
     {
       "name": "Josh Scovens",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 26,
       "fantrax_name": "Josh Scovens",
       "fantrax_team": "Davidson Wildcats",
       "fantrax_source": "rostered",
@@ -498,129 +497,110 @@
       "ncaa_team": "George Mason",
       "status": "NAME_MISMATCH",
       "detail": "Last name match: NCAA 'Fatt Hill' ~ Fantrax 'Jermahri Hill'",
-      "games": 20,
+      "games": 21,
       "fantrax_name": "Jermahri Hill",
       "fantrax_team": "George Mason Patriots",
       "fantrax_source": "rostered",
       "fantasy_team": "Fordham University Christian Knights"
     },
     {
-      "name": "Dion Brown",
-      "ncaa_team": "Saint Louis",
+      "name": "Justin Moore",
+      "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "Dion Brown",
-      "fantrax_team": "StLou",
-      "fantrax_source": "FA"
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 22,
+      "fantrax_name": "Justin Moore",
+      "fantrax_team": "Loyola (IL) Ramblers",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "Miles Rubin",
       "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Miles Rubin",
       "fantrax_team": "Loyola (IL) Ramblers",
       "fantrax_source": "rostered",
       "fantasy_team": "Frank's Quality"
     },
     {
-      "name": "Amari McCottry",
-      "ncaa_team": "Saint Louis",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Amari McCottry",
-      "fantrax_team": "Saint Louis Billikens",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
-    },
-    {
       "name": "Aiden Argabright",
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Aiden Argabright",
       "fantrax_team": "Richmond Spiders",
       "fantrax_source": "rostered",
       "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
-      "name": "Trey Autry",
-      "ncaa_team": "George Washington",
+      "name": "Parker Friedrichsen",
+      "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Trey Autry",
-      "fantrax_team": "George Washington Revolutionaries",
+      "games": 26,
+      "fantrax_name": "Parker Friedrichsen",
+      "fantrax_team": "Davidson Wildcats",
       "fantrax_source": "rostered",
-      "fantasy_team": "Back to the Big East"
+      "fantasy_team": "Boardwalk Hall is on Fire"
+    },
+    {
+      "name": "Rikus Schulte",
+      "ncaa_team": "Fordham",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 27,
+      "fantrax_name": "Rikus Schulte",
+      "fantrax_team": "Fordham Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
       "name": "Dasonte Bowen",
       "ncaa_team": "St. Bonaventure",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Dasonte Bowen",
       "fantrax_team": "St. Bonaventure Bonnies",
       "fantrax_source": "rostered",
       "fantasy_team": "Sick-Os Revenge"
     },
     {
-      "name": "Xavier Amos",
-      "ncaa_team": "Loyola Chicago",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 12,
-      "fantrax_name": "Xavier Amos",
-      "fantrax_team": "LoyIL",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Jadrian Tracey",
-      "ncaa_team": "VCU",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 26,
-      "fantrax_name": "Jadrian Tracey",
-      "fantrax_team": "VCU",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "John Hugley IV",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 19,
-      "fantrax_name": "John Hugley",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
-    },
-    {
-      "name": "Quentin Jones",
+      "name": "Amari McCottry",
       "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
       "games": 25,
-      "fantrax_name": "Quentin Jones",
+      "fantrax_name": "Amari McCottry",
       "fantrax_team": "Saint Louis Billikens",
       "fantrax_source": "rostered",
-      "fantasy_team": "Frank's Quality"
+      "fantasy_team": "Nishy Baby"
     },
     {
-      "name": "Parker Friedrichsen",
-      "ncaa_team": "Davidson",
+      "name": "Trey Autry",
+      "ncaa_team": "George Washington",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Parker Friedrichsen",
-      "fantrax_team": "Davidson Wildcats",
+      "games": 26,
+      "fantrax_name": "Trey Autry",
+      "fantrax_team": "George Washington Revolutionaries",
       "fantrax_source": "rostered",
-      "fantasy_team": "Boardwalk Hall is on Fire"
+      "fantasy_team": "Back to the Big East"
+    },
+    {
+      "name": "Myles Corey",
+      "ncaa_team": "Rhode Island",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Myles Corey",
+      "fantrax_team": "Rhode Island Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
     },
     {
       "name": "Jack Whitbourn",
@@ -633,96 +613,117 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Christian Jones",
-      "ncaa_team": "George Washington",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "Christian Jones",
-      "fantrax_team": "GrgWas",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Myles Corey",
-      "ncaa_team": "Rhode Island",
+      "name": "Quentin Jones",
+      "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Myles Corey",
-      "fantrax_team": "Rhode Island Rams",
+      "games": 26,
+      "fantrax_name": "Quentin Jones",
+      "fantrax_team": "Saint Louis Billikens",
       "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
+      "fantasy_team": "Frank's Quality"
+    },
+    {
+      "name": "Jadrian Tracey",
+      "ncaa_team": "VCU",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 27,
+      "fantrax_name": "Jadrian Tracey",
+      "fantrax_team": "VCU Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
     },
     {
       "name": "Rob Dockery",
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Rob Dockery",
       "fantrax_team": "La Salle Explorers",
       "fantrax_source": "rostered",
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
-      "name": "Will Johnston",
-      "ncaa_team": "Richmond",
+      "name": "Tre Dinkins",
+      "ncaa_team": "George Washington",
       "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 27,
+      "fantrax_name": "Tre Dinkins",
+      "fantrax_team": "GrgWas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Christian Jones",
+      "ncaa_team": "George Washington",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
       "games": 26,
-      "fantrax_name": "Will Johnston",
-      "fantrax_team": "Richmond Spiders",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Back to the Big East"
+      "fantrax_name": "Christian Jones",
+      "fantrax_team": "GrgWas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "John Hugley IV",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 20,
+      "fantrax_name": "John Hugley",
+      "fantrax_team": "Duques",
+      "fantrax_source": "FA"
     },
     {
       "name": "Ishan Sharma",
       "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Ishan Sharma",
       "fantrax_team": "Saint Louis Billikens",
       "fantrax_source": "rostered",
       "fantasy_team": "Brian"
     },
     {
-      "name": "Kellen Thames",
-      "ncaa_team": "Saint Louis",
+      "name": "Will Johnston",
+      "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 23,
-      "fantrax_name": "Kellen Thames",
-      "fantrax_team": "Saint Louis Billikens",
+      "games": 27,
+      "fantrax_name": "Will Johnston",
+      "fantrax_team": "Richmond Spiders",
       "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
+      "fantasy_team": "Back to the Big East"
     },
     {
       "name": "Kayde Dotson",
       "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 21,
+      "games": 22,
       "fantrax_name": "Kayde Dotson",
       "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
     },
     {
-      "name": "Tre Dinkins",
-      "ncaa_team": "George Washington",
+      "name": "Kellen Thames",
+      "ncaa_team": "Saint Louis",
       "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 26,
-      "fantrax_name": "Tre Dinkins",
-      "fantrax_team": "GrgWas",
-      "fantrax_source": "FA"
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 24,
+      "fantrax_name": "Kellen Thames",
+      "fantrax_team": "Saint Louis Billikens",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Nishy Baby"
     },
     {
       "name": "Jaden Daughtry",
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Jaden Daughtry",
       "fantrax_team": "Rich",
       "fantrax_source": "FA"
@@ -732,7 +733,7 @@
       "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Deywilk Tavarez",
       "fantrax_team": "Loyola (IL) Ramblers",
       "fantrax_source": "rostered",
@@ -743,7 +744,7 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 23,
+      "games": 24,
       "fantrax_name": "Josiah Harris",
       "fantrax_team": "LaSal",
       "fantrax_source": "FA"
@@ -760,44 +761,13 @@
       "fantasy_team": "Brian"
     },
     {
-      "name": "Jordan Derkack",
-      "ncaa_team": "Dayton",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 19,
-      "fantrax_name": "Jordan Derkack",
-      "fantrax_team": "Dayt",
-      "fantrax_source": "FA"
-    },
-    {
       "name": "Brandon Jennings",
       "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Brandon Jennings",
       "fantrax_team": "VCU Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Back to the Big East"
-    },
-    {
-      "name": "Sam Brown",
-      "ncaa_team": "Davidson",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 21,
-      "fantrax_name": "Sam Brown",
-      "fantrax_team": "David",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Masai Troutman",
-      "ncaa_team": "George Mason",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Masai Troutman",
-      "fantrax_team": "George Mason Patriots",
       "fantrax_source": "rostered",
       "fantasy_team": "Back to the Big East"
     },
@@ -806,74 +776,104 @@
       "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Nyk Lewis",
       "fantrax_team": "VCU Rams",
       "fantrax_source": "rostered",
       "fantasy_team": "Boardwalk Hall is on Fire"
     },
     {
-      "name": "Daniel Egbuniwe",
-      "ncaa_team": "St. Bonaventure",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 22,
-      "fantrax_name": "Daniel Egbuniwe",
-      "fantrax_team": "St. Bonaventure Bonnies",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Brian"
-    },
-    {
-      "name": "Keonte Jones",
+      "name": "Jordan Derkack",
       "ncaa_team": "Dayton",
       "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 15,
-      "fantrax_name": "Keonte Jones",
-      "fantrax_team": "Dayton Flyers",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Brian"
-    },
-    {
-      "name": "Tyrone Marshall",
-      "ncaa_team": "George Washington",
-      "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
-      "fantrax_name": "Tyrone Marshall",
-      "fantrax_team": "GrgWas",
+      "games": 21,
+      "fantrax_name": "Jordan Derkack",
+      "fantrax_team": "Dayt",
       "fantrax_source": "FA"
-    },
-    {
-      "name": "Jakub Necas",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Jakub Necas",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Frank's Quality"
-    },
-    {
-      "name": "Jean Aranguren",
-      "ncaa_team": "George Washington",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
-      "fantrax_name": "Jean Aranguren",
-      "fantrax_team": "George Washington Revolutionaries",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Brian"
     },
     {
       "name": "Luke Hunger",
       "ncaa_team": "George Washington",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Luke Hunger",
       "fantrax_team": "GrgWas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Masai Troutman",
+      "ncaa_team": "George Mason",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "Masai Troutman",
+      "fantrax_team": "George Mason Patriots",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Back to the Big East"
+    },
+    {
+      "name": "Tyrone Marshall",
+      "ncaa_team": "George Washington",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 25,
+      "fantrax_name": "Tyrone Marshall",
+      "fantrax_team": "GrgWas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Daniel Egbuniwe",
+      "ncaa_team": "St. Bonaventure",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 23,
+      "fantrax_name": "Daniel Egbuniwe",
+      "fantrax_team": "St. Bonaventure Bonnies",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Brian"
+    },
+    {
+      "name": "Jakub Necas",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "Jakub Necas",
+      "fantrax_team": "Duquesne Dukes",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Frank's Quality"
+    },
+    {
+      "name": "Keonte Jones",
+      "ncaa_team": "Dayton",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 17,
+      "fantrax_name": "Keonte Jones",
+      "fantrax_team": "Dayton Flyers",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Brian"
+    },
+    {
+      "name": "Sam Brown",
+      "ncaa_team": "Davidson",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 23,
+      "fantrax_name": "Sam Brown",
+      "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Austin Williford",
+      "ncaa_team": "Saint Joseph's",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 26,
+      "fantrax_name": "Austin Williford",
+      "fantrax_team": "StJos",
       "fantrax_source": "FA"
     },
     {
@@ -888,11 +888,43 @@
       "fantasy_team": "Frank's Quality"
     },
     {
+      "name": "Alex Williams",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 24,
+      "fantrax_name": "Alex Williams",
+      "fantrax_team": "Duquesne Dukes",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
+    },
+    {
+      "name": "Jean Aranguren",
+      "ncaa_team": "George Washington",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 27,
+      "fantrax_name": "Jean Aranguren",
+      "fantrax_team": "George Washington Revolutionaries",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Brian"
+    },
+    {
+      "name": "David Dixon",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 26,
+      "fantrax_name": "David Dixon",
+      "fantrax_team": "Duques",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Brady Dunlap",
       "ncaa_team": "Saint Louis",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Brady Dunlap",
       "fantrax_team": "StLou",
       "fantrax_source": "FA"
@@ -902,64 +934,33 @@
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Mike Walz",
       "fantrax_team": "Richmond Spiders",
       "fantrax_source": "rostered",
       "fantasy_team": "Brian"
     },
     {
-      "name": "Keeyan Itejere",
-      "ncaa_team": "Rhode Island",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "Keeyan Itejere",
-      "fantrax_team": "Rhode Island Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "We Don't Talk About Linda Bruno"
-    },
-    {
-      "name": "Alex Williams",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 23,
-      "fantrax_name": "Alex Williams",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
-    },
-    {
-      "name": "David Dixon",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "David Dixon",
-      "fantrax_team": "Duques",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Austin Williford",
-      "ncaa_team": "Saint Joseph's",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "Austin Williford",
-      "fantrax_team": "StJos",
-      "fantrax_source": "FA"
-    },
-    {
       "name": "Ashton Walker",
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Ashton Walker",
       "fantrax_team": "La Salle Explorers",
       "fantrax_source": "rostered",
       "fantasy_team": "Boardwalk Hall is on Fire"
+    },
+    {
+      "name": "Keeyan Itejere",
+      "ncaa_team": "Rhode Island",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "Keeyan Itejere",
+      "fantrax_team": "Rhode Island Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
       "name": "Jack Whitbourn",
@@ -976,10 +977,21 @@
       "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Michael Belle",
       "fantrax_team": "VCU",
       "fantrax_source": "FA"
+    },
+    {
+      "name": "Barry Evans",
+      "ncaa_team": "VCU",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 27,
+      "fantrax_name": "Barry Evans",
+      "fantrax_team": "VCU Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Nishy Baby"
     },
     {
       "name": "Chuck Love III",
@@ -992,33 +1004,22 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Nick Coval",
-      "ncaa_team": "Davidson",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 23,
-      "fantrax_name": "Nick Coval",
-      "fantrax_team": "David",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Barry Evans",
-      "ncaa_team": "VCU",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 26,
-      "fantrax_name": "Barry Evans",
-      "fantrax_team": "VCU Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
-    },
-    {
       "name": "Akira Jacobs",
       "ncaa_team": "Fordham",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Akira Jacobs",
+      "fantrax_team": "Ford",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Abass Bodija",
+      "ncaa_team": "Fordham",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 22,
+      "fantrax_name": "Abass Bodija",
       "fantrax_team": "Ford",
       "fantrax_source": "FA"
     },
@@ -1027,19 +1028,9 @@
       "ncaa_team": "Dayton",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 26,
       "fantrax_name": "Bryce Heard",
       "fantrax_team": "Dayt",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Abass Bodija",
-      "ncaa_team": "Fordham",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 21,
-      "fantrax_name": "Abass Bodija",
-      "fantrax_team": "Ford",
       "fantrax_source": "FA"
     },
     {
@@ -1053,6 +1044,16 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "Nick Coval",
+      "ncaa_team": "Davidson",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 25,
+      "fantrax_name": "Nick Coval",
+      "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Bubu Benjamin",
       "ncaa_team": "George Washington",
       "status": "CLEAN",
@@ -1060,26 +1061,6 @@
       "games": 22,
       "fantrax_name": "Bubu Benjamin",
       "fantrax_team": "GrgWas",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Roor Akhuar",
-      "ncaa_team": "Fordham",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 19,
-      "fantrax_name": "Roor Akhuar",
-      "fantrax_team": "Ford",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Anthony Finkley",
-      "ncaa_team": "Saint Joseph's",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 24,
-      "fantrax_name": "Anthony Finkley",
-      "fantrax_team": "StJos",
       "fantrax_source": "FA"
     },
     {
@@ -1093,13 +1074,43 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "Tyrell Ward",
+      "ncaa_team": "VCU",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 22,
+      "fantrax_name": "Tyrell Ward",
+      "fantrax_team": "VCU",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Devin Brown",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 26,
       "fantrax_name": "Devin Brown",
       "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Roor Akhuar",
+      "ncaa_team": "Fordham",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 20,
+      "fantrax_name": "Roor Akhuar",
+      "fantrax_team": "Ford",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Anthony Finkley",
+      "ncaa_team": "Saint Joseph's",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 25,
+      "fantrax_name": "Anthony Finkley",
+      "fantrax_team": "StJos",
       "fantrax_source": "FA"
     },
     {
@@ -1134,76 +1145,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Tyrell Ward",
-      "ncaa_team": "VCU",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 21,
-      "fantrax_name": "Tyrell Ward",
-      "fantrax_team": "VCU Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Sick-Os Revenge"
-    },
-    {
       "name": "Mikkel Tyne",
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Mikkel Tyne",
       "fantrax_team": "Rich",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Paul Otieno",
-      "ncaa_team": "Saint Louis",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
-      "fantrax_name": "Paul Otieno",
-      "fantrax_team": "Saint Louis Billikens",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Brian"
-    },
-    {
-      "name": "Nicolus Anderson",
-      "ncaa_team": "Loyola Chicago",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'Nicolus Anderson' ~ Fantrax 'Nic Anderson'",
-      "games": 20,
-      "fantrax_name": "Nic Anderson",
-      "fantrax_team": "LoyIL",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Cameron Crawford",
-      "ncaa_team": "Duquesne",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'Cameron Crawford' ~ Fantrax 'Cam Crawford'",
-      "games": 25,
-      "fantrax_name": "Cam Crawford",
-      "fantrax_team": "Duquesne Dukes",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Fordham University Christian Knights"
-    },
-    {
-      "name": "Eric Acker",
-      "ncaa_team": "La Salle",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 19,
-      "fantrax_name": "Eric Acker",
-      "fantrax_team": "LaSal",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Hunter Adam",
-      "ncaa_team": "Davidson",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 23,
-      "fantrax_name": "Hunter Adam",
-      "fantrax_team": "David",
       "fantrax_source": "FA"
     },
     {
@@ -1211,19 +1159,9 @@
       "ncaa_team": "Dayton",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 23,
+      "games": 25,
       "fantrax_name": "Jaiun Simon",
       "fantrax_team": "Dayt",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Collin Tanner",
-      "ncaa_team": "Richmond",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 23,
-      "fantrax_name": "Collin Tanner",
-      "fantrax_team": "Rich",
       "fantrax_source": "FA"
     },
     {
@@ -1231,9 +1169,83 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 12,
+      "games": 13,
       "fantrax_name": "Jaden Johnson",
       "fantrax_team": "LaSal",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Eric Acker",
+      "ncaa_team": "La Salle",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 20,
+      "fantrax_name": "Eric Acker",
+      "fantrax_team": "LaSal",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Paul Otieno",
+      "ncaa_team": "Saint Louis",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 26,
+      "fantrax_name": "Paul Otieno",
+      "fantrax_team": "Saint Louis Billikens",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Brian"
+    },
+    {
+      "name": "Collin Tanner",
+      "ncaa_team": "Richmond",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 24,
+      "fantrax_name": "Collin Tanner",
+      "fantrax_team": "Rich",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Cameron Crawford",
+      "ncaa_team": "Duquesne",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'Cameron Crawford' ~ Fantrax 'Cam Crawford'",
+      "games": 26,
+      "fantrax_name": "Cam Crawford",
+      "fantrax_team": "Duquesne Dukes",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Fordham University Christian Knights"
+    },
+    {
+      "name": "Hunter Adam",
+      "ncaa_team": "Davidson",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "Hunter Adam",
+      "fantrax_team": "Davidson Wildcats",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
+    },
+    {
+      "name": "RJ Johnson",
+      "ncaa_team": "Rhode Island",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (rostered)",
+      "games": 25,
+      "fantrax_name": "RJ Johnson",
+      "fantrax_team": "Rhode Island Rams",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Nishy Baby"
+    },
+    {
+      "name": "Nicolus Anderson",
+      "ncaa_team": "Loyola Chicago",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'Nicolus Anderson' ~ Fantrax 'Nic Anderson'",
+      "games": 21,
+      "fantrax_name": "Nic Anderson",
+      "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
     },
     {
@@ -1247,43 +1259,33 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Joseph Grahovac",
-      "ncaa_team": "St. Bonaventure",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'Joseph Grahovac' ~ Fantrax 'Joe Grahovac'",
-      "games": 25,
-      "fantrax_name": "Joe Grahovac",
-      "fantrax_team": "StBon",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "RJ Johnson",
-      "ncaa_team": "Rhode Island",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (rostered)",
-      "games": 24,
-      "fantrax_name": "RJ Johnson",
-      "fantrax_team": "Rhode Island Rams",
-      "fantrax_source": "rostered",
-      "fantasy_team": "Nishy Baby"
-    },
-    {
       "name": "Justice Ajogbor",
       "ncaa_team": "Saint Joseph's",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Justice Ajogbor",
       "fantrax_team": "Saint Joseph's Hawks",
       "fantrax_source": "rostered",
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
+      "name": "Joseph Grahovac",
+      "ncaa_team": "St. Bonaventure",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'Joseph Grahovac' ~ Fantrax 'Joe Grahovac'",
+      "games": 26,
+      "fantrax_name": "Joe Grahovac",
+      "fantrax_team": "St. Bonaventure Bonnies",
+      "fantrax_source": "rostered",
+      "fantasy_team": "Sick-Os Revenge"
+    },
+    {
       "name": "Alex Crawford",
       "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Alex Crawford",
       "fantrax_team": "URI",
       "fantrax_source": "FA"
@@ -1293,7 +1295,7 @@
       "ncaa_team": "VCU",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Ahmad Nowell",
       "fantrax_team": "VCU",
       "fantrax_source": "FA"
@@ -1303,7 +1305,7 @@
       "ncaa_team": "Dayton",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 18,
+      "games": 19,
       "fantrax_name": "Malcolm Thomas",
       "fantrax_team": "Dayt",
       "fantrax_source": "FA"
@@ -1323,19 +1325,9 @@
       "ncaa_team": "Fordham",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Marcus Greene",
       "fantrax_team": "Ford",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "David Thomas",
-      "ncaa_team": "Richmond",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 26,
-      "fantrax_name": "David Thomas",
-      "fantrax_team": "Rich",
       "fantrax_source": "FA"
     },
     {
@@ -1353,19 +1345,9 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 16,
+      "games": 17,
       "fantrax_name": "Truth Harris",
       "fantrax_team": "LaSal",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Jake DiMichele",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 18,
-      "fantrax_name": "Jake DiMichele",
-      "fantrax_team": "Duques",
       "fantrax_source": "FA"
     },
     {
@@ -1379,11 +1361,31 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "David Thomas",
+      "ncaa_team": "Richmond",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 27,
+      "fantrax_name": "David Thomas",
+      "fantrax_team": "Rich",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Jake DiMichele",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 19,
+      "fantrax_name": "Jake DiMichele",
+      "fantrax_team": "Duques",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Emmanuel Kanga",
       "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 25,
+      "games": 26,
       "fantrax_name": "Emmanuel Kanga",
       "fantrax_team": "GMas",
       "fantrax_source": "FA"
@@ -1393,19 +1395,9 @@
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 21,
+      "games": 23,
       "fantrax_name": "Ian Platteeuw",
       "fantrax_team": "David",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Nick Ellington",
-      "ncaa_team": "George Mason",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 24,
-      "fantrax_name": "Nick Ellington",
-      "fantrax_team": "GMas",
       "fantrax_source": "FA"
     },
     {
@@ -1413,19 +1405,19 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Edwin Daniel",
       "fantrax_team": "LaSal",
       "fantrax_source": "FA"
     },
     {
-      "name": "Sean Logan",
-      "ncaa_team": "Davidson",
+      "name": "Nick Ellington",
+      "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 16,
-      "fantrax_name": "Sean Logan",
-      "fantrax_team": "David",
+      "games": 25,
+      "fantrax_name": "Nick Ellington",
+      "fantrax_team": "GMas",
       "fantrax_source": "FA"
     },
     {
@@ -1433,9 +1425,19 @@
       "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 26,
+      "games": 27,
       "fantrax_name": "Malik Presley",
       "fantrax_team": "GMas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Will Harper III",
+      "ncaa_team": "Richmond",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 11,
+      "fantrax_name": "Will Harper",
+      "fantrax_team": "Rich",
       "fantrax_source": "FA"
     },
     {
@@ -1450,22 +1452,12 @@
       "fantasy_team": "We Don't Talk About Linda Bruno"
     },
     {
-      "name": "Will Harper III",
-      "ncaa_team": "Richmond",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 11,
-      "fantrax_name": "Will Harper",
-      "fantrax_team": "Rich",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "RJ Greer",
+      "name": "Sean Logan",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 15,
-      "fantrax_name": "RJ Greer",
+      "games": 18,
+      "fantrax_name": "Sean Logan",
       "fantrax_team": "David",
       "fantrax_source": "FA"
     },
@@ -1474,7 +1466,7 @@
       "ncaa_team": "George Mason",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (rostered)",
-      "games": 21,
+      "games": 22,
       "fantrax_name": "Dola Adebayo",
       "fantrax_team": "George Mason Patriots",
       "fantrax_source": "rostered",
@@ -1491,13 +1483,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Louis Lesmond",
-      "ncaa_team": "Fordham",
+      "name": "RJ Greer",
+      "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 22,
-      "fantrax_name": "Louis Lesmond",
-      "fantrax_team": "Ford",
+      "games": 16,
+      "fantrax_name": "RJ Greer",
+      "fantrax_team": "David",
       "fantrax_source": "FA"
     },
     {
@@ -1515,9 +1507,19 @@
       "ncaa_team": "Dayton",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Jacob Conner",
       "fantrax_team": "Dayt",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Louis Lesmond",
+      "ncaa_team": "Fordham",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 23,
+      "fantrax_name": "Louis Lesmond",
+      "fantrax_team": "Ford",
       "fantrax_source": "FA"
     },
     {
@@ -1545,19 +1547,19 @@
       "ncaa_team": "St. Bonaventure",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Andrew Osasuyi",
       "fantrax_team": "StBon",
       "fantrax_source": "FA"
     },
     {
-      "name": "Jaylen Robinson",
-      "ncaa_team": "Richmond",
+      "name": "Brandon Hall",
+      "ncaa_team": "Duquesne",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "Jaylen Robinson",
-      "fantrax_team": "Rich",
+      "games": 19,
+      "fantrax_name": "Brandon Hall",
+      "fantrax_team": "Duques",
       "fantrax_source": "FA"
     },
     {
@@ -1571,22 +1573,12 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Jaden Smith",
-      "ncaa_team": "Saint Joseph's",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 25,
-      "fantrax_name": "Jaden Smith",
-      "fantrax_team": "StJos",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Apostolos Roumoglou",
+      "name": "Jaylen Robinson",
       "ncaa_team": "Richmond",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 23,
-      "fantrax_name": "Apostolos Roumoglou",
+      "games": 26,
+      "fantrax_name": "Jaylen Robinson",
       "fantrax_team": "Rich",
       "fantrax_source": "FA"
     },
@@ -1601,13 +1593,23 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "JaQualon \"JQ\" Roberts",
-      "ncaa_team": "Davidson",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'JaQualon \"JQ\" Roberts' ~ Fantrax 'JaQualon Roberts'",
-      "games": 22,
-      "fantrax_name": "JaQualon Roberts",
-      "fantrax_team": "David",
+      "name": "Jaden Smith",
+      "ncaa_team": "Saint Joseph's",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 26,
+      "fantrax_name": "Jaden Smith",
+      "fantrax_team": "StJos",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Apostolos Roumoglou",
+      "ncaa_team": "Richmond",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 24,
+      "fantrax_name": "Apostolos Roumoglou",
+      "fantrax_team": "Rich",
       "fantrax_source": "FA"
     },
     {
@@ -1615,29 +1617,9 @@
       "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 19,
+      "games": 20,
       "fantrax_name": "Daniil Glazkov",
       "fantrax_team": "LoyIL",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Achille Lonati",
-      "ncaa_team": "St. Bonaventure",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 23,
-      "fantrax_name": "Achille Lonati",
-      "fantrax_team": "StBon",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Brandon Hall",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 18,
-      "fantrax_name": "Brandon Hall",
-      "fantrax_team": "Duques",
       "fantrax_source": "FA"
     },
     {
@@ -1645,7 +1627,7 @@
       "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 23,
+      "games": 24,
       "fantrax_name": "Alexander Richardson",
       "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
@@ -1655,9 +1637,29 @@
       "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 19,
+      "games": 20,
       "fantrax_name": "Jalen Harper",
       "fantrax_team": "URI",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "JaQualon \"JQ\" Roberts",
+      "ncaa_team": "Davidson",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'JaQualon \"JQ\" Roberts' ~ Fantrax 'JaQualon Roberts'",
+      "games": 24,
+      "fantrax_name": "JaQualon Roberts",
+      "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Achille Lonati",
+      "ncaa_team": "St. Bonaventure",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 24,
+      "fantrax_name": "Achille Lonati",
+      "fantrax_team": "StBon",
       "fantrax_source": "FA"
     },
     {
@@ -1705,7 +1707,7 @@
       "ncaa_team": "Fordham",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 17,
+      "games": 18,
       "fantrax_name": "Kingston Price",
       "fantrax_team": "Ford",
       "fantrax_source": "FA"
@@ -1725,7 +1727,7 @@
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 24,
+      "games": 25,
       "fantrax_name": "Manie Joses",
       "fantrax_team": "David",
       "fantrax_source": "FA"
@@ -1741,16 +1743,6 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Al Amadou",
-      "ncaa_team": "Saint Joseph's",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 8,
-      "fantrax_name": "Al Amadou",
-      "fantrax_team": "StJos",
-      "fantrax_source": "FA"
-    },
-    {
       "name": "Steven Solano",
       "ncaa_team": "Saint Joseph's",
       "status": "CLEAN",
@@ -1761,23 +1753,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Mekai Johnson",
+      "name": "Al Amadou",
       "ncaa_team": "Saint Joseph's",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 10,
-      "fantrax_name": "Mekai Johnson",
+      "games": 8,
+      "fantrax_name": "Al Amadou",
       "fantrax_team": "StJos",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Caleb Reese",
-      "ncaa_team": "Loyola Chicago",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 14,
-      "fantrax_name": "Caleb Reese",
-      "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
     },
     {
@@ -1791,13 +1773,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Joe Hurlburt",
-      "ncaa_team": "Davidson",
+      "name": "Caleb Reese",
+      "ncaa_team": "Loyola Chicago",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 8,
-      "fantrax_name": "Joe Hurlburt",
-      "fantrax_team": "David",
+      "games": 15,
+      "fantrax_name": "Caleb Reese",
+      "fantrax_team": "LoyIL",
       "fantrax_source": "FA"
     },
     {
@@ -1821,6 +1803,36 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "Mekai Johnson",
+      "ncaa_team": "Saint Joseph's",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 11,
+      "fantrax_name": "Mekai Johnson",
+      "fantrax_team": "StJos",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Joe Hurlburt",
+      "ncaa_team": "Davidson",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 8,
+      "fantrax_name": "Joe Hurlburt",
+      "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Jack DeRose",
+      "ncaa_team": "St. Bonaventure",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 2,
+      "fantrax_name": "Jack DeRose",
+      "fantrax_team": "StBon",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Amir Arrington",
       "ncaa_team": "George Washington",
       "status": "CLEAN",
@@ -1835,29 +1847,9 @@
       "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 17,
+      "games": 18,
       "fantrax_name": "Drissa Traore",
       "fantrax_team": "URI",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Stef van Bussel",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 15,
-      "fantrax_name": "Stef van Bussel",
-      "fantrax_team": "Duques",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Jack DeRose",
-      "ncaa_team": "St. Bonaventure",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 2,
-      "fantrax_name": "Jack DeRose",
-      "fantrax_team": "StBon",
       "fantrax_source": "FA"
     },
     {
@@ -1868,6 +1860,16 @@
       "games": 7,
       "fantrax_name": "Dominick Harris",
       "fantrax_team": "LoyIL",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Stef van Bussel",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 16,
+      "fantrax_name": "Stef van Bussel",
+      "fantrax_team": "Duques",
       "fantrax_source": "FA"
     },
     {
@@ -1895,7 +1897,7 @@
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 13,
+      "games": 14,
       "fantrax_name": "Nas Hart",
       "fantrax_team": "LaSal",
       "fantrax_source": "FA"
@@ -1911,16 +1913,6 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Will Lange",
-      "ncaa_team": "Saint Joseph's",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 4,
-      "fantrax_name": "Will Lange",
-      "fantrax_team": "StJos",
-      "fantrax_source": "FA"
-    },
-    {
       "name": "Christian Fermin",
       "ncaa_team": "VCU",
       "status": "CLEAN",
@@ -1931,13 +1923,23 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Brock Matheny",
+      "name": "John Nowland",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
       "games": 3,
-      "fantrax_name": "Brock Matheny",
+      "fantrax_name": "John Nowland",
       "fantrax_team": "David",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Will Lange",
+      "ncaa_team": "Saint Joseph's",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 4,
+      "fantrax_name": "Will Lange",
+      "fantrax_team": "StJos",
       "fantrax_source": "FA"
     },
     {
@@ -1971,23 +1973,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "John Nowland",
+      "name": "Brock Matheny",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
       "games": 3,
-      "fantrax_name": "John Nowland",
+      "fantrax_name": "Brock Matheny",
       "fantrax_team": "David",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Jaden Schertz",
-      "ncaa_team": "Saint Louis",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 10,
-      "fantrax_name": "Jaden Schertz",
-      "fantrax_team": "StLou",
       "fantrax_source": "FA"
     },
     {
@@ -2021,13 +2013,23 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Kirby Mooney",
-      "ncaa_team": "Richmond",
+      "name": "Jaden Schertz",
+      "ncaa_team": "Saint Louis",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 10,
+      "fantrax_name": "Jaden Schertz",
+      "fantrax_team": "StLou",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Barrett Loer",
+      "ncaa_team": "Rhode Island",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
       "games": 3,
-      "fantrax_name": "Kirby Mooney",
-      "fantrax_team": "Rich",
+      "fantrax_name": "Barrett Loer",
+      "fantrax_team": "URI",
       "fantrax_source": "FA"
     },
     {
@@ -2041,6 +2043,16 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "Kirby Mooney",
+      "ncaa_team": "Richmond",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 3,
+      "fantrax_name": "Kirby Mooney",
+      "fantrax_team": "Rich",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Phillip Kavu",
       "ncaa_team": "Davidson",
       "status": "CLEAN",
@@ -2048,16 +2060,6 @@
       "games": 3,
       "fantrax_name": "Phillip Kavu",
       "fantrax_team": "David",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Barrett Loer",
-      "ncaa_team": "Rhode Island",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 3,
-      "fantrax_name": "Barrett Loer",
-      "fantrax_team": "URI",
       "fantrax_source": "FA"
     },
     {
@@ -2091,6 +2093,76 @@
       "fantrax_source": "FA"
     },
     {
+      "name": "T.J. Prosise",
+      "ncaa_team": "George Mason",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 4,
+      "fantrax_name": "T.J. Prosise",
+      "fantrax_team": "GMas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Seamus McDermott",
+      "ncaa_team": "Duquesne",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 3,
+      "fantrax_name": "Seamus McDermott",
+      "fantrax_team": "Duques",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Samuel Yurasek",
+      "ncaa_team": "Loyola Chicago",
+      "status": "NAME_MISMATCH",
+      "detail": "Last name match: NCAA 'Samuel Yurasek' ~ Fantrax 'Sam Yurasek'",
+      "games": 3,
+      "fantrax_name": "Sam Yurasek",
+      "fantrax_team": "LoyIL",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Ben Woodward",
+      "ncaa_team": "George Mason",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 4,
+      "fantrax_name": "Ben Woodward",
+      "fantrax_team": "GMas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Arlan Masharaliyev",
+      "ncaa_team": "La Salle",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 4,
+      "fantrax_name": "Arlan Masharaliyev",
+      "fantrax_team": "LaSal",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Mohamed Binzagr",
+      "ncaa_team": "George Washington",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 4,
+      "fantrax_name": "Mohamed Binzagr",
+      "fantrax_team": "GrgWas",
+      "fantrax_source": "FA"
+    },
+    {
+      "name": "Will Maxwell",
+      "ncaa_team": "Dayton",
+      "status": "CLEAN",
+      "detail": "Matched in Fantrax (FA)",
+      "games": 2,
+      "fantrax_name": "Will Maxwell",
+      "fantrax_team": "Dayt",
+      "fantrax_source": "FA"
+    },
+    {
       "name": "Xander Wedlow",
       "ncaa_team": "St. Bonaventure",
       "status": "CLEAN",
@@ -2111,36 +2183,6 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Will Maxwell",
-      "ncaa_team": "Dayton",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 2,
-      "fantrax_name": "Will Maxwell",
-      "fantrax_team": "Dayt",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Samuel Yurasek",
-      "ncaa_team": "Loyola Chicago",
-      "status": "NAME_MISMATCH",
-      "detail": "Last name match: NCAA 'Samuel Yurasek' ~ Fantrax 'Sam Yurasek'",
-      "games": 3,
-      "fantrax_name": "Sam Yurasek",
-      "fantrax_team": "LoyIL",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Max Lipacis",
-      "ncaa_team": "La Salle",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 2,
-      "fantrax_name": "Max Lipacis",
-      "fantrax_team": "LaSal",
-      "fantrax_source": "FA"
-    },
-    {
       "name": "Max Miller",
       "ncaa_team": "Fordham",
       "status": "CLEAN",
@@ -2151,53 +2193,13 @@
       "fantrax_source": "FA"
     },
     {
-      "name": "Seamus McDermott",
-      "ncaa_team": "Duquesne",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 3,
-      "fantrax_name": "Seamus McDermott",
-      "fantrax_team": "Duques",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Arlan Masharaliyev",
+      "name": "Max Lipacis",
       "ncaa_team": "La Salle",
       "status": "CLEAN",
       "detail": "Matched in Fantrax (FA)",
-      "games": 4,
-      "fantrax_name": "Arlan Masharaliyev",
+      "games": 2,
+      "fantrax_name": "Max Lipacis",
       "fantrax_team": "LaSal",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "T.J. Prosise",
-      "ncaa_team": "George Mason",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 4,
-      "fantrax_name": "T.J. Prosise",
-      "fantrax_team": "GMas",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Ben Woodward",
-      "ncaa_team": "George Mason",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 4,
-      "fantrax_name": "Ben Woodward",
-      "fantrax_team": "GMas",
-      "fantrax_source": "FA"
-    },
-    {
-      "name": "Mohamed Binzagr",
-      "ncaa_team": "George Washington",
-      "status": "CLEAN",
-      "detail": "Matched in Fantrax (FA)",
-      "games": 4,
-      "fantrax_name": "Mohamed Binzagr",
-      "fantrax_team": "GrgWas",
       "fantrax_source": "FA"
     }
   ]

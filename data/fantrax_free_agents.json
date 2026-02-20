@@ -48,10 +48,10 @@
     "status": "FA"
   },
   {
-    "player_id": "05pbh",
-    "name": "Jadrian Tracey",
-    "name_raw": "Tracey, Jadrian",
-    "team": "VCU",
+    "player_id": "05p0j",
+    "name": "Jace Howard",
+    "name_raw": "Howard, Jace",
+    "team": "Ford",
     "position": "G",
     "status": "FA"
   },
@@ -61,14 +61,6 @@
     "name_raw": "Archer, Justin",
     "team": "LaSal",
     "position": "F",
-    "status": "FA"
-  },
-  {
-    "player_id": "05p0j",
-    "name": "Jace Howard",
-    "name_raw": "Howard, Jace",
-    "team": "Ford",
-    "position": "G",
     "status": "FA"
   },
   {
@@ -116,6 +108,14 @@
     "name": "Bryce Heard",
     "name_raw": "Heard, Bryce",
     "team": "Dayt",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "064lg",
+    "name": "Tyrell Ward",
+    "name_raw": "Ward, Tyrell",
+    "team": "VCU",
     "position": "G",
     "status": "FA"
   },
@@ -288,6 +288,14 @@
     "status": "FA"
   },
   {
+    "player_id": "05qpv",
+    "name": "John Hugley",
+    "name_raw": "Hugley, John",
+    "team": "Duques",
+    "position": "F",
+    "status": "FA"
+  },
+  {
     "player_id": "0667v",
     "name": "Apostolos Roumoglou",
     "name_raw": "Roumoglou, Apostolos",
@@ -344,19 +352,19 @@
     "status": "FA"
   },
   {
-    "player_id": "06myh",
-    "name": "Malcolm Thomas",
-    "name_raw": "Thomas, Malcolm",
-    "team": "Dayt",
-    "position": "F",
-    "status": "FA"
-  },
-  {
     "player_id": "064ho",
     "name": "Jaden Schertz",
     "name_raw": "Schertz, Jaden",
     "team": "StLou",
     "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06myh",
+    "name": "Malcolm Thomas",
+    "name_raw": "Thomas, Malcolm",
+    "team": "Dayt",
+    "position": "F",
     "status": "FA"
   },
   {
@@ -372,6 +380,14 @@
     "name": "Isaac Holmes",
     "name_raw": "Holmes, Isaac",
     "team": "StLou",
+    "position": "G",
+    "status": "FA"
+  },
+  {
+    "player_id": "06n9c",
+    "name": "Christian Henry",
+    "name_raw": "Henry, Christian",
+    "team": "Ford",
     "position": "G",
     "status": "FA"
   },
@@ -640,14 +656,6 @@
     "status": "FA"
   },
   {
-    "player_id": "07186",
-    "name": "Joe Grahovac",
-    "name_raw": "Grahovac, Joe",
-    "team": "StBon",
-    "position": "SF",
-    "status": "FA"
-  },
-  {
     "player_id": "0716u",
     "name": "Emmanuel Kanga",
     "name_raw": "Kanga, Emmanuel",
@@ -733,7 +741,7 @@
     "name_raw": "Jones, Christian",
     "team": "GrgWas",
     "position": "G",
-    "status": "WW"
+    "status": "FA"
   },
   {
     "player_id": "0716l",
@@ -748,14 +756,6 @@
     "name": "Amir Arrington",
     "name_raw": "Arrington, Amir",
     "team": "GrgWas",
-    "position": "G",
-    "status": "FA"
-  },
-  {
-    "player_id": "065bu",
-    "name": "Dion Brown",
-    "name_raw": "Brown, Dion",
-    "team": "StLou",
     "position": "G",
     "status": "FA"
   },
@@ -1109,14 +1109,6 @@
     "name_raw": "Jacobs, Akira",
     "team": "Ford",
     "position": "F",
-    "status": "FA"
-  },
-  {
-    "player_id": "068xs",
-    "name": "Hunter Adam",
-    "name_raw": "Adam, Hunter",
-    "team": "David",
-    "position": "G",
     "status": "FA"
   },
   {

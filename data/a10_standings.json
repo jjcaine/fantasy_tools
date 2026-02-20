@@ -2,141 +2,141 @@
   {
     "School": "Saint Louis",
     "Conference W": "12",
-    "Conference L": "0",
-    "Conference PCT": "1.000",
+    "Conference L": "1",
+    "Conference PCT": "0.923",
     "Overall W": "24",
-    "Overall L": "1",
-    "Overall PCT": "0.960",
-    "Overall STREAK": "Won 18"
+    "Overall L": "2",
+    "Overall PCT": "0.923",
+    "Overall STREAK": "Lost 1"
   },
   {
     "School": "VCU",
-    "Conference W": "10",
+    "Conference W": "12",
     "Conference L": "2",
-    "Conference PCT": "0.833",
-    "Overall W": "19",
+    "Conference PCT": "0.857",
+    "Overall W": "21",
     "Overall L": "6",
-    "Overall PCT": "0.760",
-    "Overall STREAK": "Won 8"
+    "Overall PCT": "0.778",
+    "Overall STREAK": "Won 10"
   },
   {
     "School": "George Mason",
     "Conference W": "9",
-    "Conference L": "4",
-    "Conference PCT": "0.692",
-    "Overall W": "21",
-    "Overall L": "5",
-    "Overall PCT": "0.808",
-    "Overall STREAK": "Lost 2"
-  },
-  {
-    "School": "Saint Joseph's",
-    "Conference W": "7",
     "Conference L": "5",
-    "Conference PCT": "0.583",
-    "Overall W": "15",
-    "Overall L": "10",
-    "Overall PCT": "0.600",
-    "Overall STREAK": "Lost 2"
+    "Conference PCT": "0.643",
+    "Overall W": "21",
+    "Overall L": "6",
+    "Overall PCT": "0.778",
+    "Overall STREAK": "Lost 3"
   },
   {
     "School": "Dayton",
-    "Conference W": "6",
+    "Conference W": "8",
     "Conference L": "5",
-    "Conference PCT": "0.545",
-    "Overall W": "15",
+    "Conference PCT": "0.615",
+    "Overall W": "17",
     "Overall L": "9",
-    "Overall PCT": "0.625",
-    "Overall STREAK": "Lost 1"
-  },
-  {
-    "School": "Davidson",
-    "Conference W": "6",
-    "Conference L": "5",
-    "Conference PCT": "0.545",
-    "Overall W": "15",
-    "Overall L": "9",
-    "Overall PCT": "0.625",
+    "Overall PCT": "0.654",
     "Overall STREAK": "Won 2"
   },
   {
     "School": "Duquesne",
-    "Conference W": "6",
+    "Conference W": "8",
     "Conference L": "5",
-    "Conference PCT": "0.545",
-    "Overall W": "14",
+    "Conference PCT": "0.615",
+    "Overall W": "16",
     "Overall L": "10",
-    "Overall PCT": "0.583",
-    "Overall STREAK": "Won 3"
+    "Overall PCT": "0.615",
+    "Overall STREAK": "Won 5"
   },
   {
-    "School": "George Washington",
+    "School": "Saint Joseph's",
+    "Conference W": "8",
+    "Conference L": "5",
+    "Conference PCT": "0.615",
+    "Overall W": "16",
+    "Overall L": "10",
+    "Overall PCT": "0.615",
+    "Overall STREAK": "Won 1"
+  },
+  {
+    "School": "Davidson",
+    "Conference W": "7",
+    "Conference L": "6",
+    "Conference PCT": "0.538",
+    "Overall W": "16",
+    "Overall L": "10",
+    "Overall PCT": "0.615",
+    "Overall STREAK": "Won 1"
+  },
+  {
+    "School": "Rhode Island",
     "Conference W": "6",
     "Conference L": "7",
     "Conference PCT": "0.462",
     "Overall W": "15",
     "Overall L": "11",
     "Overall PCT": "0.577",
-    "Overall STREAK": "Won 2"
+    "Overall STREAK": "Won 1"
   },
   {
-    "School": "Rhode Island",
-    "Conference W": "5",
-    "Conference L": "6",
-    "Conference PCT": "0.455",
-    "Overall W": "14",
-    "Overall L": "10",
-    "Overall PCT": "0.583",
+    "School": "George Washington",
+    "Conference W": "6",
+    "Conference L": "8",
+    "Conference PCT": "0.429",
+    "Overall W": "15",
+    "Overall L": "12",
+    "Overall PCT": "0.556",
     "Overall STREAK": "Lost 1"
+  },
+  {
+    "School": "Fordham",
+    "Conference W": "6",
+    "Conference L": "8",
+    "Conference PCT": "0.429",
+    "Overall W": "15",
+    "Overall L": "12",
+    "Overall PCT": "0.556",
+    "Overall STREAK": "Won 3"
   },
   {
     "School": "Richmond",
     "Conference W": "4",
-    "Conference L": "8",
-    "Conference PCT": "0.333",
+    "Conference L": "10",
+    "Conference PCT": "0.286",
     "Overall W": "14",
-    "Overall L": "11",
-    "Overall PCT": "0.560",
-    "Overall STREAK": "Won 1"
-  },
-  {
-    "School": "Fordham",
-    "Conference W": "4",
-    "Conference L": "8",
-    "Conference PCT": "0.333",
-    "Overall W": "13",
-    "Overall L": "12",
-    "Overall PCT": "0.520",
-    "Overall STREAK": "Won 1"
+    "Overall L": "13",
+    "Overall PCT": "0.519",
+    "Overall STREAK": "Lost 2"
   },
   {
     "School": "St. Bonaventure",
     "Conference W": "3",
-    "Conference L": "8",
-    "Conference PCT": "0.273",
+    "Conference L": "10",
+    "Conference PCT": "0.231",
     "Overall W": "14",
-    "Overall L": "10",
-    "Overall PCT": "0.583",
-    "Overall STREAK": "Won 1"
+    "Overall L": "12",
+    "Overall PCT": "0.538",
+    "Overall STREAK": "Lost 2"
   },
   {
     "School": "La Salle",
     "Conference W": "3",
-    "Conference L": "9",
-    "Conference PCT": "0.250",
+    "Conference L": "10",
+    "Conference PCT": "0.231",
     "Overall W": "7",
-    "Overall L": "18",
-    "Overall PCT": "0.280",
-    "Overall STREAK": "Lost 5"
+    "Overall L": "19",
+    "Overall PCT": "0.269",
+    "Overall STREAK": "Lost 6"
   },
   {
     "School": "Loyola Chicago",
     "Conference W": "2",
-    "Conference L": "11",
-    "Conference PCT": "0.154",
+    "Conference L": "12",
+    "Conference PCT": "0.143",
     "Overall W": "6",
-    "Overall L": "20",
-    "Overall PCT": "0.231",
-    "Overall STREAK": "Lost 2"
+    "Overall L": "21",
+    "Overall PCT": "0.222",
+    "Overall STREAK": "Lost 3"
   }
 ]

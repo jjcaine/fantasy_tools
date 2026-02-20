@@ -43,8 +43,8 @@
         ],
         "total_fpts": null,
         "fpts_per_game": null,
-        "injured": false,
-        "day_to_day": false,
+        "injured": true,
+        "day_to_day": true,
         "out": false
       },
       {
@@ -177,10 +177,25 @@
         "out": false
       },
       {
-        "name": "John Hugley",
-        "player_id": "05qpv",
-        "team": "Duquesne Dukes",
-        "team_short": "Duques",
+        "name": "Dion Brown",
+        "player_id": "065bu",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
+      },
+      {
+        "name": "Joe Grahovac",
+        "player_id": "07186",
+        "team": "St. Bonaventure Bonnies",
+        "team_short": "StBon",
         "position": "Flx",
         "positions": [
           "Flx"
@@ -207,8 +222,8 @@
         "out": false
       },
       {
-        "name": "Tyrell Ward",
-        "player_id": "064lg",
+        "name": "Jadrian Tracey",
+        "player_id": "05pbh",
         "team": "VCU Rams",
         "team_short": "VCU",
         "position": "Flx",
@@ -222,25 +237,10 @@
         "out": false
       },
       {
-        "name": "Jerome Brewer",
-        "player_id": "066hz",
-        "team": "La Salle Explorers",
-        "team_short": "LaSal",
-        "position": "Flx",
-        "positions": [
-          "Flx"
-        ],
-        "total_fpts": null,
-        "fpts_per_game": null,
-        "injured": true,
-        "day_to_day": true,
-        "out": false
-      },
-      {
-        "name": "Christian Henry",
-        "player_id": "06n9c",
-        "team": "Fordham Rams",
-        "team_short": "Ford",
+        "name": "Hunter Adam",
+        "player_id": "068xs",
+        "team": "Davidson Wildcats",
+        "team_short": "David",
         "position": "Flx",
         "positions": [
           "Flx"
@@ -280,11 +280,26 @@
         "injured": false,
         "day_to_day": false,
         "out": false
+      },
+      {
+        "name": "Jerome Brewer",
+        "player_id": "066hz",
+        "team": "La Salle Explorers",
+        "team_short": "LaSal",
+        "position": "Flx",
+        "positions": [
+          "Flx"
+        ],
+        "total_fpts": null,
+        "fpts_per_game": null,
+        "injured": false,
+        "day_to_day": false,
+        "out": false
       }
     ],
-    "active": 4,
+    "active": 5,
     "active_max": 6,
-    "reserve": 4,
+    "reserve": 3,
     "reserve_max": 8
   },
   "Back to the Big East": {
@@ -710,8 +725,8 @@
         "total_fpts": null,
         "fpts_per_game": null,
         "injured": true,
-        "day_to_day": true,
-        "out": false
+        "day_to_day": false,
+        "out": true
       }
     ],
     "active": 6,
@@ -882,25 +897,25 @@
         "out": false
       },
       {
-        "name": "Deshayne Montgomery",
-        "player_id": "06h5v",
-        "team": "Dayton Flyers",
-        "team_short": "Dayt",
+        "name": "Amari McCottry",
+        "player_id": "06n70",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
         "position": "Flx",
         "positions": [
           "Flx"
         ],
         "total_fpts": null,
         "fpts_per_game": null,
-        "injured": true,
-        "day_to_day": true,
+        "injured": false,
+        "day_to_day": false,
         "out": false
       },
       {
-        "name": "Dejour Reaves",
-        "player_id": "06g73",
-        "team": "Fordham Rams",
-        "team_short": "Ford",
+        "name": "Deshayne Montgomery",
+        "player_id": "06h5v",
+        "team": "Dayton Flyers",
+        "team_short": "Dayt",
         "position": "Flx",
         "positions": [
           "Flx"
@@ -957,10 +972,10 @@
         "out": false
       },
       {
-        "name": "Amari McCottry",
-        "player_id": "06n70",
-        "team": "Saint Louis Billikens",
-        "team_short": "StLou",
+        "name": "Dejour Reaves",
+        "player_id": "06g73",
+        "team": "Fordham Rams",
+        "team_short": "Ford",
         "position": "Flx",
         "positions": [
           "Flx"
@@ -996,10 +1011,10 @@
         "out": false
       },
       {
-        "name": "Parker Friedrichsen",
-        "player_id": "06dv1",
-        "team": "Davidson Wildcats",
-        "team_short": "David",
+        "name": "Robbie Avila",
+        "player_id": "064ht",
+        "team": "Saint Louis Billikens",
+        "team_short": "StLou",
         "position": "Flx",
         "positions": [
           "Flx"
@@ -1071,10 +1086,10 @@
         "out": false
       },
       {
-        "name": "Robbie Avila",
-        "player_id": "064ht",
-        "team": "Saint Louis Billikens",
-        "team_short": "StLou",
+        "name": "Parker Friedrichsen",
+        "player_id": "06dv1",
+        "team": "Davidson Wildcats",
+        "team_short": "David",
         "position": "Flx",
         "positions": [
           "Flx"

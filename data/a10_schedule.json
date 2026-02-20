@@ -98,10 +98,10 @@
         "date": "2026-02-15",
         "game_id": "6504918",
         "away": "Davidson",
-        "away_score": "",
+        "away_score": "59",
         "home": "Dayton",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "70",
+        "state": "final"
       }
     ],
     "games_per_team": {
@@ -185,64 +185,64 @@
         "date": "2026-02-17",
         "game_id": "6504592",
         "away": "Saint Louis",
-        "away_score": "",
+        "away_score": "76",
         "home": "Rhode Island",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "81",
+        "state": "final"
       },
       {
         "date": "2026-02-17",
         "game_id": "6505597",
         "away": "George Washington",
-        "away_score": "",
+        "away_score": "75",
         "home": "VCU",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "89",
+        "state": "final"
       },
       {
         "date": "2026-02-18",
         "game_id": "6504442",
         "away": "Loyola Chicago",
-        "away_score": "",
+        "away_score": "59",
         "home": "Fordham",
-        "home_score": "",
-        "state": "pre"
-      },
-      {
-        "date": "2026-02-18",
-        "game_id": "6504930",
-        "away": "Saint Joseph's",
-        "away_score": "",
-        "home": "St. Bonaventure",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "62",
+        "state": "final"
       },
       {
         "date": "2026-02-18",
         "game_id": "6504920",
         "away": "Dayton",
-        "away_score": "",
+        "away_score": "82",
         "home": "George Mason",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "67",
+        "state": "final"
+      },
+      {
+        "date": "2026-02-18",
+        "game_id": "6504930",
+        "away": "Saint Joseph's",
+        "away_score": "71",
+        "home": "St. Bonaventure",
+        "home_score": "65",
+        "state": "final"
       },
       {
         "date": "2026-02-18",
         "game_id": "6505909",
         "away": "La Salle",
-        "away_score": "",
+        "away_score": "61",
         "home": "Duquesne",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "62",
+        "state": "final"
       },
       {
         "date": "2026-02-18",
         "game_id": "6530854",
         "away": "Richmond",
-        "away_score": "",
+        "away_score": "63",
         "home": "Davidson",
-        "home_score": "",
-        "state": "pre"
+        "home_score": "65",
+        "state": "final"
       },
       {
         "date": "2026-02-20",
@@ -255,19 +255,19 @@
       },
       {
         "date": "2026-02-21",
-        "game_id": "6504310",
-        "away": "Davidson",
+        "game_id": "6504443",
+        "away": "Loyola Chicago",
         "away_score": "",
-        "home": "Fordham",
+        "home": "Saint Joseph's",
         "home_score": "",
         "state": "pre"
       },
       {
         "date": "2026-02-21",
-        "game_id": "6504443",
-        "away": "Loyola Chicago",
+        "game_id": "6504310",
+        "away": "Davidson",
         "away_score": "",
-        "home": "Saint Joseph's",
+        "home": "Fordham",
         "home_score": "",
         "state": "pre"
       },
@@ -339,6 +339,13 @@
         "2026-02-18",
         "2026-02-21"
       ],
+      "Dayton": [
+        "2026-02-18",
+        "2026-02-21"
+      ],
+      "George Mason": [
+        "2026-02-18"
+      ],
       "Saint Joseph's": [
         "2026-02-18",
         "2026-02-21"
@@ -346,13 +353,6 @@
       "St. Bonaventure": [
         "2026-02-18",
         "2026-02-21"
-      ],
-      "Dayton": [
-        "2026-02-18",
-        "2026-02-21"
-      ],
-      "George Mason": [
-        "2026-02-18"
       ],
       "La Salle": [
         "2026-02-18",
